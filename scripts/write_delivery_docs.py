@@ -2,6 +2,10 @@
 from pathlib import Path
 import json,hashlib
 ROOT=Path(__file__).resolve().parents[1]
+if (ROOT/'results/round4-report.json').exists():
+    from write_round4_docs import main
+    main()
+    raise SystemExit(0)
 def read(path):return json.loads((ROOT/path).read_text())
 selected=read('experiments/round3-final-selection.json');r=read('results/round3-report.json');e=read('results/round3-evaluation-complete.json');s=e['test_summary'];seconds=e['cpu_page']['pages'][0]['processing_seconds']
 model=ROOT/'models/printed-khojki.pt';h=hashlib.sha256(model.read_bytes()).hexdigest()

@@ -1,0 +1,18 @@
+TRAINED r4-low-original 1000
+TRAINED r4-low-corrected 1000
+TRAINED r4-low-white 1000
+DEV r4-low-original 16
+DEV r4-low-corrected 18
+DEV r4-low-white 18
+DEV incumbent 14
+DEV round4-selected 14
+DEV r4-low-original 16
+DEV r4-low-corrected 18
+DEV r4-low-white 18
+DEV low-mixed 18
+DEV incumbent-weak 18
+DEV incumbent-strong 16
+DEV incumbent-blur 15
+DEV incumbent-ink-average 16
+DEV incumbent-blur-average 15
+SELECTED {"name": "incumbent", "paths": ["models/round3-selected.pt"], "views": [[1.0, 0.0]], "errors": 14, "characters": 405}

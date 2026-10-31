@@ -48,7 +48,7 @@ Obtain independently reviewed, diverse real lines, rather than indefinitely tuni
 
 For handwriting, replace the print-frame assumptions with baseline/polygon detection, add writer-disjoint references, and start with roughly 1,000–3,000 diverse labeled lines or a pretrained handwriting backbone. The amount needed depends on writer variation and the accuracy target. Review time and annotation quality are likely to dominate compute cost. Downsampling and skew probes already show why low-resolution pages need a separate benchmark; upscaling cannot restore missing strokes.
 
-## Final experiment outcomes
+## Round-three outcomes before the later reference audit
 
 The longer packed trial reached 16/405 edits; fixed structural beam reduced this to 15, and a two-member packed/ordinary ensemble reached 14/405. The corrected word-height experiment improved its paired result from 26 to 23 edits, but neither word-augmentation configuration beat the incumbent. This separates a real implementation defect from evidence that the augmentation strategy improves deployment.
 
@@ -57,3 +57,13 @@ Fresh testing then exposed 17/118 edits despite the 14/405 development result. A
 The retained ensemble's next frozen test produced 26/123 edits, compared with 28/123 for the original baseline. These unfamiliar forms and uncertain labels establish a generalization limitation; repeated development minima are not evidence of near-perfect OCR. No labels were changed to fit predictions. Predeclared alternate readings leave 20.16–25.20% CER, so they do not explain away the gap. The final weights remain trained on 15 page-17 lines. The source/label comparisons, old test results and rejected candidates are all retained.
 
 This submission completes the assessment's runnable pipeline and evaluation requirements. It does not demonstrate universal or near-perfect Khojki recognition. The next substantial improvement needs independent glyph adjudication and broader book-disjoint data, with a measurable coverage target, rather than additional selection on these same few lines.
+
+## Round-four audit and resulting design
+
+The new audit separated three mechanisms: image generation defects, uncertain target sequences, and adaptation/inference sensitivity. RGB scalar padding introduced red borders that became dark strokes; normalization to grayscale fixes that contract. The matched 3000-step study did not show a recognition gain from the fix, so correctness of the data operation and measured utility of the augmentation remain separate claims. Freezing BatchNorm running statistics and recurrent weights also failed to beat the incumbent in 600-step pilots.
+
+Nine training runs, conditional extensions and five fixed optical variants led to `incumbent` (14/405 development edits). Any saved optical views are averaged in probability space before fixed CTC beam decoding; they preserve image dimensions and temporal alignment. Selected metadata is replayed and checked against development predictions before test evaluation. The fresh page-21 result is 21/120; previous-model result is 21/120. This final test did not choose the model.
+
+An image-only repeated-word audit also exposed likely mistakes in our earlier AI-authored labels. On the same incumbent output, proposed historical-reference revisions change 26/123 to 15/128 edits. That is a reference effect, not an OCR gain, and remains post-hoc/non-expert. Original frozen files remain intact. One training-only correction was isolated in a matched lower-rate study; new test labels retain explicit alternatives and were frozen before page-21 output.
+
+Current performance and reference uncertainty both limit inference. Thirty-four supported Khojki characters have no real training example, and a modern-font shape cannot settle every historical variant. Independent adjudication and book-disjoint coverage are therefore stronger next investments than continuing to optimize this small reused development set. See RESULTS.md for all failed candidates and the original historical ledger for prior rounds.

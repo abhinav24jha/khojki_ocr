@@ -1,0 +1,460 @@
+{
+  "scope": "Actual deployed/round4 original 15-line training set, plus adaptation synthetic generator. Full synthetic-pretraining inventory may differ. Counts are targets, not evidence of recognition ability.",
+  "classes": [
+    {
+      "character": "𑈀",
+      "codepoint": "U+11200",
+      "name": "KHOJKI LETTER A",
+      "real_training_count": 4,
+      "present_in_adaptation_synthetic_generator": true
+    },
+    {
+      "character": "𑈁",
+      "codepoint": "U+11201",
+      "name": "KHOJKI LETTER AA",
+      "real_training_count": 8,
+      "present_in_adaptation_synthetic_generator": true
+    },
+    {
+      "character": "𑈂",
+      "codepoint": "U+11202",
+      "name": "KHOJKI LETTER I",
+      "real_training_count": 1,
+      "present_in_adaptation_synthetic_generator": true
+    },
+    {
+      "character": "𑈃",
+      "codepoint": "U+11203",
+      "name": "KHOJKI LETTER U",
+      "real_training_count": 2,
+      "present_in_adaptation_synthetic_generator": true
+    },
+    {
+      "character": "𑈄",
+      "codepoint": "U+11204",
+      "name": "KHOJKI LETTER E",
+      "real_training_count": 0,
+      "present_in_adaptation_synthetic_generator": true
+    },
+    {
+      "character": "𑈅",
+      "codepoint": "U+11205",
+      "name": "KHOJKI LETTER AI",
+      "real_training_count": 0,
+      "present_in_adaptation_synthetic_generator": true
+    },
+    {
+      "character": "𑈆",
+      "codepoint": "U+11206",
+      "name": "KHOJKI LETTER O",
+      "real_training_count": 0,
+      "present_in_adaptation_synthetic_generator": true
+    },
+    {
+      "character": "𑈇",
+      "codepoint": "U+11207",
+      "name": "KHOJKI LETTER AU",
+      "real_training_count": 0,
+      "present_in_adaptation_synthetic_generator": true
+    },
+    {
+      "character": "𑈈",
+      "codepoint": "U+11208",
+      "name": "KHOJKI LETTER KA",
+      "real_training_count": 7,
+      "present_in_adaptation_synthetic_generator": true
+    },
+    {
+      "character": "𑈉",
+      "codepoint": "U+11209",
+      "name": "KHOJKI LETTER KHA",
+      "real_training_count": 1,
+      "present_in_adaptation_synthetic_generator": true
+    },
+    {
+      "character": "𑈊",
+      "codepoint": "U+1120A",
+      "name": "KHOJKI LETTER GA",
+      "real_training_count": 4,
+      "present_in_adaptation_synthetic_generator": true
+    },
+    {
+      "character": "𑈋",
+      "codepoint": "U+1120B",
+      "name": "KHOJKI LETTER GGA",
+      "real_training_count": 0,
+      "present_in_adaptation_synthetic_generator": true
+    },
+    {
+      "character": "𑈌",
+      "codepoint": "U+1120C",
+      "name": "KHOJKI LETTER GHA",
+      "real_training_count": 0,
+      "present_in_adaptation_synthetic_generator": true
+    },
+    {
+      "character": "𑈍",
+      "codepoint": "U+1120D",
+      "name": "KHOJKI LETTER NGA",
+      "real_training_count": 0,
+      "present_in_adaptation_synthetic_generator": true
+    },
+    {
+      "character": "𑈎",
+      "codepoint": "U+1120E",
+      "name": "KHOJKI LETTER CA",
+      "real_training_count": 1,
+      "present_in_adaptation_synthetic_generator": true
+    },
+    {
+      "character": "𑈏",
+      "codepoint": "U+1120F",
+      "name": "KHOJKI LETTER CHA",
+      "real_training_count": 1,
+      "present_in_adaptation_synthetic_generator": true
+    },
+    {
+      "character": "𑈐",
+      "codepoint": "U+11210",
+      "name": "KHOJKI LETTER JA",
+      "real_training_count": 9,
+      "present_in_adaptation_synthetic_generator": true
+    },
+    {
+      "character": "𑈑",
+      "codepoint": "U+11211",
+      "name": "KHOJKI LETTER JJA",
+      "real_training_count": 0,
+      "present_in_adaptation_synthetic_generator": true
+    },
+    {
+      "character": "𑈓",
+      "codepoint": "U+11213",
+      "name": "KHOJKI LETTER NYA",
+      "real_training_count": 0,
+      "present_in_adaptation_synthetic_generator": true
+    },
+    {
+      "character": "𑈔",
+      "codepoint": "U+11214",
+      "name": "KHOJKI LETTER TTA",
+      "real_training_count": 0,
+      "present_in_adaptation_synthetic_generator": true
+    },
+    {
+      "character": "𑈕",
+      "codepoint": "U+11215",
+      "name": "KHOJKI LETTER TTHA",
+      "real_training_count": 0,
+      "present_in_adaptation_synthetic_generator": true
+    },
+    {
+      "character": "𑈖",
+      "codepoint": "U+11216",
+      "name": "KHOJKI LETTER DDA",
+      "real_training_count": 0,
+      "present_in_adaptation_synthetic_generator": true
+    },
+    {
+      "character": "𑈗",
+      "codepoint": "U+11217",
+      "name": "KHOJKI LETTER DDHA",
+      "real_training_count": 1,
+      "present_in_adaptation_synthetic_generator": true
+    },
+    {
+      "character": "𑈘",
+      "codepoint": "U+11218",
+      "name": "KHOJKI LETTER NNA",
+      "real_training_count": 0,
+      "present_in_adaptation_synthetic_generator": true
+    },
+    {
+      "character": "𑈙",
+      "codepoint": "U+11219",
+      "name": "KHOJKI LETTER TA",
+      "real_training_count": 23,
+      "present_in_adaptation_synthetic_generator": true
+    },
+    {
+      "character": "𑈚",
+      "codepoint": "U+1121A",
+      "name": "KHOJKI LETTER THA",
+      "real_training_count": 0,
+      "present_in_adaptation_synthetic_generator": true
+    },
+    {
+      "character": "𑈛",
+      "codepoint": "U+1121B",
+      "name": "KHOJKI LETTER DA",
+      "real_training_count": 0,
+      "present_in_adaptation_synthetic_generator": true
+    },
+    {
+      "character": "𑈜",
+      "codepoint": "U+1121C",
+      "name": "KHOJKI LETTER DDDA",
+      "real_training_count": 4,
+      "present_in_adaptation_synthetic_generator": true
+    },
+    {
+      "character": "𑈝",
+      "codepoint": "U+1121D",
+      "name": "KHOJKI LETTER DHA",
+      "real_training_count": 0,
+      "present_in_adaptation_synthetic_generator": true
+    },
+    {
+      "character": "𑈞",
+      "codepoint": "U+1121E",
+      "name": "KHOJKI LETTER NA",
+      "real_training_count": 18,
+      "present_in_adaptation_synthetic_generator": true
+    },
+    {
+      "character": "𑈟",
+      "codepoint": "U+1121F",
+      "name": "KHOJKI LETTER PA",
+      "real_training_count": 18,
+      "present_in_adaptation_synthetic_generator": true
+    },
+    {
+      "character": "𑈠",
+      "codepoint": "U+11220",
+      "name": "KHOJKI LETTER PHA",
+      "real_training_count": 1,
+      "present_in_adaptation_synthetic_generator": true
+    },
+    {
+      "character": "𑈡",
+      "codepoint": "U+11221",
+      "name": "KHOJKI LETTER BA",
+      "real_training_count": 10,
+      "present_in_adaptation_synthetic_generator": true
+    },
+    {
+      "character": "𑈢",
+      "codepoint": "U+11222",
+      "name": "KHOJKI LETTER BBA",
+      "real_training_count": 3,
+      "present_in_adaptation_synthetic_generator": true
+    },
+    {
+      "character": "𑈣",
+      "codepoint": "U+11223",
+      "name": "KHOJKI LETTER BHA",
+      "real_training_count": 0,
+      "present_in_adaptation_synthetic_generator": true
+    },
+    {
+      "character": "𑈤",
+      "codepoint": "U+11224",
+      "name": "KHOJKI LETTER MA",
+      "real_training_count": 11,
+      "present_in_adaptation_synthetic_generator": true
+    },
+    {
+      "character": "𑈥",
+      "codepoint": "U+11225",
+      "name": "KHOJKI LETTER YA",
+      "real_training_count": 0,
+      "present_in_adaptation_synthetic_generator": true
+    },
+    {
+      "character": "𑈦",
+      "codepoint": "U+11226",
+      "name": "KHOJKI LETTER RA",
+      "real_training_count": 13,
+      "present_in_adaptation_synthetic_generator": true
+    },
+    {
+      "character": "𑈧",
+      "codepoint": "U+11227",
+      "name": "KHOJKI LETTER LA",
+      "real_training_count": 5,
+      "present_in_adaptation_synthetic_generator": true
+    },
+    {
+      "character": "𑈨",
+      "codepoint": "U+11228",
+      "name": "KHOJKI LETTER VA",
+      "real_training_count": 0,
+      "present_in_adaptation_synthetic_generator": true
+    },
+    {
+      "character": "𑈩",
+      "codepoint": "U+11229",
+      "name": "KHOJKI LETTER SA",
+      "real_training_count": 15,
+      "present_in_adaptation_synthetic_generator": true
+    },
+    {
+      "character": "𑈪",
+      "codepoint": "U+1122A",
+      "name": "KHOJKI LETTER HA",
+      "real_training_count": 14,
+      "present_in_adaptation_synthetic_generator": true
+    },
+    {
+      "character": "𑈫",
+      "codepoint": "U+1122B",
+      "name": "KHOJKI LETTER LLA",
+      "real_training_count": 0,
+      "present_in_adaptation_synthetic_generator": true
+    },
+    {
+      "character": "𑈬",
+      "codepoint": "U+1122C",
+      "name": "KHOJKI VOWEL SIGN AA",
+      "real_training_count": 23,
+      "present_in_adaptation_synthetic_generator": true
+    },
+    {
+      "character": "𑈭",
+      "codepoint": "U+1122D",
+      "name": "KHOJKI VOWEL SIGN I",
+      "real_training_count": 12,
+      "present_in_adaptation_synthetic_generator": true
+    },
+    {
+      "character": "𑈮",
+      "codepoint": "U+1122E",
+      "name": "KHOJKI VOWEL SIGN II",
+      "real_training_count": 17,
+      "present_in_adaptation_synthetic_generator": true
+    },
+    {
+      "character": "𑈯",
+      "codepoint": "U+1122F",
+      "name": "KHOJKI VOWEL SIGN U",
+      "real_training_count": 9,
+      "present_in_adaptation_synthetic_generator": true
+    },
+    {
+      "character": "𑈰",
+      "codepoint": "U+11230",
+      "name": "KHOJKI VOWEL SIGN E",
+      "real_training_count": 18,
+      "present_in_adaptation_synthetic_generator": true
+    },
+    {
+      "character": "𑈱",
+      "codepoint": "U+11231",
+      "name": "KHOJKI VOWEL SIGN AI",
+      "real_training_count": 0,
+      "present_in_adaptation_synthetic_generator": true
+    },
+    {
+      "character": "𑈲",
+      "codepoint": "U+11232",
+      "name": "KHOJKI VOWEL SIGN O",
+      "real_training_count": 7,
+      "present_in_adaptation_synthetic_generator": true
+    },
+    {
+      "character": "𑈳",
+      "codepoint": "U+11233",
+      "name": "KHOJKI VOWEL SIGN AU",
+      "real_training_count": 0,
+      "present_in_adaptation_synthetic_generator": true
+    },
+    {
+      "character": "𑈴",
+      "codepoint": "U+11234",
+      "name": "KHOJKI SIGN ANUSVARA",
+      "real_training_count": 14,
+      "present_in_adaptation_synthetic_generator": true
+    },
+    {
+      "character": "𑈵",
+      "codepoint": "U+11235",
+      "name": "KHOJKI SIGN VIRAMA",
+      "real_training_count": 0,
+      "present_in_adaptation_synthetic_generator": false
+    },
+    {
+      "character": "𑈶",
+      "codepoint": "U+11236",
+      "name": "KHOJKI SIGN NUKTA",
+      "real_training_count": 0,
+      "present_in_adaptation_synthetic_generator": false
+    },
+    {
+      "character": "𑈷",
+      "codepoint": "U+11237",
+      "name": "KHOJKI SIGN SHADDA",
+      "real_training_count": 0,
+      "present_in_adaptation_synthetic_generator": false
+    },
+    {
+      "character": "𑈸",
+      "codepoint": "U+11238",
+      "name": "KHOJKI DANDA",
+      "real_training_count": 0,
+      "present_in_adaptation_synthetic_generator": false
+    },
+    {
+      "character": "𑈹",
+      "codepoint": "U+11239",
+      "name": "KHOJKI DOUBLE DANDA",
+      "real_training_count": 0,
+      "present_in_adaptation_synthetic_generator": false
+    },
+    {
+      "character": "𑈺",
+      "codepoint": "U+1123A",
+      "name": "KHOJKI WORD SEPARATOR",
+      "real_training_count": 74,
+      "present_in_adaptation_synthetic_generator": true
+    },
+    {
+      "character": "𑈻",
+      "codepoint": "U+1123B",
+      "name": "KHOJKI SECTION MARK",
+      "real_training_count": 0,
+      "present_in_adaptation_synthetic_generator": false
+    },
+    {
+      "character": "𑈼",
+      "codepoint": "U+1123C",
+      "name": "KHOJKI DOUBLE SECTION MARK",
+      "real_training_count": 0,
+      "present_in_adaptation_synthetic_generator": false
+    },
+    {
+      "character": "𑈽",
+      "codepoint": "U+1123D",
+      "name": "KHOJKI ABBREVIATION SIGN",
+      "real_training_count": 0,
+      "present_in_adaptation_synthetic_generator": false
+    },
+    {
+      "character": "𑈾",
+      "codepoint": "U+1123E",
+      "name": "KHOJKI SIGN SUKUN",
+      "real_training_count": 0,
+      "present_in_adaptation_synthetic_generator": false
+    },
+    {
+      "character": "𑈿",
+      "codepoint": "U+1123F",
+      "name": "UNASSIGNED_IN_HOST_UNICODE",
+      "real_training_count": 0,
+      "present_in_adaptation_synthetic_generator": false
+    },
+    {
+      "character": "𑉀",
+      "codepoint": "U+11240",
+      "name": "UNASSIGNED_IN_HOST_UNICODE",
+      "real_training_count": 0,
+      "present_in_adaptation_synthetic_generator": false
+    },
+    {
+      "character": "𑉁",
+      "codepoint": "U+11241",
+      "name": "UNASSIGNED_IN_HOST_UNICODE",
+      "real_training_count": 0,
+      "present_in_adaptation_synthetic_generator": false
+    }
+  ]
+}

@@ -15,12 +15,12 @@ for p in ROOT.rglob('*'):
  rel=p.relative_to(ROOT);parts=rel.parts
  if any(x in ['.git','__pycache__','.pytest_cache'] or x.endswith('.egg-info') for x in parts):continue
  if parts[0] in ['src','scripts','tests','assets'] and p.suffix in ['.py','.ttf','.txt']:files.append(p)
- elif parts[0]=='data' and (p.suffix=='.json' or (parts[1] in ['pages','lines'] and p.suffix=='.png')):files.append(p)
+ elif parts[0]=='data' and (p.suffix=='.json' or (parts[1] in ['pages','lines'] and p.suffix=='.png') or (parts[1]=='round4' and p.suffix in ['.png','.html'])):files.append(p)
  elif parts[0]=='results' and p.suffix in ['.json','.txt','.tsv','.csv','.html','.png','.ttf','.log','.md']:files.append(p)
  elif parts[0]=='models' and p.suffix in ['.pt','.json']:files.append(p)
  elif parts[0]=='experiments' and p.suffix in ['.json','.log']:files.append(p)
- elif parts[0]=='cloud' and p.suffix in ['.json','.py','.ipynb']:files.append(p)
- elif len(parts)==1 and p.name in ['README.md','RESULTS.md','ARCHITECTURE.md','MODEL_CARD.md','pyproject.toml','.gitignore','technical-retro.pdf']:files.append(p)
+ elif parts[0]=='cloud' and p.suffix in ['.json','.py','.ipynb','.png']:files.append(p)
+ elif len(parts)==1 and p.name in ['README.md','RESULTS.md','RESULTS_ROUND3.md','ARCHITECTURE.md','MODEL_CARD.md','pyproject.toml','.gitignore','.gitattributes','technical-retro.pdf']:files.append(p)
 # Every HTML local image/font reference in the package must resolve to a packaged file.
 chosen={p.resolve() for p in files}
 for p in files:

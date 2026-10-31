@@ -1,0 +1,10 @@
+{
+  "utc": "2026-10-31T16:05:32.168160+00:00",
+  "command": "PYTHONPATH=src python -m pytest tests/test_unicode_atomic.py -q",
+  "passed": 14,
+  "seconds": 0.02,
+  "ml_runtime_loaded": false,
+  "source": "https://www.unicode.org/versions/Unicode17.0.0/core-spec/chapter-15/",
+  "validator_sha256": "15aba649587ff63fddbffabc248a19c1859c389c2d76bb4860c72a0e4ce6eafb",
+  "scope": "Post-cloud diagnostic validation extension; recognizer/decoder unchanged. Original 16 integration tests passed in Colab before this diagnostic-only change."
+}

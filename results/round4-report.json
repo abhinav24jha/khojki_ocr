@@ -1,0 +1,526 @@
+{
+  "selected": {
+    "name": "incumbent",
+    "paths": [
+      "models/round3-selected.pt"
+    ],
+    "views": [
+      [
+        1.0,
+        0.0
+      ]
+    ],
+    "errors": 14,
+    "characters": 405
+  },
+  "fresh": {
+    "lines": 5,
+    "characters": 120,
+    "missed_lines": 0,
+    "automatic_errors": 21,
+    "checked_crop_errors": 21,
+    "crop_changes_prediction_lines": 0,
+    "invalid_inventory_characters": 0,
+    "utf8_failures": 0,
+    "automatic_cer": 0.175,
+    "checked_crop_cer": 0.175,
+    "net_crop_error_difference": 0
+  },
+  "incumbent_fresh": {
+    "lines": 5,
+    "characters": 120,
+    "missed_lines": 0,
+    "automatic_errors": 21,
+    "checked_crop_errors": 21,
+    "crop_changes_prediction_lines": 0,
+    "invalid_inventory_characters": 0,
+    "utf8_failures": 0,
+    "automatic_cer": 0.175,
+    "checked_crop_cer": 0.175,
+    "net_crop_error_difference": 0
+  },
+  "predeclared_reference_sensitivity": {
+    "minimum": {
+      "errors": 21,
+      "characters": 120,
+      "cer": 0.175
+    },
+    "maximum": {
+      "errors": 21,
+      "characters": 120,
+      "cer": 0.175
+    },
+    "interpretation": "Range across source-declared alternatives, not a confidence interval or adjudicated truth."
+  },
+  "reference_audit": [
+    {
+      "model": "round4",
+      "original_summary": {
+        "lines": 5,
+        "characters": 123,
+        "missed_lines": 0,
+        "automatic_errors": 26,
+        "checked_crop_errors": 26,
+        "crop_changes_prediction_lines": 0,
+        "invalid_inventory_characters": 0,
+        "utf8_failures": 0,
+        "automatic_cer": 0.21138211382113822,
+        "checked_crop_cer": 0.21138211382113822,
+        "net_crop_error_difference": 0
+      },
+      "proposed_errors": 15,
+      "proposed_characters": 128,
+      "proposed_cer": 0.1171875,
+      "lines": [
+        {
+          "id": "p18r-14",
+          "original_reference": "𑈃𑈟𑈰𑈺𑈩𑈙𑈬𑈦𑈬𑈺𑈀𑈊𑈲𑈎𑈦𑈺𑈟𑈰𑈓𑈂𑈺 ૬",
+          "proposed_reference": "𑈃𑈟𑈰𑈺𑈩𑈙𑈬𑈦𑈬𑈺𑈀𑈊𑈲𑈎𑈦𑈺𑈟𑈰𑈓𑈂𑈺 ૬",
+          "prediction": "𑈃𑈟𑈩𑈰𑈺𑈩𑈙𑈬𑈦𑈬𑈺𑈀𑈊𑈲𑈎𑈦𑈺𑈩𑈲𑈺𑈂𑈂𑈺 ૬",
+          "original": {
+            "reference_characters": 23,
+            "errors": 5,
+            "cer": 0.21739130434782608,
+            "substitute": 3,
+            "delete": 0,
+            "insert": 2
+          },
+          "proposed": {
+            "reference_characters": 23,
+            "errors": 5,
+            "cer": 0.21739130434782608,
+            "substitute": 3,
+            "delete": 0,
+            "insert": 2
+          },
+          "changes": []
+        },
+        {
+          "id": "p18r-15",
+          "original_reference": "𑈙𑈡𑈙𑈲𑈺𑈠𑈭𑈦𑈩𑈙𑈬𑈺𑈈𑈦𑈙𑈬𑈺𑈈𑈬𑈤𑈬𑈺 ૭",
+          "proposed_reference": "𑈙𑈡𑈙𑈲𑈺𑈠𑈭𑈦𑈩𑈙𑈬𑈺𑈈𑈦𑈙𑈬𑈺𑈈𑈬𑈤𑈬𑈺 ૭",
+          "prediction": "𑈙𑈡𑈙𑈲𑈺𑈠𑈭𑈦𑈩𑈙𑈬𑈺𑈈𑈦𑈙𑈬𑈺𑈈𑈬𑈤𑈬𑈺 ૭",
+          "original": {
+            "reference_characters": 24,
+            "errors": 0,
+            "cer": 0.0,
+            "substitute": 0,
+            "delete": 0,
+            "insert": 0
+          },
+          "proposed": {
+            "reference_characters": 24,
+            "errors": 0,
+            "cer": 0.0,
+            "substitute": 0,
+            "delete": 0,
+            "insert": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "p20r-09",
+          "original_reference": "𑈩𑈙𑈊𑈯𑈦𑈺𑈈𑈟𑈰𑈁𑈺𑈙𑈡𑈺𑈀𑈤𑈦𑈺𑈊𑈯𑈁𑈡𑈺 ૧૦",
+          "proposed_reference": "𑈩𑈙𑈊𑈯𑈦𑈺𑈈𑈟𑈰𑈁𑈺𑈙𑈡𑈺𑈀𑈤𑈦𑈺𑈊𑈮𑈁𑈞𑈺 ૧૦",
+          "prediction": "𑈩𑈙𑈊𑈯𑈦𑈺𑈈𑈴𑈚𑈰𑈁𑈺𑈙𑈡𑈺𑈀𑈤𑈦𑈺𑈊𑈮𑈁𑈞𑈺૧૦",
+          "original": {
+            "reference_characters": 26,
+            "errors": 5,
+            "cer": 0.19230769230769232,
+            "substitute": 3,
+            "delete": 1,
+            "insert": 1
+          },
+          "proposed": {
+            "reference_characters": 26,
+            "errors": 3,
+            "cer": 0.11538461538461539,
+            "substitute": 1,
+            "delete": 1,
+            "insert": 1
+          },
+          "changes": [
+            {
+              "id": "p20r-09",
+              "original_tokens": "ga.u aa ba",
+              "replacement_tokens": "ga.ii aa na",
+              "scope": "historical-test-reference-only",
+              "reason": "Near-identical to page20 line3 last word; source shows a right-descending II sign and a looped NA, not the below-base U sign and BA.",
+              "evidence": [
+                "audit-p20r-09-w5.png",
+                "label-consistency-candidates.png"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "p20r-10",
+          "original_reference": "𑈁𑈟𑈘𑈮𑈺𑈤𑈬𑈟𑈭𑈁𑈺𑈁𑈟𑈘𑈰𑈺𑈪𑈬𑈥𑈺𑈣𑈡𑈺 ૧૧",
+          "proposed_reference": "𑈁𑈟𑈘𑈮𑈺𑈤𑈬𑈟𑈭𑈁𑈺𑈁𑈟𑈘𑈰𑈺𑈪𑈬𑈚𑈯𑈴𑈺𑈧𑈮𑈙𑈮𑈺 ૧૧",
+          "prediction": "𑈁𑈟𑈘𑈮𑈺𑈤𑈬𑈟𑈭𑈁𑈺𑈁𑈟𑈘𑈰𑈺𑈪𑈬𑈚𑈯𑈴𑈺𑈧𑈮𑈙𑈮𑈺૧૧",
+          "original": {
+            "reference_characters": 26,
+            "errors": 8,
+            "cer": 0.3076923076923077,
+            "substitute": 5,
+            "delete": 0,
+            "insert": 3
+          },
+          "proposed": {
+            "reference_characters": 30,
+            "errors": 1,
+            "cer": 0.03333333333333333,
+            "substitute": 0,
+            "delete": 1,
+            "insert": 0
+          },
+          "changes": [
+            {
+              "id": "p20r-10",
+              "original_tokens": "ha.aa ya",
+              "replacement_tokens": "ha.aa tha.u.an",
+              "scope": "historical-test-reference-only",
+              "reason": "Source shows three-peak THA body, a lower U bowl and an upper dot. YA would be two circles, absent here.",
+              "evidence": [
+                "audit-p20r-10-w4.png"
+              ]
+            },
+            {
+              "id": "p20r-10",
+              "original_tokens": "bha ba",
+              "replacement_tokens": "la.ii ta.ii",
+              "scope": "historical-test-reference-only",
+              "reason": "Both source syllables have long descending II-sign strokes. First body has LA upper hook/bar; second is single-arch TA. Proposed chart reading, not expert-certified.",
+              "evidence": [
+                "audit-p20r-10-w5.png"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "p20r-11",
+          "original_reference": "𑈐𑈯𑈊𑈙𑈺𑈡𑈬𑈙𑈮𑈺𑈩𑈙𑈊𑈯𑈦𑈈𑈰𑈺𑈏𑈡𑈺 ૧૨",
+          "proposed_reference": "𑈐𑈯𑈊𑈙𑈺𑈡𑈬𑈙𑈮𑈺𑈩𑈙𑈊𑈯𑈦𑈈𑈯𑈴𑈺𑈏𑈡𑈺 ૧૨",
+          "prediction": "𑈤𑈯𑈊𑈙𑈺𑈡𑈬𑈤𑈮𑈺𑈩𑈙𑈊𑈯𑈦𑈈𑈯𑈴𑈺𑈛𑈮𑈙𑈮𑈺 ૧૨",
+          "original": {
+            "reference_characters": 24,
+            "errors": 8,
+            "cer": 0.3333333333333333,
+            "substitute": 5,
+            "delete": 0,
+            "insert": 3
+          },
+          "proposed": {
+            "reference_characters": 25,
+            "errors": 6,
+            "cer": 0.24,
+            "substitute": 4,
+            "delete": 0,
+            "insert": 2
+          },
+          "changes": [
+            {
+              "id": "p20r-11",
+              "original_tokens": "ra ka.e",
+              "replacement_tokens": "ra ka.u.an",
+              "scope": "historical-test-reference-only",
+              "reason": "Source shows KA with lower loop and upper dot, matching same word on page20 line7. E is an upper slanted stroke, which is absent.",
+              "evidence": [
+                "audit-p20r-11-w3.png"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "model": "incumbent",
+      "original_summary": {
+        "lines": 5,
+        "characters": 123,
+        "missed_lines": 0,
+        "automatic_errors": 26,
+        "checked_crop_errors": 26,
+        "crop_changes_prediction_lines": 0,
+        "invalid_inventory_characters": 0,
+        "utf8_failures": 0,
+        "automatic_cer": 0.21138211382113822,
+        "checked_crop_cer": 0.21138211382113822,
+        "net_crop_error_difference": 0
+      },
+      "proposed_errors": 15,
+      "proposed_characters": 128,
+      "proposed_cer": 0.1171875,
+      "lines": [
+        {
+          "id": "p18r-14",
+          "original_reference": "𑈃𑈟𑈰𑈺𑈩𑈙𑈬𑈦𑈬𑈺𑈀𑈊𑈲𑈎𑈦𑈺𑈟𑈰𑈓𑈂𑈺 ૬",
+          "proposed_reference": "𑈃𑈟𑈰𑈺𑈩𑈙𑈬𑈦𑈬𑈺𑈀𑈊𑈲𑈎𑈦𑈺𑈟𑈰𑈓𑈂𑈺 ૬",
+          "prediction": "𑈃𑈟𑈩𑈰𑈺𑈩𑈙𑈬𑈦𑈬𑈺𑈀𑈊𑈲𑈎𑈦𑈺𑈩𑈲𑈺𑈂𑈂𑈺 ૬",
+          "original": {
+            "reference_characters": 23,
+            "errors": 5,
+            "cer": 0.21739130434782608,
+            "substitute": 3,
+            "delete": 0,
+            "insert": 2
+          },
+          "proposed": {
+            "reference_characters": 23,
+            "errors": 5,
+            "cer": 0.21739130434782608,
+            "substitute": 3,
+            "delete": 0,
+            "insert": 2
+          },
+          "changes": []
+        },
+        {
+          "id": "p18r-15",
+          "original_reference": "𑈙𑈡𑈙𑈲𑈺𑈠𑈭𑈦𑈩𑈙𑈬𑈺𑈈𑈦𑈙𑈬𑈺𑈈𑈬𑈤𑈬𑈺 ૭",
+          "proposed_reference": "𑈙𑈡𑈙𑈲𑈺𑈠𑈭𑈦𑈩𑈙𑈬𑈺𑈈𑈦𑈙𑈬𑈺𑈈𑈬𑈤𑈬𑈺 ૭",
+          "prediction": "𑈙𑈡𑈙𑈲𑈺𑈠𑈭𑈦𑈩𑈙𑈬𑈺𑈈𑈦𑈙𑈬𑈺𑈈𑈬𑈤𑈬𑈺 ૭",
+          "original": {
+            "reference_characters": 24,
+            "errors": 0,
+            "cer": 0.0,
+            "substitute": 0,
+            "delete": 0,
+            "insert": 0
+          },
+          "proposed": {
+            "reference_characters": 24,
+            "errors": 0,
+            "cer": 0.0,
+            "substitute": 0,
+            "delete": 0,
+            "insert": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "p20r-09",
+          "original_reference": "𑈩𑈙𑈊𑈯𑈦𑈺𑈈𑈟𑈰𑈁𑈺𑈙𑈡𑈺𑈀𑈤𑈦𑈺𑈊𑈯𑈁𑈡𑈺 ૧૦",
+          "proposed_reference": "𑈩𑈙𑈊𑈯𑈦𑈺𑈈𑈟𑈰𑈁𑈺𑈙𑈡𑈺𑈀𑈤𑈦𑈺𑈊𑈮𑈁𑈞𑈺 ૧૦",
+          "prediction": "𑈩𑈙𑈊𑈯𑈦𑈺𑈈𑈴𑈚𑈰𑈁𑈺𑈙𑈡𑈺𑈀𑈤𑈦𑈺𑈊𑈮𑈁𑈞𑈺૧૦",
+          "original": {
+            "reference_characters": 26,
+            "errors": 5,
+            "cer": 0.19230769230769232,
+            "substitute": 3,
+            "delete": 1,
+            "insert": 1
+          },
+          "proposed": {
+            "reference_characters": 26,
+            "errors": 3,
+            "cer": 0.11538461538461539,
+            "substitute": 1,
+            "delete": 1,
+            "insert": 1
+          },
+          "changes": [
+            {
+              "id": "p20r-09",
+              "original_tokens": "ga.u aa ba",
+              "replacement_tokens": "ga.ii aa na",
+              "scope": "historical-test-reference-only",
+              "reason": "Near-identical to page20 line3 last word; source shows a right-descending II sign and a looped NA, not the below-base U sign and BA.",
+              "evidence": [
+                "audit-p20r-09-w5.png",
+                "label-consistency-candidates.png"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "p20r-10",
+          "original_reference": "𑈁𑈟𑈘𑈮𑈺𑈤𑈬𑈟𑈭𑈁𑈺𑈁𑈟𑈘𑈰𑈺𑈪𑈬𑈥𑈺𑈣𑈡𑈺 ૧૧",
+          "proposed_reference": "𑈁𑈟𑈘𑈮𑈺𑈤𑈬𑈟𑈭𑈁𑈺𑈁𑈟𑈘𑈰𑈺𑈪𑈬𑈚𑈯𑈴𑈺𑈧𑈮𑈙𑈮𑈺 ૧૧",
+          "prediction": "𑈁𑈟𑈘𑈮𑈺𑈤𑈬𑈟𑈭𑈁𑈺𑈁𑈟𑈘𑈰𑈺𑈪𑈬𑈚𑈯𑈴𑈺𑈧𑈮𑈙𑈮𑈺૧૧",
+          "original": {
+            "reference_characters": 26,
+            "errors": 8,
+            "cer": 0.3076923076923077,
+            "substitute": 5,
+            "delete": 0,
+            "insert": 3
+          },
+          "proposed": {
+            "reference_characters": 30,
+            "errors": 1,
+            "cer": 0.03333333333333333,
+            "substitute": 0,
+            "delete": 1,
+            "insert": 0
+          },
+          "changes": [
+            {
+              "id": "p20r-10",
+              "original_tokens": "ha.aa ya",
+              "replacement_tokens": "ha.aa tha.u.an",
+              "scope": "historical-test-reference-only",
+              "reason": "Source shows three-peak THA body, a lower U bowl and an upper dot. YA would be two circles, absent here.",
+              "evidence": [
+                "audit-p20r-10-w4.png"
+              ]
+            },
+            {
+              "id": "p20r-10",
+              "original_tokens": "bha ba",
+              "replacement_tokens": "la.ii ta.ii",
+              "scope": "historical-test-reference-only",
+              "reason": "Both source syllables have long descending II-sign strokes. First body has LA upper hook/bar; second is single-arch TA. Proposed chart reading, not expert-certified.",
+              "evidence": [
+                "audit-p20r-10-w5.png"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "p20r-11",
+          "original_reference": "𑈐𑈯𑈊𑈙𑈺𑈡𑈬𑈙𑈮𑈺𑈩𑈙𑈊𑈯𑈦𑈈𑈰𑈺𑈏𑈡𑈺 ૧૨",
+          "proposed_reference": "𑈐𑈯𑈊𑈙𑈺𑈡𑈬𑈙𑈮𑈺𑈩𑈙𑈊𑈯𑈦𑈈𑈯𑈴𑈺𑈏𑈡𑈺 ૧૨",
+          "prediction": "𑈤𑈯𑈊𑈙𑈺𑈡𑈬𑈤𑈮𑈺𑈩𑈙𑈊𑈯𑈦𑈈𑈯𑈴𑈺𑈛𑈮𑈙𑈮𑈺 ૧૨",
+          "original": {
+            "reference_characters": 24,
+            "errors": 8,
+            "cer": 0.3333333333333333,
+            "substitute": 5,
+            "delete": 0,
+            "insert": 3
+          },
+          "proposed": {
+            "reference_characters": 25,
+            "errors": 6,
+            "cer": 0.24,
+            "substitute": 4,
+            "delete": 0,
+            "insert": 2
+          },
+          "changes": [
+            {
+              "id": "p20r-11",
+              "original_tokens": "ra ka.e",
+              "replacement_tokens": "ra ka.u.an",
+              "scope": "historical-test-reference-only",
+              "reason": "Source shows KA with lower loop and upper dot, matching same word on page20 line7. E is an upper slanted stroke, which is absent.",
+              "evidence": [
+                "audit-p20r-11-w3.png"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "audit_interpretation": "Post-hoc non-expert source review; original frozen test labels unchanged. Proposed-label score changes are not model improvements. Report both models against the same reference version.",
+  "space_involving_edits": 0,
+  "other_edits": 21,
+  "exact_lines": 0,
+  "confusions": [
+    {
+      "operation": "insert",
+      "reference": "",
+      "prediction": "𑈟",
+      "count": 3
+    },
+    {
+      "operation": "substitute",
+      "reference": "𑈄",
+      "prediction": "𑈭",
+      "count": 3
+    },
+    {
+      "operation": "substitute",
+      "reference": "𑈟",
+      "prediction": "𑈉",
+      "count": 1
+    },
+    {
+      "operation": "substitute",
+      "reference": "𑈄",
+      "prediction": "𑈟",
+      "count": 1
+    },
+    {
+      "operation": "substitute",
+      "reference": "𑈪",
+      "prediction": "𑈭",
+      "count": 1
+    },
+    {
+      "operation": "substitute",
+      "reference": "𑈙",
+      "prediction": "𑈪",
+      "count": 1
+    },
+    {
+      "operation": "substitute",
+      "reference": "𑈯",
+      "prediction": "𑈮",
+      "count": 1
+    },
+    {
+      "operation": "substitute",
+      "reference": "𑈲",
+      "prediction": "𑈰",
+      "count": 1
+    },
+    {
+      "operation": "substitute",
+      "reference": "𑈢",
+      "prediction": "𑈨",
+      "count": 1
+    },
+    {
+      "operation": "substitute",
+      "reference": "𑈉",
+      "prediction": "𑈩",
+      "count": 1
+    },
+    {
+      "operation": "substitute",
+      "reference": "𑈐",
+      "prediction": "𑈤",
+      "count": 1
+    },
+    {
+      "operation": "substitute",
+      "reference": "𑈐",
+      "prediction": "𑈊",
+      "count": 1
+    },
+    {
+      "operation": "substitute",
+      "reference": "𑈚",
+      "prediction": "𑈟",
+      "count": 1
+    },
+    {
+      "operation": "insert",
+      "reference": "",
+      "prediction": "𑈬",
+      "count": 1
+    },
+    {
+      "operation": "substitute",
+      "reference": "𑈏",
+      "prediction": "𑈑",
+      "count": 1
+    },
+    {
+      "operation": "substitute",
+      "reference": "𑈞",
+      "prediction": "𑈛",
+      "count": 1
+    },
+    {
+      "operation": "substitute",
+      "reference": "𑈉",
+      "prediction": "𑈟",
+      "count": 1
+    }
+  ],
+  "checkpoint_sha256": "b4398167ea03e71277d09eba4cf5a55ef3efac454738f649f01169343ec3abb6"
+}

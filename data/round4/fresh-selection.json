@@ -1,0 +1,66 @@
+{
+  "utc": "2026-10-31T15:34:47.638155+00:00",
+  "policy": "First five detected body lines on previously untranscribed page 21; selected before round4 model outputs. Fixed selection, no filtering for model ease.",
+  "rows": [
+    {
+      "id": "p21a-01",
+      "page": 21,
+      "image": "lines/p21a-01.png",
+      "box": [
+        121,
+        156,
+        670,
+        199
+      ],
+      "split": "test"
+    },
+    {
+      "id": "p21a-02",
+      "page": 21,
+      "image": "lines/p21a-02.png",
+      "box": [
+        120,
+        217,
+        667,
+        259
+      ],
+      "split": "test"
+    },
+    {
+      "id": "p21a-03",
+      "page": 21,
+      "image": "lines/p21a-03.png",
+      "box": [
+        76,
+        274,
+        692,
+        319
+      ],
+      "split": "test"
+    },
+    {
+      "id": "p21a-04",
+      "page": 21,
+      "image": "lines/p21a-04.png",
+      "box": [
+        120,
+        336,
+        671,
+        378
+      ],
+      "split": "test"
+    },
+    {
+      "id": "p21a-05",
+      "page": 21,
+      "image": "lines/p21a-05.png",
+      "box": [
+        121,
+        394,
+        672,
+        438
+      ],
+      "split": "test"
+    }
+  ]
+}

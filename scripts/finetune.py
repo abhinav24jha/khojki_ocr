@@ -16,6 +16,9 @@ p.add_argument('--layout',choices=['legacy','robust'],default='legacy')
 p.add_argument('--word-fraction',type=float,default=0)
 p.add_argument('--word-geometry',choices=['legacy','preserve'],default='legacy')
 p.add_argument('--bold-replay',action='store_true')
+p.add_argument('--legacy-rgb-word-padding',action='store_true')
+p.add_argument('--freeze-bn',action='store_true')
+p.add_argument('--freeze-rnn',action='store_true')
 p.add_argument('--packed',action='store_true')
 p.add_argument('--height',type=int,choices=[48,64],default=48)
 a=p.parse_args()
@@ -34,7 +37,7 @@ wordbank=[]
 if a.word_fraction:
     from khojki_ocr.word_augmentation import training_words,concatenate_words
     for r in train:
-        wordbank.extend((preprocess(im),txt) for im,txt in training_words(Image.open(ROOT/'data'/r['image']),r['text'],preserve_height=a.word_geometry=='preserve'))
+        wordbank.extend((preprocess(im),txt) for im,txt in training_words(Image.open(ROOT/'data'/r['image']),r['text'],preserve_height=a.word_geometry=='preserve',white_padding=not a.legacy_rgb_word_padding))
     if not wordbank:raise ValueError('No verified training word crops available')
     print('word crops from training only',len(wordbank),flush=True)
 renderers=[Renderer(ROOT/f'assets/Noto{x}Khojki-Regular.ttf',36) for x in ['Sans','Serif']]
@@ -59,11 +62,16 @@ def augment(im):
 
 saved=torch.load(a.checkpoint,map_location='cpu',weights_only=False)
 model=CRNN(packed=a.packed);model.load_state_dict(saved['model']);model.to(a.device)
-opt=torch.optim.AdamW(model.parameters(),lr=a.lr,weight_decay=.0001)
+if a.freeze_rnn:
+    for param in model.rnn.parameters():param.requires_grad_(False)
+    # cuDNN backward through frozen recurrent weights still needs training mode.
+    # Disable recurrent dropout without switching the layer to eval.
+    model.rnn.dropout=0.0
+opt=torch.optim.AdamW([p for p in model.parameters() if p.requires_grad],lr=a.lr,weight_decay=.0001)
 start_step=0
 if a.resume:
     if saved['annotation_sha256']!=hashlib.sha256(annotations).hexdigest():raise ValueError('References changed; start a new named experiment rather than resuming.')
-    for key in ['seed','train_limit','synthetic_fraction','word_fraction','bold_replay','layout','height','packed','word_geometry']:
+    for key in ['seed','train_limit','synthetic_fraction','word_fraction','bold_replay','layout','height','packed','word_geometry','legacy_rgb_word_padding','freeze_bn','freeze_rnn']:
         if key in saved.get('training_config',{}) and saved['training_config'][key]!=getattr(a,key):
             raise ValueError(f'Resume requires original {key}; warm start a new experiment to change it.')
     opt.load_state_dict(saved['optimizer']);start_step=saved['step']
@@ -86,7 +94,11 @@ for step in range(start_step+1,a.steps+1):
             im,txt=concatenate_words(random.choices(wordbank,k=random.choice([1,2,3,4,5,6])),gap=random.randint(1,7),preserve_height=a.word_geometry=='preserve')
         else:im,txt=random.choice(samples)
         batch.append((augment(im),txt))
-    x,y,xlen,ylen,txt=collate(batch);model.train();opt.zero_grad();logp=model(x.to(a.device),xlen)
+    x,y,xlen,ylen,txt=collate(batch);model.train()
+    if a.freeze_bn:
+        for layer in model.modules():
+            if isinstance(layer,torch.nn.BatchNorm2d):layer.eval()
+    opt.zero_grad();logp=model(x.to(a.device),xlen)
     loss=loss_fn(logp.cpu(),y,xlen,ylen);loss.backward();torch.nn.utils.clip_grad_norm_(model.parameters(),5);opt.step()
     if step%25==0:print(json.dumps({'step':step,'loss':loss.item(),'seconds':time.perf_counter()-start}),flush=True)
     if step%50==0 or step==a.steps:

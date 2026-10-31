@@ -1,97 +1,117 @@
-# Results and experiment ledger
+# Round-four results and audit
 
-The selected model runs end to end, but its unseen-line accuracy is substantially worse than its development score. The latest five-line test is **26/123 = 21.14% CER**, compared with **28/123 = 22.76%** for the original baseline. The previous fresh test was **17/118 = 14.41%**, compared with **25/118 = 21.19%** for the original baseline. No near-perfect or handwriting accuracy claim is supported.
+The selected configuration is **incumbent**, chosen on the unchanged 16-line / 405-character development set: **14/405 (3.46% CER)**. On five newly frozen page-21 lines it produces **21/120 (17.50% CER)**, versus **21/120 (17.50%)** for the previous model. These are non-expert chart transcriptions, not certified ground truth or collection-wide accuracy.
 
-## Frozen evaluation sequence
+[Visual comparison](results/round4-comparison.html) · [Source-label audit](data/round4/reference-audit.html) · [Full prior experiment ledger](RESULTS_ROUND3.md)
 
-| Phase / model | Reference set | Edits / code points | CER | Interpretation |
-|---|---|---:|---:|---|
-| Original baseline | Initial 10-line test | 21 / 250 | 8.40% | Historical; these lines later became development |
-| Round-two ensemble | Expanded development | 14 / 405 | 3.46% | Repeated model/decoder selection, optimistic |
-| Round-two ensemble | First fresh 5-line test | 17 / 118 | 14.41% | Stronger generalization check, later used for round-three design |
-| Original baseline | Same first fresh test | 25 / 118 | 21.19% | Paired comparison |
-| Final retained ensemble | Expanded round-three development | 20 / 453 | 4.42% | Used to reject two new training candidates |
-| Final retained ensemble | Latest frozen 5-line test | 26 / 123 | 21.14% | Final primary result |
-| Original baseline | Same latest test | 28 / 123 | 22.76% | Paired comparison |
+## What the first-principles audit found
 
-The final weights are the round-two ensemble. Round-three training candidates were worse on development and were rejected before the latest test was opened. Re-saving the same weights produced a different file hash; deployment predictions match the retained incumbent. Both fresh sets are small, nonrandom, related print with non-expert references. They are not book-disjoint tests or estimates of collection-wide error. Sequential tests should not be pooled into a nominally independent benchmark.
+**A real augmentation defect:** Pillow scalar `fill=255` on RGB images creates red padding, not white. Grayscale conversion made those borders dark artificial strokes. `training_words` now converts to grayscale before padding; a regression test checks RGB input and white output margins. A legacy flag reproduces the old behavior for a matched comparison. Both variants reached 16 development edits after 600 steps; through 3000 steps the old artifact reached 14 and the fixed version 16. The fix is correct image handling, but this experiment does **not** establish an accuracy benefit. The default data-generation path is fixed; old trained candidates and their provenance are retained.
 
-## Latest test and error attribution
+**Our AI-authored references contained likely mistakes:** image-only similarity screening found inconsistent labels on near-identical words. Enlarged scan/font comparisons support four historical-test word revisions and one training-only revision (p17r-10, removing an unsupported I sign). Originals remain frozen. Proposed corrections have explicit source evidence and are not expert-certified. They were not silently substituted into the headline test results.
 
-All five selected lines were detected. Automatic and checked crops gave identical predictions: 26 edits each. There were **2 space-involving edits**, **24 other character edits**, **0 invalid-inventory characters** and **0 UTF-8 failures**. Space mistakes can involve geometry and sequence recognition; this is an operational grouping, not a uniquely identified causal decomposition. No false-positive or recall claim is made for unlabelled page regions.
-
-| Line | Edits | Reference code points | CER |
-|---|---:|---:|---:|
-| p18r-14 | 5 | 23 | 21.74% |
-| p18r-15 | 0 | 24 | 0.00% |
-| p20r-09 | 5 | 26 | 19.23% |
-| p20r-10 | 8 | 26 | 30.77% |
-| p20r-11 | 8 | 24 | 33.33% |
-
-Edit totals: 16 substitutions, 1 deletions, 9 insertions; one of five lines exact. Most repeated errors are inserted SA and vowel sign U (two each). Other confusions involve PA/THA, BA/NA, dependent vowels and separators. Full names/code points and alignments are in [round3-report.json](results/round3-report.json).
-
-The primary references remain unchanged. Predeclared alternatives yield **20.16–25.20% CER** (25–31 edits, variant denominators 123–124). This sensitivity range is not a confidence interval or a corrected score. It does not eliminate the recognition gap. Footer/refrain candidates were replaced with numbered body lines before round-three training and prediction inspection because their mappings were unresolved; selection history is recorded explicitly.
-
-On the prior five-line test, all lines were detected, automatic/checked crops matched, and the 17 edits involved no space or encoding failures. BA→NA, BHA→vowel II, and inserted BBA each occurred twice. Predeclared alternatives gave 14.41–16.10%, so the error could not be explained away by those alternatives.
-
-## Experiment ledger
-
-Different reference sets are deliberately separated. Synthetic accuracy does not predict historical-print accuracy. Checkpoint minima are selected on development every 50 steps; full histories contain the worse checkpoints too.
-
-| Experiment | Evaluation denominator | Edits | CER | Decision |
-|---|---:|---:|---:|---|
-| Synthetic CRNN, 1000 steps | 2910 synthetic | 38 | 1.31% | Pretraining only |
-| Synthetic model, raw real lines | 75 real | 36 | 48.00% | Reject raw preprocessing |
-| Contrast and text/number chunks | 75 | 22 | 29.33% | Keep |
-| Binarization and chunks | 75 | 28 | 37.33% | Reject |
-| Initial 15-line adaptation | 75 | 6 | 8.00% | Real labels help |
-| Same model, expanded dev | 155 | 13 | 8.39% | Larger comparison |
-| 3 / 5 / 10 / 15-line adaptation | 155 | 18 / 19 / 10 / 13 | 11.61 / 12.26 / 6.45 / 8.39% | 10-line model selected initially |
-| Initial beam / three-model ensemble | 155 | 11 / 12 | 7.10 / 7.74% | Reject |
-| 100-step cloud warm start | 155 | 13 | 8.39% | Reject |
-| Original baseline on expanded dev | 405 | 31 | 7.65% | Round-two comparator |
-| 300-step control | 405 | 28 | 6.91% | Extend |
-| 300-step 40% word recombination | 405 | 35 | 8.64% | Worse |
-| Same + bold replay | 405 | 36 | 8.89% | Worse |
-| Long control, best 2800/3000 | 405 | 18 | 4.44% | Strong member |
-| Long bold, best 2700/3000 | 405 | 19 | 4.69% | Alternative |
-| Long 10% words, best 1550/3000 | 405 | 20 | 4.94% | Worse |
-| Matched 600-step ordinary control | 405 | 20 | 4.94% | Comparator |
-| Packed recurrence, 600-step pilot | 405 | 19 | 4.69% | Extend |
-| Ordinary / packed 64-pixel pilots | 405 | 35 / 35 | 8.64 / 8.64% | Reject |
-| Five extra non-expert labels | 405 | 23 | 5.68% | Reject |
-| Packed recurrence, best 2450/3000 | 405 | 16 | 3.95% | Strong member |
-| Word geometry legacy / preserved | 405 | 26 / 23 | 6.42 / 5.68% | Fix helps pair, neither wins |
-| Packed model + structural beam | 405 | 15 | 3.70% | Decoder candidate |
-| Ensemble greedy | 405 | 17 | 4.20% | Worse than selected decoder |
-| Ensemble + beam 10 + structural filter | 405 | 14 | 3.46% | Selected round two |
-| Targeted 20-line data, packed pilot | 453 | 24 | 5.30% | Reject against 20-edit incumbent |
-| Targeted 20-line data, ordinary pilot | 453 | 26 | 5.74% | Reject |
-| Targeted-data ensemble | 453 | 25 | 5.52% | Reject; retain incumbent |
-
-The final targeted pilots each ran 500 steps. The preregistered rule extended a candidate to 3000 only if fixed-decoder development errors were at most incumbent + 2; neither qualified. Several earlier promising trials did run 3000 steps. More training is not assumed to be better without a matched result.
-
-The expanded-repertoire synthetic trial reached 111/3252 (3.41%) at step 300 before interruption. It used a different synthetic set and lacked a comparable real-data evaluation, so it was not selected. More non-expert labels and word recombination failed to consistently help; this does not establish that good diverse labels are harmful.
-
-Two VLM probes failed on an untranscribed line: Gemma3:4b returned repetitive Kannada (37.0 seconds), and Gemma4:e2b returned repetitive Devanagari despite a chart (63.9 seconds). Both exhausted 700 tokens with incomplete JSON: **2/2 wrong-script/format failures**, no defensible CER. Raw outputs are preserved. Qwen3-VL8B did not complete amid local memory exhaustion; no accuracy is attributed to it. Subsequent ML ran in Colab.
-
-## Robustness, throughput and verification
-
-| Final model, 453 development code points | Edits | CER |
+| Same model, different reference version | Original historical test | Proposed source-audited reference |
 |---|---:|---:|
-| Unchanged | 20 | 4.42% |
-| Half resolution | 36 | 7.95% |
-| Gaussian blur radius 0.8 pixels | 18 | 3.97% |
-| Rotation 1 degree | 20 | 4.42% |
+| round4 | 26/123 (21.14%) | 15/128 (11.72%) |
+| incumbent | 26/123 (21.14%) | 15/128 (11.72%) |
 
-These probes are descriptive, not another test-set tuning loop. Mild blur helping slightly does not imply arbitrary blur is safe. The prior 405-character probe was 14/31/13/14 edits under the same four conditions. Other printed page 23 and handwritten page 4 have saved unscored output; no CER or handwriting success is claimed. The robust detector found 29 handwriting lines, but detection count alone cannot establish transcription quality.
+This table separates label effects from model effects. The incumbent's proposed-score reduction from 26/123 to 15/128 is **not an OCR improvement**. The changes were post-hoc, after earlier model outputs had been seen, so the revised score is diagnostic rather than a fresh unbiased estimate. Unresolved p18r-14 and p19r-06 readings remain unresolved. Re-rendering a modern font supports review but is not an oracle for historical glyph identity.
 
-The final page-20 CLI run took **2.907 seconds** on a two-thread Colab CPU, plus **0.044 seconds** model loading, for 16 lines. CPU/GPU text matched exactly. Page processing includes detection, recognition and scan artifacts; import startup/PDF rendering and final HTML serialization are outside this measurement. A previous page-19 run took 3.141 seconds. At the latest observation, 47 comparable printed pages would take roughly **137 seconds**, or **2.91N seconds** for N pages, excluding review and I/O variation. The supplied mix contains handwriting and cannot be promised the same quality.
+**Coverage remains narrow:** 34 supported Khojki characters have no positive examples in the 15 real training lines; some occur in synthetic replay only. Class coverage is recorded in `data/round4/class-coverage.json`. Output-vocabulary support is not recognition competence. A pixel-similarity audit examined 46 known lines / 190 separator-delimited word crops; three lines failed separator-count checks and were excluded from word crops. Similarity candidates are review prompts, not automatic relabelling.
 
-T4 usage displayed about 1.15 units/hour; 2.91 seconds would correspond to roughly 0.00093 units at that rate, but the measured CPU time is not a GPU billing benchmark. Notebook setup, uploads, browser delays and idle time dominated these tiny experiments. The final observed balance was **167.31**, **0 active sessions**, **0 units/hour**, preserving the 75-unit floor. All cloud output archives were size/SHA-256 checked, ZIP-integrity checked and extracted before runtime termination. Receipts and shutdown screenshots are retained.
+## Controlled experiments
 
-Initial annotation authoring/freezing spanned about 14 minutes (09:41–09:56 UTC), plus earlier chart inspection and later review. This is an AI-assisted elapsed window, not expert annotation productivity. Additional references were created in later rounds with ambiguity records. Expert adjudication remains the primary bottleneck.
+Nine new named training runs were completed. The initial six share the packed warm start, original labels, seed 503, learning rate 5e-5, 25% synthetic replay, robust layout and bold replay. They isolate no words, legacy red padding, fixed white padding, frozen BatchNorm statistics, fixed words plus frozen BatchNorm, and frozen recurrent weights. The frozen-recurrent pilot initially hit a cuDNN backward constraint; frozen weights now retain training mode with dropout disabled. It was rerun successfully; this failure is documented rather than counted as a completed accuracy result.
 
-Fifteen regression tests passed in the final cloud run (3.58 seconds). They cover CER scalar counting, CTC collapse/beam correctness, Unicode diagnostics, PDF input, empty pages, safe review HTML, frozen/disjoint references, faint-line/gap detection, word geometry and packed recurrence. Editable package/console checks passed in the prior evaluation. A lightweight local audit also checks current hashes, aggregate edits and Python syntax without model loading. Browser verification confirmed Khojki font rendering and a separate 16-line correction JSON without altering raw OCR.
+At most two 600-step pilots with <=16 edits were extended to 3000; ties chose red and white padding, preserving the paired comparison. Candidate selection also tested a two-new-member ensemble and a strongest-new/old-member ensemble. The single red-padding candidate tied the 14-edit incumbent; its historical regression totals were 17/118 and 26/123.
 
-Deployment SHA-256: `6646034c85ad073ce64e7dd1c4efe15ab2dbf68a023e435382eff3f79ff50b5c`. See [MODEL_CARD.md](MODEL_CARD.md), [round3-evaluation-complete.json](results/round3-evaluation-complete.json), [round3-report.json](results/round3-report.json) and the visual comparisons. The final training/decoder selection used development data; fresh test results were not used to choose the deployed candidate.
+The follow-up uses seed 607 and a five-times-lower learning rate (1e-5): original labels, one corrected training label, and corrected labels plus 10% fixed word recombination. All first run 1000 steps. Up to two candidates with <=15 development edits extend to 5000, retaining the best checkpoint. The final selection compares these with incumbents and one mixed ensemble, then five fixed optical variants: weaker ink, stronger ink, mild blur, three-strength averaging and original/blur averaging. No new test predictions enter this selection. The small reused development set makes every selected minimum optimistic.
+
+
+### 600-step pilots
+
+| Candidate | Edits / 405 | CER |
+|---|---:|---:|
+| incumbent | 14 | 3.46% |
+| packed-start | 15 | 3.70% |
+| r4-control | 17 | 4.20% |
+| r4-word-red | 16 | 3.95% |
+| r4-word-white | 16 | 3.95% |
+| r4-freezebn | 16 | 3.95% |
+| r4-word-white-freezebn | 16 | 3.95% |
+| r4-freezernn | 16 | 3.95% |
+
+### After paired 3000-step extensions
+
+| Candidate | Edits / 405 | CER |
+|---|---:|---:|
+| incumbent | 14 | 3.46% |
+| packed-start | 15 | 3.70% |
+| r4-control | 17 | 4.20% |
+| r4-word-red | 14 | 3.46% |
+| r4-word-white | 16 | 3.95% |
+| r4-freezebn | 16 | 3.95% |
+| r4-word-white-freezebn | 16 | 3.95% |
+| r4-freezernn | 16 | 3.95% |
+| new-ensemble | 14 | 3.46% |
+| mixed-ensemble | 15 | 3.70% |
+
+### 1000-step low-rate pilots
+
+| Candidate | Edits / 405 | CER |
+|---|---:|---:|
+| r4-low-original | 16 | 3.95% |
+| r4-low-corrected | 18 | 4.44% |
+| r4-low-white | 18 | 4.44% |
+
+### Final development-only selection
+
+| Candidate | Edits / 405 | CER |
+|---|---:|---:|
+| incumbent | 14 | 3.46% |
+| round4-selected | 14 | 3.46% |
+| r4-low-original | 16 | 3.95% |
+| r4-low-corrected | 18 | 4.44% |
+| r4-low-white | 18 | 4.44% |
+| low-mixed | 18 | 4.44% |
+| incumbent-weak | 18 | 4.44% |
+| incumbent-strong | 16 | 3.95% |
+| incumbent-blur | 15 | 3.70% |
+| incumbent-ink-average | 16 | 3.95% |
+| incumbent-blur-average | 15 | 3.70% |
+
+### Training lengths and saved checkpoints
+
+| Run | Total completed steps | Best greedy checkpoint step | Best greedy dev edits / 405 |
+|---|---:|---:|---:|
+| r4-control | 600 | 50 | 18 |
+| r4-word-red | 3000 | 2250 | 15 |
+| r4-word-white | 3000 | 250 | 18 |
+| r4-freezebn | 600 | 50 | 18 |
+| r4-word-white-freezebn | 600 | 550 | 18 |
+| r4-freezernn | 600 | 50 | 16 |
+| r4-low-original | 1000 | 950 | 19 |
+| r4-low-corrected | 1000 | 750 | 20 |
+| r4-low-white | 1000 | 250 | 19 |
+
+Training checkpoint choice uses greedy CER every 50 steps; the tables above re-evaluate best checkpoints with the fixed beam-10 structural decoder. The two criteria are deliberately named, not conflated. Full histories, including later regressions, are retained. Best/last checkpoints include optimizer and RNG state. Longer training was used when pilots met the predeclared rule, rather than assumed to improve quality.
+
+## Fresh evaluation and stage attribution
+
+The first five detected body lines on previously untranscribed page 21 were selected before round-four outputs. All five were retained. Chart-based references and two explicit alternatives were frozen before any recognition output for that page was read (`data/round4/test-freeze.json`). Two lines have unresolved base-letter ambiguity. Predeclared alternatives give **17.50%–17.50% CER**; this is a sensitivity range, not a confidence interval. The fixed primary denominator is 120 scalar values. Do not merge these sequential tests into an independent benchmark.
+
+- Missed selected lines: **0**.
+- Automatic versus checked crops: **21 versus 21 edits**; 0 changed predictions.
+- Space-involving edits: **0**; other character edits: **21**.
+- Invalid-inventory characters: **0**; UTF-8 failures: **0**.
+- Exact primary-reference lines: **0/5**.
+
+This is an operational breakdown. Valid-but-wrong code points are recognition errors that an inventory check cannot detect; crop interventions do not uniquely prove causation. Unlabelled page regions are not scored. Three repeated alignments pair inserted PA with independent E-to-vowel-I substitution; a fourth E location is also confused. E has no positive real training example. E and PA+I have similar outlines but remain distinct encodings; this post-evaluation diagnostic does not change references. Detailed alignments and code points are in `results/round4-report.json`.
+
+## Reproducibility, throughput and limits
+
+The final serialized checkpoint reproduced every selected development prediction. All 16 regression tests passed in the final cloud evaluation. A subsequent diagnostic-only Unicode audit added missing atomic I/U/AI/AU checks from Unicode 17 Table 15-4; 14 focused tests passed locally without importing ML libraries. This adds warnings, not text rewriting or decoder changes. CPU and CUDA produced identical full-page-21 text. The CPU CLI processed 16 lines in **3.283 seconds**, plus **0.045 seconds** loading, using two threads. This excludes Python startup/PDF rasterization and manual review. Rough extrapolation: **154 seconds for 47 comparable printed pages**, or 3.28N seconds for N pages. The mixed handwritten collection cannot inherit this quality estimate.
+
+Deployment contains 2 model member(s), 2,121,892 parameters in total; optical views are `[[1.0, 0.0]]`. No API or retraining is required. SHA-256: `b4398167ea03e71277d09eba4cf5a55ef3efac454738f649f01169343ec3abb6`. Model files, all nine resumable experiment archives, manifests, complete logs and outputs were saved and verified before runtime deletion. Final observed balance: **166.94 units**, **0 active sessions**, **0 ongoing usage**, above the 75-unit reserve.
+
+The next high-value work is 200–500 independently adjudicated printed lines spanning books, rare forms and degradation, with book-disjoint tests and a measured learning curve. That is a planning estimate, not a promise. Handwriting needs writer-disjoint labels and a different geometry regime; no handwriting accuracy is claimed. Further tiny-development-set tuning cannot substitute for reference quality or coverage.

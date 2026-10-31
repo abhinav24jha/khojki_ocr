@@ -1,0 +1,12 @@
+{
+  "utc": "2026-10-31T15:59:36.301Z",
+  "remaining_units": 166.94,
+  "active_sessions": 0,
+  "units_per_hour": 0,
+  "exports_verified": true,
+  "notebook": "https://colab.research.google.com/drive/1SWpul2SINlicbTd2WrMXbad5OFv_SWUy",
+  "evidence": [
+    "round4-no-active-sessions.png",
+    "round4-credit-balance.png"
+  ]
+}

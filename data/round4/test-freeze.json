@@ -1,0 +1,19 @@
+{
+  "utc": "2026-10-31T15:44:44.579035+00:00",
+  "annotation_sha256": "21c49b2e35be6bccc54d688ae259bd507bffde8bbec74fa759ac57b2707678cb",
+  "prediction_seen": false,
+  "selection_policy": "First five detected body lines selected before round4 training outputs; all retained, including uncertainty.",
+  "reference_status": "Non-expert, source/chart based; expert validation required. Do not equate CER with certified accuracy.",
+  "characters": 120,
+  "uncertain_lines": [
+    "p21a-04",
+    "p21a-05"
+  ],
+  "image_sha256": {
+    "lines/p21a-01.png": "f17071d0e508dc6bbdf188ee0b77de3aac30523974bbbc7cc38ef34e8d435615",
+    "lines/p21a-02.png": "60fac030c29c47c47c785199c3b02efce4068a254dfdac54afbfb6053ab2a3d8",
+    "lines/p21a-03.png": "c4d5d616d9dc2c6871a8057fa6b3e911dddf869b19d1ce5b3db3d6a9b80187dd",
+    "lines/p21a-04.png": "edff047c7e0b5c522d2ce70ca2e327ccbf7833c82e8b3fbb44ed89c7d06439e5",
+    "lines/p21a-05.png": "4fc9f2b24a24aa59f39743cbbc34f2db9067d71feb4d1e291fe8048efc3f7b26"
+  }
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "name": "r4-control-results.zip",
+    "bytes": 23900474,
+    "sha256": "62d9c3ea187c4d5f9112c6e74376b5478b0c5faf79c37eb52b3f430335f77c8d"
+  },
+  {
+    "name": "r4-word-red-results.zip",
+    "bytes": 23869367,
+    "sha256": "bff9a00be9083cc8a194b46a2705067d92cf59277a88393372106bd4e9886738"
+  },
+  {
+    "name": "r4-word-white-results.zip",
+    "bytes": 23889467,
+    "sha256": "808ef25b4772d052ba6932cec59d5d784104bfe5ac9f11d50a91d2dbcac8990a"
+  },
+  {
+    "name": "r4-freezebn-results.zip",
+    "bytes": 23871944,
+    "sha256": "969775dd1c268378f771a99e8d6b631e192e6110b4a7f343257339413fae4747"
+  },
+  {
+    "name": "r4-word-white-freezebn-results.zip",
+    "bytes": 23841383,
+    "sha256": "7b3993aa9aca1cb2ce57b69c9d5ba3277aec95bd12d39eea9352e1de49c1268c"
+  },
+  {
+    "name": "r4-freezernn-results.zip",
+    "bytes": 12887417,
+    "sha256": "0ef7ad2ef3daca0096fd7c6e2de7c9a9e36451b0d27e9f707cbb474ed05c80ea"
+  },
+  {
+    "name": "round4-selection-results.zip",
+    "bytes": 8309815,
+    "sha256": "c97c26c1a5613a88f9ec386170e3cd561a83b9798ff3d00f8791a38c40bae48b"
+  }
+]

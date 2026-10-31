@@ -1,0 +1,59 @@
+{
+  "cpu_gpu_page_text_equal": true,
+  "cpu_page": {
+    "image_size": [
+      760,
+      1200
+    ],
+    "region": [
+      58,
+      115,
+      694,
+      1119
+    ],
+    "manual_region": false,
+    "layout": "robust",
+    "line_count": 16,
+    "detection_seconds": 0.17774632999999085,
+    "recognition_seconds": 2.7073083719994884,
+    "processing_seconds": 3.2826206199999888,
+    "scope": "Prototype for printed Khojki. All lines require review; handwriting is unvalidated."
+  },
+  "cpu_run": {
+    "source": "/content/khojki-ocr/data/pages/p21.png",
+    "checkpoint_sha256": "b4398167ea03e71277d09eba4cf5a55ef3efac454738f649f01169343ec3abb6",
+    "device": "cpu",
+    "model_load_seconds": 0.04480118899982699,
+    "pages": [
+      {
+        "page": 1,
+        "image_size": [
+          760,
+          1200
+        ],
+        "region": [
+          58,
+          115,
+          694,
+          1119
+        ],
+        "manual_region": false,
+        "layout": "robust",
+        "line_count": 16,
+        "detection_seconds": 0.17774632999999085,
+        "recognition_seconds": 2.7073083719994884,
+        "processing_seconds": 3.2826206199999888,
+        "scope": "Prototype for printed Khojki. All lines require review; handwriting is unvalidated."
+      }
+    ]
+  },
+  "members": 2,
+  "parameters": 2121892,
+  "views": [
+    [
+      1.0,
+      0.0
+    ]
+  ],
+  "checkpoint_sha256": "b4398167ea03e71277d09eba4cf5a55ef3efac454738f649f01169343ec3abb6"
+}

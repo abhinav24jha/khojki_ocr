@@ -1,0 +1,27 @@
+[
+  {
+    "name": "r4-low-original-results.zip",
+    "bytes": 23879902,
+    "sha256": "54c14406fdb3a4c7392cd58de777f0de9f8e5d5a9a262a3e1dbc06a8f7903806"
+  },
+  {
+    "name": "r4-low-corrected-results.zip",
+    "bytes": 23876438,
+    "sha256": "e935394d6a9727d6907c3a8a65abfb54a193e75fbde2e7553baa3b912041a290"
+  },
+  {
+    "name": "r4-low-white-results.zip",
+    "bytes": 23879170,
+    "sha256": "c9d6ebcc79d91c6b72c1dccd67255cf7cf789cd095a231b0deb9f51c53c35bc6"
+  },
+  {
+    "name": "round4-followup-results.zip",
+    "bytes": 19686270,
+    "sha256": "46da65ba48c373f588cf0b951439612a992b965e96d4e428142781bdc52bc2c3"
+  },
+  {
+    "name": "round4-verification-results.zip",
+    "bytes": 1538289,
+    "sha256": "b585636d5396a10a7dbb0101fd05c0c3c9ca71d36a11ca7edcea8cf6784df561"
+  }
+]

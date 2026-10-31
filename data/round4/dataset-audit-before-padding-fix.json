@@ -1,0 +1,771 @@
+{
+  "method": "Pixel-normalized visual similarity only; candidates for human visual audit, not automatic reference edits. No model predictions read.",
+  "line_count": 46,
+  "word_count": 190,
+  "separator_rejected_lines": [
+    "p17r-03",
+    "p17r-13",
+    "p19r-10"
+  ],
+  "candidate_pairs": [
+    {
+      "distance": 0.014978838819304537,
+      "first": {
+        "id": "p17r-10-w5",
+        "text": "𑈙𑈡𑈭𑈺"
+      },
+      "second": {
+        "id": "p17r-10-w2",
+        "text": "𑈙𑈡𑈺"
+      }
+    },
+    {
+      "distance": 0.01780905813909509,
+      "first": {
+        "id": "p20r-09-w5",
+        "text": "𑈊𑈯𑈁𑈡𑈺"
+      },
+      "second": {
+        "id": "p20r-03-w5",
+        "text": "𑈊𑈮𑈁𑈞𑈺"
+      }
+    },
+    {
+      "distance": 0.04191281526387134,
+      "first": {
+        "id": "p18r-01-w3",
+        "text": "𑈙𑈡𑈺"
+      },
+      "second": {
+        "id": "p17r-10-w5",
+        "text": "𑈙𑈡𑈭𑈺"
+      }
+    },
+    {
+      "distance": 0.04791132979580735,
+      "first": {
+        "id": "p18r-03-w5",
+        "text": "𑈐𑈬𑈙𑈮𑈺"
+      },
+      "second": {
+        "id": "p17r-10-w6",
+        "text": "𑈐𑈬𑈤𑈬𑈺"
+      }
+    },
+    {
+      "distance": 0.04859461320201921,
+      "first": {
+        "id": "p17r-09-w6",
+        "text": "𑈦𑈤𑈬𑈺"
+      },
+      "second": {
+        "id": "p17r-02-w6",
+        "text": "𑈪𑈲𑈤𑈬𑈺"
+      }
+    },
+    {
+      "distance": 0.05177546230596305,
+      "first": {
+        "id": "p20r-11-w3",
+        "text": "𑈩𑈙𑈊𑈯𑈦𑈈𑈰𑈺"
+      },
+      "second": {
+        "id": "p20r-07-w3",
+        "text": "𑈩𑈙𑈊𑈯𑈦𑈈𑈯𑈴𑈺"
+      }
+    },
+    {
+      "distance": 0.06181883009123479,
+      "first": {
+        "id": "p17r-14-w1",
+        "text": "𑈙𑈡𑈺"
+      },
+      "second": {
+        "id": "p17r-10-w5",
+        "text": "𑈙𑈡𑈭𑈺"
+      }
+    },
+    {
+      "distance": 0.06328710232267208,
+      "first": {
+        "id": "p19r-01-w1",
+        "text": "𑈙𑈡𑈺"
+      },
+      "second": {
+        "id": "p17r-10-w5",
+        "text": "𑈙𑈡𑈭𑈺"
+      }
+    },
+    {
+      "distance": 0.06424576097433342,
+      "first": {
+        "id": "p20r-09-w3",
+        "text": "𑈙𑈡𑈺"
+      },
+      "second": {
+        "id": "p17r-10-w5",
+        "text": "𑈙𑈡𑈭𑈺"
+      }
+    },
+    {
+      "distance": 0.07297780269289728,
+      "first": {
+        "id": "p17r-02-w2",
+        "text": "𑈀𑈴𑈙𑈺"
+      },
+      "second": {
+        "id": "p17r-02-w1",
+        "text": "𑈁𑈜𑈺"
+      }
+    },
+    {
+      "distance": 0.07388351905967484,
+      "first": {
+        "id": "p18r-05-w2",
+        "text": "𑈢𑈭𑈦𑈴𑈐𑈞𑈺"
+      },
+      "second": {
+        "id": "p20r-04-w1",
+        "text": "𑈞𑈭𑈦𑈴𑈐𑈞𑈺"
+      }
+    },
+    {
+      "distance": 0.0745559480325722,
+      "first": {
+        "id": "p18r-03-w2",
+        "text": "𑈩𑈡𑈺"
+      },
+      "second": {
+        "id": "p17r-10-w5",
+        "text": "𑈙𑈡𑈭𑈺"
+      }
+    },
+    {
+      "distance": 0.07696263116243081,
+      "first": {
+        "id": "p19r-02-w5",
+        "text": "𑈞𑈺"
+      },
+      "second": {
+        "id": "p17r-08-w4",
+        "text": "𑈞𑈰𑈺"
+      }
+    },
+    {
+      "distance": 0.079673112605559,
+      "first": {
+        "id": "p20r-03-w3",
+        "text": "𑈙𑈡𑈺"
+      },
+      "second": {
+        "id": "p17r-10-w5",
+        "text": "𑈙𑈡𑈭𑈺"
+      }
+    },
+    {
+      "distance": 0.08168289844282649,
+      "first": {
+        "id": "p20r-09-w4",
+        "text": "𑈀𑈤𑈦𑈺"
+      },
+      "second": {
+        "id": "p19r-03-w4",
+        "text": "𑈀𑈟𑈬𑈦𑈺"
+      }
+    },
+    {
+      "distance": 0.08225721666106826,
+      "first": {
+        "id": "p17r-10-w5",
+        "text": "𑈙𑈡𑈭𑈺"
+      },
+      "second": {
+        "id": "p17r-06-w1",
+        "text": "𑈙𑈡𑈺"
+      }
+    },
+    {
+      "distance": 0.08283260981037135,
+      "first": {
+        "id": "p18r-03-w2",
+        "text": "𑈩𑈡𑈺"
+      },
+      "second": {
+        "id": "p17r-10-w2",
+        "text": "𑈙𑈡𑈺"
+      }
+    },
+    {
+      "distance": 0.08555558325565703,
+      "first": {
+        "id": "p18r-15-w4",
+        "text": "𑈈𑈬𑈤𑈬𑈺"
+      },
+      "second": {
+        "id": "p18r-15-w3",
+        "text": "𑈈𑈦𑈙𑈬𑈺"
+      }
+    },
+    {
+      "distance": 0.08710133009515705,
+      "first": {
+        "id": "p17r-09-w6",
+        "text": "𑈦𑈤𑈬𑈺"
+      },
+      "second": {
+        "id": "p17r-01-w4",
+        "text": "𑈪𑈲𑈤𑈬𑈺"
+      }
+    },
+    {
+      "distance": 0.08982358090221568,
+      "first": {
+        "id": "p18r-15-w3",
+        "text": "𑈈𑈦𑈙𑈬𑈺"
+      },
+      "second": {
+        "id": "p20r-06-w4",
+        "text": "𑈈𑈮𑈤𑈬𑈺"
+      }
+    },
+    {
+      "distance": 0.09483757514249883,
+      "first": {
+        "id": "p18r-05-w1",
+        "text": "𑈁𑈟𑈺"
+      },
+      "second": {
+        "id": "p17r-05-w1",
+        "text": "𑈁𑈜𑈺"
+      }
+    },
+    {
+      "distance": 0.09502914559758574,
+      "first": {
+        "id": "p20r-09-w4",
+        "text": "𑈀𑈤𑈦𑈺"
+      },
+      "second": {
+        "id": "p19r-07-w4",
+        "text": "𑈀𑈟𑈬𑈦𑈺"
+      }
+    },
+    {
+      "distance": 0.09617341992678081,
+      "first": {
+        "id": "p17r-02-w4",
+        "text": "𑈙𑈰𑈐𑈺"
+      },
+      "second": {
+        "id": "p17r-02-w3",
+        "text": "𑈤𑈮𑈪𑈰𑈺"
+      }
+    },
+    {
+      "distance": 0.09738230976729328,
+      "first": {
+        "id": "p18r-03-w2",
+        "text": "𑈩𑈡𑈺"
+      },
+      "second": {
+        "id": "p18r-01-w3",
+        "text": "𑈙𑈡𑈺"
+      }
+    }
+  ],
+  "training_counts": {
+    "𑈟": 18,
+    "𑈰": 18,
+    "𑈪": 14,
+    "𑈧": 5,
+    "𑈬": 23,
+    "𑈺": 74,
+    "𑈩": 15,
+    "𑈯": 9,
+    "𑈮": 17,
+    "𑈐": 9,
+    "𑈞": 18,
+    "𑈭": 12,
+    "𑈦": 13,
+    "𑈴": 14,
+    "𑈲": 7,
+    "𑈤": 11,
+    " ": 15,
+    "૧": 8,
+    "𑈁": 8,
+    "𑈜": 4,
+    "𑈀": 4,
+    "𑈙": 23,
+    "૨": 2,
+    "𑈡": 10,
+    "𑈢": 3,
+    "𑈃": 2,
+    "૩": 2,
+    "૪": 2,
+    "𑈈": 7,
+    "૫": 2,
+    "𑈊": 4,
+    "૬": 1,
+    "૭": 1,
+    "૮": 1,
+    "૯": 1,
+    "૦": 1,
+    "𑈉": 1,
+    "𑈗": 1,
+    "𑈂": 1,
+    "𑈏": 1,
+    "𑈠": 1,
+    "𑈎": 1
+  },
+  "coverage": [
+    {
+      "id": "p17r-01",
+      "characters": 28,
+      "unseen": {},
+      "rare_less_than_three": {}
+    },
+    {
+      "id": "p17r-02",
+      "characters": 25,
+      "unseen": {},
+      "rare_less_than_three": {
+        "૨": 1
+      }
+    },
+    {
+      "id": "p17r-03",
+      "characters": 24,
+      "unseen": {},
+      "rare_less_than_three": {
+        "𑈃": 1,
+        "૩": 1
+      }
+    },
+    {
+      "id": "p17r-04",
+      "characters": 24,
+      "unseen": {},
+      "rare_less_than_three": {
+        "૪": 1
+      }
+    },
+    {
+      "id": "p17r-05",
+      "characters": 20,
+      "unseen": {},
+      "rare_less_than_three": {
+        "૫": 1
+      }
+    },
+    {
+      "id": "p17r-06",
+      "characters": 29,
+      "unseen": {},
+      "rare_less_than_three": {
+        "૬": 1
+      }
+    },
+    {
+      "id": "p17r-07",
+      "characters": 21,
+      "unseen": {},
+      "rare_less_than_three": {
+        "૭": 1
+      }
+    },
+    {
+      "id": "p17r-08",
+      "characters": 23,
+      "unseen": {},
+      "rare_less_than_three": {
+        "૮": 1
+      }
+    },
+    {
+      "id": "p17r-09",
+      "characters": 28,
+      "unseen": {},
+      "rare_less_than_three": {
+        "૯": 1
+      }
+    },
+    {
+      "id": "p17r-10",
+      "characters": 31,
+      "unseen": {},
+      "rare_less_than_three": {
+        "૦": 1
+      }
+    },
+    {
+      "id": "p17r-11",
+      "characters": 27,
+      "unseen": {},
+      "rare_less_than_three": {
+        "𑈉": 1,
+        "𑈗": 1,
+        "𑈃": 1
+      }
+    },
+    {
+      "id": "p17r-12",
+      "characters": 29,
+      "unseen": {},
+      "rare_less_than_three": {
+        "૨": 1
+      }
+    },
+    {
+      "id": "p17r-13",
+      "characters": 24,
+      "unseen": {},
+      "rare_less_than_three": {
+        "𑈂": 1,
+        "૩": 1
+      }
+    },
+    {
+      "id": "p17r-14",
+      "characters": 24,
+      "unseen": {},
+      "rare_less_than_three": {
+        "𑈏": 1,
+        "𑈠": 1,
+        "𑈎": 1,
+        "૪": 1
+      }
+    },
+    {
+      "id": "p17r-15",
+      "characters": 27,
+      "unseen": {},
+      "rare_less_than_three": {
+        "૫": 1
+      }
+    },
+    {
+      "id": "p18r-01",
+      "characters": 28,
+      "unseen": {},
+      "rare_less_than_three": {
+        "𑈃": 1,
+        "𑈠": 1,
+        "૬": 1
+      }
+    },
+    {
+      "id": "p18r-02",
+      "characters": 23,
+      "unseen": {
+        "𑈛": 1
+      },
+      "rare_less_than_three": {
+        "𑈛": 1,
+        "𑈠": 1,
+        "૭": 1
+      }
+    },
+    {
+      "id": "p18r-03",
+      "characters": 24,
+      "unseen": {
+        "𑈘": 1
+      },
+      "rare_less_than_three": {
+        "𑈘": 1,
+        "૮": 1
+      }
+    },
+    {
+      "id": "p19r-01",
+      "characters": 25,
+      "unseen": {},
+      "rare_less_than_three": {
+        "𑈎": 1,
+        "૯": 1
+      }
+    },
+    {
+      "id": "p19r-02",
+      "characters": 31,
+      "unseen": {},
+      "rare_less_than_three": {
+        "𑈃": 1,
+        "𑈠": 1,
+        "૦": 1
+      }
+    },
+    {
+      "id": "p19r-03",
+      "characters": 22,
+      "unseen": {},
+      "rare_less_than_three": {
+        "𑈏": 1,
+        "𑈎": 2
+      }
+    },
+    {
+      "id": "p19r-04",
+      "characters": 27,
+      "unseen": {},
+      "rare_less_than_three": {
+        "𑈉": 1,
+        "𑈗": 1,
+        "𑈃": 1,
+        "૨": 1
+      }
+    },
+    {
+      "id": "p19r-05",
+      "characters": 21,
+      "unseen": {
+        "𑈝": 2
+      },
+      "rare_less_than_three": {
+        "𑈎": 1,
+        "𑈝": 2,
+        "૩": 1
+      }
+    },
+    {
+      "id": "p20r-01",
+      "characters": 31,
+      "unseen": {
+        "𑈥": 1
+      },
+      "rare_less_than_three": {
+        "𑈥": 1,
+        "૨": 1
+      }
+    },
+    {
+      "id": "p20r-02",
+      "characters": 25,
+      "unseen": {
+        "𑈝": 4
+      },
+      "rare_less_than_three": {
+        "𑈝": 4,
+        "૩": 1
+      }
+    },
+    {
+      "id": "p20r-03",
+      "characters": 24,
+      "unseen": {},
+      "rare_less_than_three": {
+        "૪": 1
+      }
+    },
+    {
+      "id": "p20r-04",
+      "characters": 24,
+      "unseen": {
+        "𑈝": 1
+      },
+      "rare_less_than_three": {
+        "𑈎": 1,
+        "𑈝": 1,
+        "૫": 1
+      }
+    },
+    {
+      "id": "p20r-05",
+      "characters": 25,
+      "unseen": {
+        "𑈝": 1
+      },
+      "rare_less_than_three": {
+        "𑈝": 1,
+        "૬": 1
+      }
+    },
+    {
+      "id": "p20r-06",
+      "characters": 23,
+      "unseen": {},
+      "rare_less_than_three": {
+        "𑈎": 1,
+        "૭": 1
+      }
+    },
+    {
+      "id": "p20r-07",
+      "characters": 27,
+      "unseen": {
+        "𑈚": 1,
+        "𑈛": 1
+      },
+      "rare_less_than_three": {
+        "𑈚": 1,
+        "𑈛": 1,
+        "૮": 1
+      }
+    },
+    {
+      "id": "p20r-08",
+      "characters": 25,
+      "unseen": {},
+      "rare_less_than_three": {
+        "𑈉": 1,
+        "𑈗": 2,
+        "𑈎": 1,
+        "૯": 1
+      }
+    },
+    {
+      "id": "p18r-05",
+      "characters": 15,
+      "unseen": {},
+      "rare_less_than_three": {
+        "𑈃": 1
+      }
+    },
+    {
+      "id": "p18r-07",
+      "characters": 17,
+      "unseen": {},
+      "rare_less_than_three": {
+        "𑈃": 1
+      }
+    },
+    {
+      "id": "p18r-09",
+      "characters": 26,
+      "unseen": {},
+      "rare_less_than_three": {}
+    },
+    {
+      "id": "p18r-10",
+      "characters": 23,
+      "unseen": {
+        "𑈛": 1,
+        "𑈨": 1
+      },
+      "rare_less_than_three": {
+        "𑈃": 1,
+        "𑈛": 1,
+        "𑈨": 1,
+        "૨": 1
+      }
+    },
+    {
+      "id": "p18r-11",
+      "characters": 19,
+      "unseen": {
+        "𑈘": 1
+      },
+      "rare_less_than_three": {
+        "𑈘": 1,
+        "૩": 1
+      }
+    },
+    {
+      "id": "p19r-06",
+      "characters": 23,
+      "unseen": {
+        "𑈣": 1
+      },
+      "rare_less_than_three": {
+        "𑈏": 1,
+        "𑈣": 1,
+        "૪": 1
+      }
+    },
+    {
+      "id": "p19r-07",
+      "characters": 22,
+      "unseen": {
+        "𑈣": 1
+      },
+      "rare_less_than_three": {
+        "𑈣": 1,
+        "૫": 1
+      }
+    },
+    {
+      "id": "p19r-08",
+      "characters": 23,
+      "unseen": {},
+      "rare_less_than_three": {
+        "𑈉": 1,
+        "𑈎": 1,
+        "૬": 1
+      }
+    },
+    {
+      "id": "p19r-09",
+      "characters": 24,
+      "unseen": {
+        "𑈨": 2
+      },
+      "rare_less_than_three": {
+        "𑈨": 2,
+        "𑈎": 1,
+        "૭": 1
+      }
+    },
+    {
+      "id": "p19r-10",
+      "characters": 26,
+      "unseen": {},
+      "rare_less_than_three": {
+        "૮": 1
+      }
+    },
+    {
+      "id": "p20r-09",
+      "characters": 26,
+      "unseen": {},
+      "rare_less_than_three": {
+        "૦": 1
+      }
+    },
+    {
+      "id": "p20r-10",
+      "characters": 26,
+      "unseen": {
+        "𑈘": 2,
+        "𑈥": 1,
+        "𑈣": 1
+      },
+      "rare_less_than_three": {
+        "𑈘": 2,
+        "𑈥": 1,
+        "𑈣": 1
+      }
+    },
+    {
+      "id": "p20r-11",
+      "characters": 24,
+      "unseen": {},
+      "rare_less_than_three": {
+        "𑈏": 1,
+        "૨": 1
+      }
+    },
+    {
+      "id": "p18r-14",
+      "characters": 23,
+      "unseen": {
+        "𑈓": 1
+      },
+      "rare_less_than_three": {
+        "𑈃": 1,
+        "𑈎": 1,
+        "𑈓": 1,
+        "𑈂": 1,
+        "૬": 1
+      }
+    },
+    {
+      "id": "p18r-15",
+      "characters": 24,
+      "unseen": {},
+      "rare_less_than_three": {
+        "𑈠": 1,
+        "૭": 1
+      }
+    }
+  ]
+}

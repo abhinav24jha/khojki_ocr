@@ -148,3 +148,18 @@ def test_compact_ensemble_loads_and_reproduces_identical_members(tmp_path):
     a=Recognizer(single);b=Recognizer(ensemble)
     image=Image.new('L',(80,48),255)
     assert len(b.models)==2 and a(image)==b(image)
+
+
+def test_rgb_training_word_padding_is_white_not_red():
+    from khojki_ocr.word_augmentation import training_words
+    rows=json.loads((ROOT/'data/annotations.json').read_text())
+    row=next(r for r in rows if r['id']=='p17r-01')
+    rgb=Image.open(ROOT/'data'/row['image']).convert('RGB')
+    words=training_words(rgb,row['text'],preserve_height=True)
+    assert words
+    for crop,_ in words:
+        assert crop.mode=='L'
+        assert np.all(np.asarray(crop)[:,:3]==255)
+        assert np.all(np.asarray(crop)[:,-3:]==255)
+    legacy=training_words(rgb,row['text'],preserve_height=True,white_padding=False)
+    assert legacy[0][0].getpixel((0,0))==(255,0,0)

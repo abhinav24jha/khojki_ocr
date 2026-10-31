@@ -13,7 +13,14 @@ def inspect_text(text):
             issues.append({'index':i,'code':'unsupported_codepoint','value':f'U+{ord(c):04X}','message':unicodedata.name(c,'UNASSIGNED')})
         if c in MARKS and (i==0 or text[i-1] not in LETTERS|MARKS):
             issues.append({'index':i,'code':'orphan_combining_sign'})
+    # Unicode 17, Table 15-4: visually decomposable vowels remain atomic.
+    # These are diagnostics, not automatic text substitutions.
     forbidden={
+        '\U00011240\U0001122e':'Use independent I U+11202, after confirming the source.',
+        '\U00011206\U0001122c':'Use independent U U+11203, after confirming the source.',
+        '\U00011200\U00011231':'Use independent AI U+11205, after confirming the source.',
+        '\U00011200\U00011233':'Use independent AU U+11207, after confirming the source.',
+        '\U00011200\U0001122c\U00011231':'Use independent AU U+11207, after confirming the source.',
         '\U00011200\U0001122c':'Use independent AA U+11201, after confirming the source.',
         '\U0001122c\U00011230':'O is U+11232, not AA+E.',
         '\U0001122c\U00011231':'AU is U+11233, not AA+AI.',

@@ -1,0 +1,62 @@
+{
+  "utc": "2026-10-31T15:38:21.113283+00:00",
+  "status": "Non-expert source/chart audit; original frozen datasets unchanged. These are proposed revised labels, not independent ground truth. Current training pilots use originals. Any revised-score comparison must separate label changes from model changes.",
+  "changes": [
+    {
+      "id": "p17r-10",
+      "original_tokens": "ta ba.i",
+      "replacement_tokens": "ta ba",
+      "scope": "training",
+      "reason": "Fifth word repeats the second word on the same line; the detached lower fragment lacks the tall I-sign stroke. Enlarged scan and rendered BA/BA+I alternatives support bare BA. Non-expert correction; preserve original.",
+      "evidence": [
+        "audit-p17r-10-w5.png",
+        "label-consistency-candidates.png"
+      ]
+    },
+    {
+      "id": "p20r-09",
+      "original_tokens": "ga.u aa ba",
+      "replacement_tokens": "ga.ii aa na",
+      "scope": "historical-test-reference-only",
+      "reason": "Near-identical to page20 line3 last word; source shows a right-descending II sign and a looped NA, not the below-base U sign and BA.",
+      "evidence": [
+        "audit-p20r-09-w5.png",
+        "label-consistency-candidates.png"
+      ]
+    },
+    {
+      "id": "p20r-10",
+      "original_tokens": "ha.aa ya",
+      "replacement_tokens": "ha.aa tha.u.an",
+      "scope": "historical-test-reference-only",
+      "reason": "Source shows three-peak THA body, a lower U bowl and an upper dot. YA would be two circles, absent here.",
+      "evidence": [
+        "audit-p20r-10-w4.png"
+      ]
+    },
+    {
+      "id": "p20r-10",
+      "original_tokens": "bha ba",
+      "replacement_tokens": "la.ii ta.ii",
+      "scope": "historical-test-reference-only",
+      "reason": "Both source syllables have long descending II-sign strokes. First body has LA upper hook/bar; second is single-arch TA. Proposed chart reading, not expert-certified.",
+      "evidence": [
+        "audit-p20r-10-w5.png"
+      ]
+    },
+    {
+      "id": "p20r-11",
+      "original_tokens": "ra ka.e",
+      "replacement_tokens": "ra ka.u.an",
+      "scope": "historical-test-reference-only",
+      "reason": "Source shows KA with lower loop and upper dot, matching same word on page20 line7. E is an upper slanted stroke, which is absent.",
+      "evidence": [
+        "audit-p20r-11-w3.png"
+      ]
+    }
+  ],
+  "unresolved": [
+    "p18r-14: first/last word apparent missing signs or bases; do not guess.",
+    "p19r-06: historical consonant identity remains unresolved."
+  ]
+}

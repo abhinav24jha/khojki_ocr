@@ -6,6 +6,10 @@ from reportlab.lib.styles import ParagraphStyle
 from reportlab.lib.colors import HexColor
 from pypdf import PdfReader
 ROOT=Path(__file__).resolve().parents[1]
+if (ROOT/'results/round4-report.json').exists():
+    from create_round4_retrospective import main
+    main()
+    raise SystemExit(0)
 r=json.loads((ROOT/'results/round3-report.json').read_text());e=json.loads((ROOT/'results/round3-evaluation-complete.json').read_text())
 seconds=e['cpu_page']['pages'][0]['processing_seconds']
 style=ParagraphStyle('body',fontName='Helvetica',fontSize=9.5,leading=12.2,textColor=HexColor('#253442'),spaceAfter=7)

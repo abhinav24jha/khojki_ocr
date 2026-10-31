@@ -38,5 +38,10 @@
     "experiment": "Targeted data expansion and frozen round-three evaluation",
     "url": "https://colab.research.google.com/drive/1i86c-5mmBax68_YTa8PXPJBlZhOwtP8w",
     "status": "completed, verified, runtime terminated"
+  },
+  {
+    "experiment": "Round-four padding, normalization, low-rate label audit and fresh evaluation",
+    "url": "https://colab.research.google.com/drive/1SWpul2SINlicbTd2WrMXbad5OFv_SWUy",
+    "status": "nine training runs completed, 12 result archives verified, runtime terminated; 166.94 units remaining"
   }
 ]

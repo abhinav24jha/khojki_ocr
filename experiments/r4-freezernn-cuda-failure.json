@@ -1,0 +1,7 @@
+{
+  "observed_error": "RuntimeError: cudnn RNN backward can only be called in training mode",
+  "stage": "First attempted r4-freezernn step, before any checkpoint was saved",
+  "cause": "Calling eval() on the frozen recurrent layer prevented cuDNN from storing the activations needed for upstream encoder gradients.",
+  "fix": "Keep the recurrent module in training mode, set its dropout to 0.0 and requires_grad=False on recurrent parameters.",
+  "outcome": "The same named 600-step pilot was rerun successfully; final evaluation has 16/405 development edits."
+}

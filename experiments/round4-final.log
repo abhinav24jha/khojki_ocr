@@ -1,0 +1,10 @@
+{"name": "incumbent", "paths": ["models/round3-selected.pt"], "errors": 14, "characters": 405, "cer": 0.0345679012345679}
+{"name": "packed-start", "paths": ["experiments/precision-packed/best.pt"], "errors": 15, "characters": 405, "cer": 0.037037037037037035}
+{"name": "r4-control", "paths": ["experiments/r4-control/best.pt"], "errors": 17, "characters": 405, "cer": 0.04197530864197531}
+{"name": "r4-word-red", "paths": ["experiments/r4-word-red/best.pt"], "errors": 14, "characters": 405, "cer": 0.0345679012345679}
+{"name": "r4-word-white", "paths": ["experiments/r4-word-white/best.pt"], "errors": 16, "characters": 405, "cer": 0.03950617283950617}
+{"name": "r4-freezebn", "paths": ["experiments/r4-freezebn/best.pt"], "errors": 16, "characters": 405, "cer": 0.03950617283950617}
+{"name": "r4-word-white-freezebn", "paths": ["experiments/r4-word-white-freezebn/best.pt"], "errors": 16, "characters": 405, "cer": 0.03950617283950617}
+{"name": "r4-freezernn", "paths": ["experiments/r4-freezernn/best.pt"], "errors": 16, "characters": 405, "cer": 0.03950617283950617}
+{"name": "new-ensemble", "paths": ["experiments/r4-word-red/best.pt", "experiments/r4-word-white/best.pt"], "errors": 14, "characters": 405, "cer": 0.0345679012345679}
+{"name": "mixed-ensemble", "paths": ["experiments/long-control/best.pt", "experiments/r4-word-red/best.pt"], "errors": 15, "characters": 405, "cer": 0.037037037037037035}

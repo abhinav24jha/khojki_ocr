@@ -26,7 +26,10 @@ def separator_positions(image):
         if not unique or pair[0]-unique[-1][0]>3:unique.append(pair)
     return unique
 
-def training_words(image,text,preserve_height=False):
+def training_words(image,text,preserve_height=False,white_padding=True):
+    # A scalar 255 is red in Pillow RGB mode, not white. Normalize mode first.
+    # The opt-out exists only to reproduce the historical augmentation ablation.
+    if white_padding:image=image.convert('L')
     positions=separator_positions(image)
     if not positions or len(positions)!=text.count(SEP):return []
     words=text.split(SEP)[:-1]

@@ -3,7 +3,7 @@ from pathlib import Path
 import cv2
 import numpy as np
 import torch
-from PIL import Image
+from PIL import Image,ImageFilter
 from khojki_ocr.model import CRNN,VOCAB,image_tensor,collate,decode
 from khojki_ocr.segment import ink_mask
 
@@ -43,18 +43,20 @@ def split_columns(image,mode='legacy'):
 
 
 class Recognizer:
-    def __init__(self,checkpoint,device='cpu',preprocessing='contrast',columns=True,beam_width=None,layout=None,constrained=None):
+    def __init__(self,checkpoint,device='cpu',preprocessing='contrast',columns=True,beam_width=None,layout=None,constrained=None,views=None):
         self.device=device;self.preprocessing=preprocessing;self.columns=columns
         self.beam_width=beam_width
         self.constrained=constrained
         paths=checkpoint if isinstance(checkpoint,(list,tuple)) else [checkpoint]
         self.models=[]
+        self.views=views
         for path in paths:
             saved=torch.load(path,map_location='cpu',weights_only=False)
             if layout is None:layout=saved.get('layout','legacy')
             if self.beam_width is None:self.beam_width=saved.get('beam_width',1)
             if self.constrained is None:self.constrained=saved.get('constrained',False)
             if saved['vocab']!=VOCAB:raise ValueError('Checkpoint vocabulary mismatch')
+            if self.views is None:self.views=saved.get('views',[[1.0,0.0]])
             height=saved.get('height',48)
             if self.models and height!=self.height:raise ValueError('Ensemble heights must match')
             self.height=height
@@ -65,11 +67,17 @@ class Recognizer:
         self.layout=layout
     def __call__(self,image):
         chunks=split_columns(image,self.layout) if self.columns else [image]
-        samples=[(image_tensor(preprocess(im,self.preprocessing),self.height),'') for im in chunks]
-        x,_,lengths,_,_=collate(samples)
         with torch.no_grad():
             import math
-            probs=torch.logsumexp(torch.stack([m(x.to(self.device),lengths) for m in self.models]),dim=0)-math.log(len(self.models))
+            all_probs=[]
+            for strength,blur in self.views:
+                images=[preprocess(im,self.preprocessing) for im in chunks]
+                if blur:images=[im.filter(ImageFilter.GaussianBlur(blur)) for im in images]
+                samples=[(image_tensor(im,self.height),'') for im in images]
+                x,_,lengths,_,_=collate(samples)
+                x=(x*strength).clamp(0,1).to(self.device)
+                all_probs.extend(m(x,lengths) for m in self.models)
+            probs=torch.logsumexp(torch.stack(all_probs),dim=0)-math.log(len(all_probs))
             if self.beam_width>1:
                 from khojki_ocr.decoding import beam_decode
                 from khojki_ocr.unicode import plausible_prefix

@@ -1,7 +1,7 @@
 {
   "model_file": "models/printed-khojki.pt",
-  "sha256": "6646034c85ad073ce64e7dd1c4efe15ab2dbf68a023e435382eff3f79ff50b5c",
-  "bytes": 8523551,
+  "sha256": "b4398167ea03e71277d09eba4cf5a55ef3efac454738f649f01169343ec3abb6",
+  "bytes": 8523321,
   "architecture": "Two CNN-BiLSTM-CTC models, one packed and one ordinary recurrence; log-mean probabilities",
   "parameters_per_member": 1060946,
   "height": 48,
@@ -17,15 +17,15 @@
   ],
   "primary_test": {
     "lines": 5,
-    "characters": 123,
+    "characters": 120,
     "missed_lines": 0,
-    "automatic_errors": 26,
-    "checked_crop_errors": 26,
+    "automatic_errors": 21,
+    "checked_crop_errors": 21,
     "crop_changes_prediction_lines": 0,
     "invalid_inventory_characters": 0,
     "utf8_failures": 0,
-    "automatic_cer": 0.21138211382113822,
-    "checked_crop_cer": 0.21138211382113822,
+    "automatic_cer": 0.175,
+    "checked_crop_cer": 0.175,
     "net_crop_error_difference": 0
   },
   "limitations": [
@@ -38,5 +38,14 @@
   "devices_verified": [
     "cpu",
     "cuda"
-  ]
+  ],
+  "round4_candidates_rejected": true,
+  "views": [
+    [
+      1.0,
+      0.0
+    ]
+  ],
+  "round4_note": "Original ensemble weights retained; explicit identity-view metadata added during serialization. Nine new runs and five optical variants did not improve development CER.",
+  "reference_audit": "data/round4/proposed-reference-revisions.json"
 }

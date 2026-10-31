@@ -13,7 +13,7 @@ if hashlib.sha256(a.pdf.read_bytes()).hexdigest()!=provenance['sha256']:
 reader=PdfReader(a.pdf)
 for directory in ['pages','lines','reference']:(ROOT/'data'/directory).mkdir(parents=True,exist_ok=True)
 rows_by_id={}
-for name in ['data/annotations.json','data/round2/expanded-train-dev.json','data/round2/test.json','data/round3/train-dev.json','data/round3/test.json']:
+for name in ['data/annotations.json','data/round2/expanded-train-dev.json','data/round2/test.json','data/round3/train-dev.json','data/round3/test.json','data/round4/test.json']:
     path=ROOT/name
     if path.exists():
         for row in json.loads(path.read_text()):rows_by_id[row['id']]=row

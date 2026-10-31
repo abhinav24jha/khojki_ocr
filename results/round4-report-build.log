@@ -1,0 +1,60 @@
+{
+  "selected": {
+    "name": "incumbent",
+    "paths": [
+      "models/round3-selected.pt"
+    ],
+    "views": [
+      [
+        1.0,
+        0.0
+      ]
+    ],
+    "errors": 14,
+    "characters": 405
+  },
+  "fresh": {
+    "lines": 5,
+    "characters": 120,
+    "missed_lines": 0,
+    "automatic_errors": 21,
+    "checked_crop_errors": 21,
+    "crop_changes_prediction_lines": 0,
+    "invalid_inventory_characters": 0,
+    "utf8_failures": 0,
+    "automatic_cer": 0.175,
+    "checked_crop_cer": 0.175,
+    "net_crop_error_difference": 0
+  },
+  "incumbent_fresh": {
+    "lines": 5,
+    "characters": 120,
+    "missed_lines": 0,
+    "automatic_errors": 21,
+    "checked_crop_errors": 21,
+    "crop_changes_prediction_lines": 0,
+    "invalid_inventory_characters": 0,
+    "utf8_failures": 0,
+    "automatic_cer": 0.175,
+    "checked_crop_cer": 0.175,
+    "net_crop_error_difference": 0
+  },
+  "predeclared_reference_sensitivity": {
+    "minimum": {
+      "errors": 21,
+      "characters": 120,
+      "cer": 0.175
+    },
+    "maximum": {
+      "errors": 21,
+      "characters": 120,
+      "cer": 0.175
+    },
+    "interpretation": "Range across source-declared alternatives, not a confidence interval or adjudicated truth."
+  },
+  "audit_interpretation": "Post-hoc non-expert source review; original frozen test labels unchanged. Proposed-label score changes are not model improvements. Report both models against the same reference version.",
+  "space_involving_edits": 0,
+  "other_edits": 21,
+  "exact_lines": 0,
+  "checkpoint_sha256": "b4398167ea03e71277d09eba4cf5a55ef3efac454738f649f01169343ec3abb6"
+}

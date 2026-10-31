@@ -1,0 +1,91 @@
+[
+  {
+    "id": "p21a-01",
+    "page": 21,
+    "image": "lines/p21a-01.png",
+    "box": [
+      121,
+      156,
+      670,
+      199
+    ],
+    "split": "test",
+    "text": "𑈁𑈜𑈺𑈟𑈯𑈦𑈩𑈈𑈬𑈺𑈄𑈪𑈙𑈮𑈐𑈺𑈟𑈰𑈧𑈬𑈺 ૧",
+    "annotation_tokens": "aa ddda : pa.u ra sa ka.aa : e ha ta.ii ja : pa.e la.aa : SPACE 1",
+    "annotation_method": "AI assistant visual source/chart transcription before any OCR outputs for this page; non-expert",
+    "uncertainty": "",
+    "alternate_references": []
+  },
+  {
+    "id": "p21a-02",
+    "page": 21,
+    "image": "lines/p21a-02.png",
+    "box": [
+      120,
+      217,
+      667,
+      259
+    ],
+    "split": "test",
+    "text": "𑈙𑈮𑈞𑈺𑈜𑈰𑈨𑈺𑈄𑈈𑈺𑈤𑈯𑈦𑈙𑈺𑈡𑈲𑈧𑈬𑈺 ૨",
+    "annotation_tokens": "ta.ii na : ddda.e va : e ka : ma.u ra ta : ba.o la.aa : SPACE 2",
+    "annotation_method": "AI assistant visual source/chart transcription before any OCR outputs for this page; non-expert",
+    "uncertainty": "",
+    "alternate_references": []
+  },
+  {
+    "id": "p21a-03",
+    "page": 21,
+    "image": "lines/p21a-03.png",
+    "box": [
+      76,
+      274,
+      692,
+      319
+    ],
+    "split": "test",
+    "text": "𑈩𑈙𑈊𑈯𑈦𑈺𑈤𑈮𑈪𑈰𑈺𑈦𑈄𑈁𑈺𑈀𑈈𑈰𑈧𑈬𑈺 ૩",
+    "annotation_tokens": "sa ta ga.u ra : ma.ii ha.e : ra e aa : a ka.e la.aa : SPACE 3",
+    "annotation_method": "AI assistant visual source/chart transcription before any OCR outputs for this page; non-expert",
+    "uncertainty": "",
+    "alternate_references": []
+  },
+  {
+    "id": "p21a-04",
+    "page": 21,
+    "image": "lines/p21a-04.png",
+    "box": [
+      120,
+      336,
+      671,
+      378
+    ],
+    "split": "test",
+    "text": "𑈢𑈭𑈙𑈺𑈃𑈕𑈺𑈈𑈦𑈰𑈺𑈪𑈦𑈉𑈯𑈴𑈺𑈐𑈰𑈧𑈬𑈺 ૪",
+    "annotation_tokens": "bba.i ta : u ttha : ka ra.e : ha ra kha.u.an : ja.e la.aa : SPACE 4",
+    "annotation_method": "AI assistant visual source/chart transcription before any OCR outputs for this page; non-expert",
+    "uncertainty": "Last word initial base JA versus DDDA is uncertain in the scan; primary JA selected from lower hooked outline and right stem.",
+    "alternate_references": [
+      "𑈢𑈭𑈙𑈺𑈃𑈕𑈺𑈈𑈦𑈰𑈺𑈪𑈦𑈉𑈯𑈴𑈺𑈜𑈰𑈧𑈬𑈺 ૪"
+    ]
+  },
+  {
+    "id": "p21a-05",
+    "page": 21,
+    "image": "lines/p21a-05.png",
+    "box": [
+      121,
+      394,
+      672,
+      438
+    ],
+    "split": "test",
+    "text": "𑈐𑈲𑈚𑈮𑈺𑈤𑈄𑈁𑈺𑈤𑈮𑈪𑈰𑈺𑈢𑈮𑈏𑈮𑈺𑈀𑈞𑈰𑈉𑈮𑈺 ૫",
+    "annotation_tokens": "ja.o tha.ii : ma e aa : ma.ii ha.e : bba.ii cha.ii : a na.e kha.ii : SPACE 5",
+    "annotation_method": "AI assistant visual source/chart transcription before any OCR outputs for this page; non-expert",
+    "uncertainty": "Fourth word second base CHA versus HA is uncertain; primary CHA selected from its upper loop. Both alternatives frozen before recognition.",
+    "alternate_references": [
+      "𑈐𑈲𑈚𑈮𑈺𑈤𑈄𑈁𑈺𑈤𑈮𑈪𑈰𑈺𑈢𑈮𑈪𑈮𑈺𑈀𑈞𑈰𑈉𑈮𑈺 ૫"
+    ]
+  }
+]
