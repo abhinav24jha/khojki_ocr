@@ -1,0 +1,22 @@
+[
+  {
+    "name": "precision-packed-results.zip",
+    "bytes": 23880391,
+    "sha256": "229f45523346e43a859f35a835af65f2bbd4df92984201329fe4607f3e781581"
+  },
+  {
+    "name": "geometry-legacy-results.zip",
+    "bytes": 23830917,
+    "sha256": "59c1cb968d17fec8a5c19525ddbe4cb324a50781d8fb40ee6b931d3e3c6689d5"
+  },
+  {
+    "name": "geometry-preserve-results.zip",
+    "bytes": 23850651,
+    "sha256": "83d28791df09c8b7e35a8fc77aff2a601327c9b5c88878edfaca522236035a30"
+  },
+  {
+    "name": "round2-selection-results.zip",
+    "bytes": 7874118,
+    "sha256": "8309cb7918da9f4f20b0d06081d3d819807b304b75fd6a17921db45effccbae8"
+  }
+]

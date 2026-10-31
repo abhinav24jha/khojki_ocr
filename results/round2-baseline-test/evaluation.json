@@ -1,0 +1,1028 @@
+{
+  "summary": {
+    "lines": 5,
+    "characters": 118,
+    "missed_lines": 0,
+    "automatic_errors": 25,
+    "checked_crop_errors": 24,
+    "crop_changes_prediction_lines": 1,
+    "invalid_inventory_characters": 0,
+    "utf8_failures": 0,
+    "automatic_cer": 0.211864406779661,
+    "checked_crop_cer": 0.2033898305084746,
+    "net_crop_error_difference": 1
+  },
+  "pages": [
+    {
+      "page": 19,
+      "image_size": [
+        739,
+        1200
+      ],
+      "region": [
+        66,
+        130,
+        687,
+        1131
+      ],
+      "manual_region": false,
+      "layout": "legacy",
+      "line_count": 16,
+      "detection_seconds": 0.20780551999996533,
+      "recognition_seconds": 0.705010694999828,
+      "processing_seconds": 1.2800762069999791,
+      "scope": "Prototype for printed Khojki. All lines require review; handwriting is unvalidated."
+    }
+  ],
+  "lines": [
+    {
+      "id": "p19r-06",
+      "page": 19,
+      "reference": "𑈟𑈮𑈏𑈰𑈺𑈙𑈡𑈈𑈬𑈺𑈣𑈁𑈺𑈡𑈭𑈩𑈙𑈬𑈦𑈺 ૧૪",
+      "automatic_prediction": "𑈟𑈬𑈊𑈰𑈺𑈙𑈞𑈈𑈬𑈺𑈙𑈢𑈮𑈁𑈺𑈨𑈭𑈩𑈙𑈲𑈦𑈺 ૧૪",
+      "checked_crop_prediction": "𑈟𑈬𑈊𑈰𑈺𑈙𑈞𑈈𑈬𑈺𑈙𑈢𑈮𑈁𑈺𑈨𑈭𑈩𑈙𑈲𑈦𑈺 ૧૪",
+      "reference_box": [
+        107,
+        470,
+        676,
+        509
+      ],
+      "detected_box": [
+        107,
+        470,
+        676,
+        509
+      ],
+      "detected_id": "p19-06",
+      "vertical_overlap": 1.0,
+      "automatic": {
+        "reference_characters": 23,
+        "errors": 8,
+        "cer": 0.34782608695652173,
+        "substitute": 6,
+        "delete": 0,
+        "insert": 2
+      },
+      "checked_crop": {
+        "reference_characters": 23,
+        "errors": 8,
+        "cer": 0.34782608695652173,
+        "substitute": 6,
+        "delete": 0,
+        "insert": 2
+      },
+      "net_crop_error_difference": 0,
+      "encoding": {
+        "valid_inventory": true,
+        "issues": [],
+        "codepoints": [
+          {
+            "character": "𑈟",
+            "codepoint": "U+1121F",
+            "name": "KHOJKI LETTER PA"
+          },
+          {
+            "character": "𑈬",
+            "codepoint": "U+1122C",
+            "name": "KHOJKI VOWEL SIGN AA"
+          },
+          {
+            "character": "𑈊",
+            "codepoint": "U+1120A",
+            "name": "KHOJKI LETTER GA"
+          },
+          {
+            "character": "𑈰",
+            "codepoint": "U+11230",
+            "name": "KHOJKI VOWEL SIGN E"
+          },
+          {
+            "character": "𑈺",
+            "codepoint": "U+1123A",
+            "name": "KHOJKI WORD SEPARATOR"
+          },
+          {
+            "character": "𑈙",
+            "codepoint": "U+11219",
+            "name": "KHOJKI LETTER TA"
+          },
+          {
+            "character": "𑈞",
+            "codepoint": "U+1121E",
+            "name": "KHOJKI LETTER NA"
+          },
+          {
+            "character": "𑈈",
+            "codepoint": "U+11208",
+            "name": "KHOJKI LETTER KA"
+          },
+          {
+            "character": "𑈬",
+            "codepoint": "U+1122C",
+            "name": "KHOJKI VOWEL SIGN AA"
+          },
+          {
+            "character": "𑈺",
+            "codepoint": "U+1123A",
+            "name": "KHOJKI WORD SEPARATOR"
+          },
+          {
+            "character": "𑈙",
+            "codepoint": "U+11219",
+            "name": "KHOJKI LETTER TA"
+          },
+          {
+            "character": "𑈢",
+            "codepoint": "U+11222",
+            "name": "KHOJKI LETTER BBA"
+          },
+          {
+            "character": "𑈮",
+            "codepoint": "U+1122E",
+            "name": "KHOJKI VOWEL SIGN II"
+          },
+          {
+            "character": "𑈁",
+            "codepoint": "U+11201",
+            "name": "KHOJKI LETTER AA"
+          },
+          {
+            "character": "𑈺",
+            "codepoint": "U+1123A",
+            "name": "KHOJKI WORD SEPARATOR"
+          },
+          {
+            "character": "𑈨",
+            "codepoint": "U+11228",
+            "name": "KHOJKI LETTER VA"
+          },
+          {
+            "character": "𑈭",
+            "codepoint": "U+1122D",
+            "name": "KHOJKI VOWEL SIGN I"
+          },
+          {
+            "character": "𑈩",
+            "codepoint": "U+11229",
+            "name": "KHOJKI LETTER SA"
+          },
+          {
+            "character": "𑈙",
+            "codepoint": "U+11219",
+            "name": "KHOJKI LETTER TA"
+          },
+          {
+            "character": "𑈲",
+            "codepoint": "U+11232",
+            "name": "KHOJKI VOWEL SIGN O"
+          },
+          {
+            "character": "𑈦",
+            "codepoint": "U+11226",
+            "name": "KHOJKI LETTER RA"
+          },
+          {
+            "character": "𑈺",
+            "codepoint": "U+1123A",
+            "name": "KHOJKI WORD SEPARATOR"
+          },
+          {
+            "character": " ",
+            "codepoint": "U+0020",
+            "name": "SPACE"
+          },
+          {
+            "character": "૧",
+            "codepoint": "U+0AE7",
+            "name": "GUJARATI DIGIT ONE"
+          },
+          {
+            "character": "૪",
+            "codepoint": "U+0AEA",
+            "name": "GUJARATI DIGIT FOUR"
+          }
+        ],
+        "utf8_roundtrip": true,
+        "normalization": "NFC",
+        "nfc_changed": false
+      }
+    },
+    {
+      "id": "p19r-07",
+      "page": 19,
+      "reference": "𑈙𑈡𑈺𑈐𑈯𑈦𑈙𑈣𑈺𑈐𑈯𑈊𑈙𑈺𑈀𑈟𑈬𑈦𑈺 ૧૫",
+      "automatic_prediction": "𑈙𑈮𑈞𑈺𑈤𑈯𑈦𑈙𑈈𑈮𑈺𑈋𑈯𑈊𑈤𑈺𑈀𑈟𑈬𑈦𑈺 ૧૫",
+      "checked_crop_prediction": "𑈙𑈮𑈞𑈺𑈤𑈯𑈦𑈙𑈈𑈮𑈺𑈋𑈯𑈊𑈤𑈺𑈀𑈟𑈬𑈦𑈺 ૧૫",
+      "reference_box": [
+        82,
+        533,
+        677,
+        575
+      ],
+      "detected_box": [
+        82,
+        533,
+        677,
+        575
+      ],
+      "detected_id": "p19-07",
+      "vertical_overlap": 1.0,
+      "automatic": {
+        "reference_characters": 22,
+        "errors": 7,
+        "cer": 0.3181818181818182,
+        "substitute": 5,
+        "delete": 0,
+        "insert": 2
+      },
+      "checked_crop": {
+        "reference_characters": 22,
+        "errors": 7,
+        "cer": 0.3181818181818182,
+        "substitute": 5,
+        "delete": 0,
+        "insert": 2
+      },
+      "net_crop_error_difference": 0,
+      "encoding": {
+        "valid_inventory": true,
+        "issues": [],
+        "codepoints": [
+          {
+            "character": "𑈙",
+            "codepoint": "U+11219",
+            "name": "KHOJKI LETTER TA"
+          },
+          {
+            "character": "𑈮",
+            "codepoint": "U+1122E",
+            "name": "KHOJKI VOWEL SIGN II"
+          },
+          {
+            "character": "𑈞",
+            "codepoint": "U+1121E",
+            "name": "KHOJKI LETTER NA"
+          },
+          {
+            "character": "𑈺",
+            "codepoint": "U+1123A",
+            "name": "KHOJKI WORD SEPARATOR"
+          },
+          {
+            "character": "𑈤",
+            "codepoint": "U+11224",
+            "name": "KHOJKI LETTER MA"
+          },
+          {
+            "character": "𑈯",
+            "codepoint": "U+1122F",
+            "name": "KHOJKI VOWEL SIGN U"
+          },
+          {
+            "character": "𑈦",
+            "codepoint": "U+11226",
+            "name": "KHOJKI LETTER RA"
+          },
+          {
+            "character": "𑈙",
+            "codepoint": "U+11219",
+            "name": "KHOJKI LETTER TA"
+          },
+          {
+            "character": "𑈈",
+            "codepoint": "U+11208",
+            "name": "KHOJKI LETTER KA"
+          },
+          {
+            "character": "𑈮",
+            "codepoint": "U+1122E",
+            "name": "KHOJKI VOWEL SIGN II"
+          },
+          {
+            "character": "𑈺",
+            "codepoint": "U+1123A",
+            "name": "KHOJKI WORD SEPARATOR"
+          },
+          {
+            "character": "𑈋",
+            "codepoint": "U+1120B",
+            "name": "KHOJKI LETTER GGA"
+          },
+          {
+            "character": "𑈯",
+            "codepoint": "U+1122F",
+            "name": "KHOJKI VOWEL SIGN U"
+          },
+          {
+            "character": "𑈊",
+            "codepoint": "U+1120A",
+            "name": "KHOJKI LETTER GA"
+          },
+          {
+            "character": "𑈤",
+            "codepoint": "U+11224",
+            "name": "KHOJKI LETTER MA"
+          },
+          {
+            "character": "𑈺",
+            "codepoint": "U+1123A",
+            "name": "KHOJKI WORD SEPARATOR"
+          },
+          {
+            "character": "𑈀",
+            "codepoint": "U+11200",
+            "name": "KHOJKI LETTER A"
+          },
+          {
+            "character": "𑈟",
+            "codepoint": "U+1121F",
+            "name": "KHOJKI LETTER PA"
+          },
+          {
+            "character": "𑈬",
+            "codepoint": "U+1122C",
+            "name": "KHOJKI VOWEL SIGN AA"
+          },
+          {
+            "character": "𑈦",
+            "codepoint": "U+11226",
+            "name": "KHOJKI LETTER RA"
+          },
+          {
+            "character": "𑈺",
+            "codepoint": "U+1123A",
+            "name": "KHOJKI WORD SEPARATOR"
+          },
+          {
+            "character": " ",
+            "codepoint": "U+0020",
+            "name": "SPACE"
+          },
+          {
+            "character": "૧",
+            "codepoint": "U+0AE7",
+            "name": "GUJARATI DIGIT ONE"
+          },
+          {
+            "character": "૫",
+            "codepoint": "U+0AEB",
+            "name": "GUJARATI DIGIT FIVE"
+          }
+        ],
+        "utf8_roundtrip": true,
+        "normalization": "NFC",
+        "nfc_changed": false
+      }
+    },
+    {
+      "id": "p19r-08",
+      "page": 19,
+      "reference": "𑈩𑈉𑈡𑈺𑈩𑈬𑈤𑈰𑈺𑈦𑈎𑈰𑈁𑈺𑈩𑈴𑈩𑈬𑈦𑈺 ૧૬",
+      "automatic_prediction": "𑈩𑈟𑈴𑈙𑈮𑈺𑈩𑈬𑈟𑈰𑈴𑈺𑈦𑈎𑈰𑈁𑈟𑈺𑈩𑈴𑈩𑈬𑈦𑈺 ૧૬",
+      "checked_crop_prediction": "𑈩𑈟𑈴𑈙𑈮𑈺𑈩𑈬𑈟𑈰𑈴𑈺𑈦𑈎𑈰𑈁𑈟𑈺𑈩𑈴𑈩𑈬𑈦𑈺 ૧૬",
+      "reference_box": [
+        80,
+        592,
+        675,
+        630
+      ],
+      "detected_box": [
+        80,
+        592,
+        675,
+        630
+      ],
+      "detected_id": "p19-08",
+      "vertical_overlap": 1.0,
+      "automatic": {
+        "reference_characters": 23,
+        "errors": 7,
+        "cer": 0.30434782608695654,
+        "substitute": 3,
+        "delete": 0,
+        "insert": 4
+      },
+      "checked_crop": {
+        "reference_characters": 23,
+        "errors": 7,
+        "cer": 0.30434782608695654,
+        "substitute": 3,
+        "delete": 0,
+        "insert": 4
+      },
+      "net_crop_error_difference": 0,
+      "encoding": {
+        "valid_inventory": true,
+        "issues": [],
+        "codepoints": [
+          {
+            "character": "𑈩",
+            "codepoint": "U+11229",
+            "name": "KHOJKI LETTER SA"
+          },
+          {
+            "character": "𑈟",
+            "codepoint": "U+1121F",
+            "name": "KHOJKI LETTER PA"
+          },
+          {
+            "character": "𑈴",
+            "codepoint": "U+11234",
+            "name": "KHOJKI SIGN ANUSVARA"
+          },
+          {
+            "character": "𑈙",
+            "codepoint": "U+11219",
+            "name": "KHOJKI LETTER TA"
+          },
+          {
+            "character": "𑈮",
+            "codepoint": "U+1122E",
+            "name": "KHOJKI VOWEL SIGN II"
+          },
+          {
+            "character": "𑈺",
+            "codepoint": "U+1123A",
+            "name": "KHOJKI WORD SEPARATOR"
+          },
+          {
+            "character": "𑈩",
+            "codepoint": "U+11229",
+            "name": "KHOJKI LETTER SA"
+          },
+          {
+            "character": "𑈬",
+            "codepoint": "U+1122C",
+            "name": "KHOJKI VOWEL SIGN AA"
+          },
+          {
+            "character": "𑈟",
+            "codepoint": "U+1121F",
+            "name": "KHOJKI LETTER PA"
+          },
+          {
+            "character": "𑈰",
+            "codepoint": "U+11230",
+            "name": "KHOJKI VOWEL SIGN E"
+          },
+          {
+            "character": "𑈴",
+            "codepoint": "U+11234",
+            "name": "KHOJKI SIGN ANUSVARA"
+          },
+          {
+            "character": "𑈺",
+            "codepoint": "U+1123A",
+            "name": "KHOJKI WORD SEPARATOR"
+          },
+          {
+            "character": "𑈦",
+            "codepoint": "U+11226",
+            "name": "KHOJKI LETTER RA"
+          },
+          {
+            "character": "𑈎",
+            "codepoint": "U+1120E",
+            "name": "KHOJKI LETTER CA"
+          },
+          {
+            "character": "𑈰",
+            "codepoint": "U+11230",
+            "name": "KHOJKI VOWEL SIGN E"
+          },
+          {
+            "character": "𑈁",
+            "codepoint": "U+11201",
+            "name": "KHOJKI LETTER AA"
+          },
+          {
+            "character": "𑈟",
+            "codepoint": "U+1121F",
+            "name": "KHOJKI LETTER PA"
+          },
+          {
+            "character": "𑈺",
+            "codepoint": "U+1123A",
+            "name": "KHOJKI WORD SEPARATOR"
+          },
+          {
+            "character": "𑈩",
+            "codepoint": "U+11229",
+            "name": "KHOJKI LETTER SA"
+          },
+          {
+            "character": "𑈴",
+            "codepoint": "U+11234",
+            "name": "KHOJKI SIGN ANUSVARA"
+          },
+          {
+            "character": "𑈩",
+            "codepoint": "U+11229",
+            "name": "KHOJKI LETTER SA"
+          },
+          {
+            "character": "𑈬",
+            "codepoint": "U+1122C",
+            "name": "KHOJKI VOWEL SIGN AA"
+          },
+          {
+            "character": "𑈦",
+            "codepoint": "U+11226",
+            "name": "KHOJKI LETTER RA"
+          },
+          {
+            "character": "𑈺",
+            "codepoint": "U+1123A",
+            "name": "KHOJKI WORD SEPARATOR"
+          },
+          {
+            "character": " ",
+            "codepoint": "U+0020",
+            "name": "SPACE"
+          },
+          {
+            "character": "૧",
+            "codepoint": "U+0AE7",
+            "name": "GUJARATI DIGIT ONE"
+          },
+          {
+            "character": "૬",
+            "codepoint": "U+0AEC",
+            "name": "GUJARATI DIGIT SIX"
+          }
+        ],
+        "utf8_roundtrip": true,
+        "normalization": "NFC",
+        "nfc_changed": false
+      }
+    },
+    {
+      "id": "p19r-09",
+      "page": 19,
+      "reference": "𑈨𑈰𑈜𑈺𑈤𑈮𑈪𑈰𑈺𑈀𑈊𑈲𑈎𑈦𑈺𑈨𑈰𑈁𑈦𑈬𑈺 ૧૭",
+      "automatic_prediction": "𑈨𑈰𑈜𑈺𑈤𑈮𑈪𑈰𑈺𑈀𑈊𑈲𑈎𑈦𑈺𑈞𑈰𑈁𑈦𑈬𑈺 ૧૭",
+      "checked_crop_prediction": "𑈨𑈰𑈜𑈺𑈤𑈮𑈪𑈰𑈺𑈀𑈊𑈲𑈎𑈦𑈺𑈞𑈰𑈁𑈦𑈬𑈺 ૧૭",
+      "reference_box": [
+        112,
+        650,
+        679,
+        690
+      ],
+      "detected_box": [
+        112,
+        650,
+        679,
+        690
+      ],
+      "detected_id": "p19-09",
+      "vertical_overlap": 1.0,
+      "automatic": {
+        "reference_characters": 24,
+        "errors": 1,
+        "cer": 0.041666666666666664,
+        "substitute": 1,
+        "delete": 0,
+        "insert": 0
+      },
+      "checked_crop": {
+        "reference_characters": 24,
+        "errors": 1,
+        "cer": 0.041666666666666664,
+        "substitute": 1,
+        "delete": 0,
+        "insert": 0
+      },
+      "net_crop_error_difference": 0,
+      "encoding": {
+        "valid_inventory": true,
+        "issues": [],
+        "codepoints": [
+          {
+            "character": "𑈨",
+            "codepoint": "U+11228",
+            "name": "KHOJKI LETTER VA"
+          },
+          {
+            "character": "𑈰",
+            "codepoint": "U+11230",
+            "name": "KHOJKI VOWEL SIGN E"
+          },
+          {
+            "character": "𑈜",
+            "codepoint": "U+1121C",
+            "name": "KHOJKI LETTER DDDA"
+          },
+          {
+            "character": "𑈺",
+            "codepoint": "U+1123A",
+            "name": "KHOJKI WORD SEPARATOR"
+          },
+          {
+            "character": "𑈤",
+            "codepoint": "U+11224",
+            "name": "KHOJKI LETTER MA"
+          },
+          {
+            "character": "𑈮",
+            "codepoint": "U+1122E",
+            "name": "KHOJKI VOWEL SIGN II"
+          },
+          {
+            "character": "𑈪",
+            "codepoint": "U+1122A",
+            "name": "KHOJKI LETTER HA"
+          },
+          {
+            "character": "𑈰",
+            "codepoint": "U+11230",
+            "name": "KHOJKI VOWEL SIGN E"
+          },
+          {
+            "character": "𑈺",
+            "codepoint": "U+1123A",
+            "name": "KHOJKI WORD SEPARATOR"
+          },
+          {
+            "character": "𑈀",
+            "codepoint": "U+11200",
+            "name": "KHOJKI LETTER A"
+          },
+          {
+            "character": "𑈊",
+            "codepoint": "U+1120A",
+            "name": "KHOJKI LETTER GA"
+          },
+          {
+            "character": "𑈲",
+            "codepoint": "U+11232",
+            "name": "KHOJKI VOWEL SIGN O"
+          },
+          {
+            "character": "𑈎",
+            "codepoint": "U+1120E",
+            "name": "KHOJKI LETTER CA"
+          },
+          {
+            "character": "𑈦",
+            "codepoint": "U+11226",
+            "name": "KHOJKI LETTER RA"
+          },
+          {
+            "character": "𑈺",
+            "codepoint": "U+1123A",
+            "name": "KHOJKI WORD SEPARATOR"
+          },
+          {
+            "character": "𑈞",
+            "codepoint": "U+1121E",
+            "name": "KHOJKI LETTER NA"
+          },
+          {
+            "character": "𑈰",
+            "codepoint": "U+11230",
+            "name": "KHOJKI VOWEL SIGN E"
+          },
+          {
+            "character": "𑈁",
+            "codepoint": "U+11201",
+            "name": "KHOJKI LETTER AA"
+          },
+          {
+            "character": "𑈦",
+            "codepoint": "U+11226",
+            "name": "KHOJKI LETTER RA"
+          },
+          {
+            "character": "𑈬",
+            "codepoint": "U+1122C",
+            "name": "KHOJKI VOWEL SIGN AA"
+          },
+          {
+            "character": "𑈺",
+            "codepoint": "U+1123A",
+            "name": "KHOJKI WORD SEPARATOR"
+          },
+          {
+            "character": " ",
+            "codepoint": "U+0020",
+            "name": "SPACE"
+          },
+          {
+            "character": "૧",
+            "codepoint": "U+0AE7",
+            "name": "GUJARATI DIGIT ONE"
+          },
+          {
+            "character": "૭",
+            "codepoint": "U+0AED",
+            "name": "GUJARATI DIGIT SEVEN"
+          }
+        ],
+        "utf8_roundtrip": true,
+        "normalization": "NFC",
+        "nfc_changed": false
+      }
+    },
+    {
+      "id": "p19r-10",
+      "page": 19,
+      "reference": "𑈙𑈭𑈩𑈈𑈬𑈺𑈟𑈭𑈺𑈪𑈟𑈭𑈺𑈩𑈈𑈧𑈺𑈟𑈩𑈬𑈦𑈬𑈺 ૧૮",
+      "automatic_prediction": "𑈭𑈩𑈈𑈬𑈺𑈟𑈭𑈪𑈟𑈭𑈺𑈩𑈈𑈧𑈺𑈟𑈩𑈬𑈦𑈬𑈺 ૧૮",
+      "checked_crop_prediction": "𑈙𑈭𑈩𑈈𑈬𑈺𑈟𑈭𑈪𑈟𑈭𑈺𑈩𑈈𑈧𑈺𑈟𑈩𑈬𑈦𑈬𑈺 ૧૮",
+      "reference_box": [
+        80,
+        714,
+        680,
+        750
+      ],
+      "detected_box": [
+        78,
+        714,
+        680,
+        750
+      ],
+      "detected_id": "p19-10",
+      "vertical_overlap": 1.0,
+      "automatic": {
+        "reference_characters": 26,
+        "errors": 2,
+        "cer": 0.07692307692307693,
+        "substitute": 0,
+        "delete": 2,
+        "insert": 0
+      },
+      "checked_crop": {
+        "reference_characters": 26,
+        "errors": 1,
+        "cer": 0.038461538461538464,
+        "substitute": 0,
+        "delete": 1,
+        "insert": 0
+      },
+      "net_crop_error_difference": 1,
+      "encoding": {
+        "valid_inventory": true,
+        "issues": [
+          {
+            "index": 0,
+            "code": "orphan_combining_sign"
+          }
+        ],
+        "codepoints": [
+          {
+            "character": "𑈭",
+            "codepoint": "U+1122D",
+            "name": "KHOJKI VOWEL SIGN I"
+          },
+          {
+            "character": "𑈩",
+            "codepoint": "U+11229",
+            "name": "KHOJKI LETTER SA"
+          },
+          {
+            "character": "𑈈",
+            "codepoint": "U+11208",
+            "name": "KHOJKI LETTER KA"
+          },
+          {
+            "character": "𑈬",
+            "codepoint": "U+1122C",
+            "name": "KHOJKI VOWEL SIGN AA"
+          },
+          {
+            "character": "𑈺",
+            "codepoint": "U+1123A",
+            "name": "KHOJKI WORD SEPARATOR"
+          },
+          {
+            "character": "𑈟",
+            "codepoint": "U+1121F",
+            "name": "KHOJKI LETTER PA"
+          },
+          {
+            "character": "𑈭",
+            "codepoint": "U+1122D",
+            "name": "KHOJKI VOWEL SIGN I"
+          },
+          {
+            "character": "𑈪",
+            "codepoint": "U+1122A",
+            "name": "KHOJKI LETTER HA"
+          },
+          {
+            "character": "𑈟",
+            "codepoint": "U+1121F",
+            "name": "KHOJKI LETTER PA"
+          },
+          {
+            "character": "𑈭",
+            "codepoint": "U+1122D",
+            "name": "KHOJKI VOWEL SIGN I"
+          },
+          {
+            "character": "𑈺",
+            "codepoint": "U+1123A",
+            "name": "KHOJKI WORD SEPARATOR"
+          },
+          {
+            "character": "𑈩",
+            "codepoint": "U+11229",
+            "name": "KHOJKI LETTER SA"
+          },
+          {
+            "character": "𑈈",
+            "codepoint": "U+11208",
+            "name": "KHOJKI LETTER KA"
+          },
+          {
+            "character": "𑈧",
+            "codepoint": "U+11227",
+            "name": "KHOJKI LETTER LA"
+          },
+          {
+            "character": "𑈺",
+            "codepoint": "U+1123A",
+            "name": "KHOJKI WORD SEPARATOR"
+          },
+          {
+            "character": "𑈟",
+            "codepoint": "U+1121F",
+            "name": "KHOJKI LETTER PA"
+          },
+          {
+            "character": "𑈩",
+            "codepoint": "U+11229",
+            "name": "KHOJKI LETTER SA"
+          },
+          {
+            "character": "𑈬",
+            "codepoint": "U+1122C",
+            "name": "KHOJKI VOWEL SIGN AA"
+          },
+          {
+            "character": "𑈦",
+            "codepoint": "U+11226",
+            "name": "KHOJKI LETTER RA"
+          },
+          {
+            "character": "𑈬",
+            "codepoint": "U+1122C",
+            "name": "KHOJKI VOWEL SIGN AA"
+          },
+          {
+            "character": "𑈺",
+            "codepoint": "U+1123A",
+            "name": "KHOJKI WORD SEPARATOR"
+          },
+          {
+            "character": " ",
+            "codepoint": "U+0020",
+            "name": "SPACE"
+          },
+          {
+            "character": "૧",
+            "codepoint": "U+0AE7",
+            "name": "GUJARATI DIGIT ONE"
+          },
+          {
+            "character": "૮",
+            "codepoint": "U+0AEE",
+            "name": "GUJARATI DIGIT EIGHT"
+          }
+        ],
+        "utf8_roundtrip": true,
+        "normalization": "NFC",
+        "nfc_changed": false
+      }
+    }
+  ],
+  "confusions": [
+    {
+      "operation": "substitute",
+      "reference": "𑈡",
+      "prediction": "𑈞",
+      "count": 2
+    },
+    {
+      "operation": "substitute",
+      "reference": "𑈣",
+      "prediction": "𑈮",
+      "count": 2
+    },
+    {
+      "operation": "insert",
+      "reference": "",
+      "prediction": "𑈟",
+      "count": 2
+    },
+    {
+      "operation": "insert",
+      "reference": "",
+      "prediction": "𑈴",
+      "count": 2
+    },
+    {
+      "operation": "substitute",
+      "reference": "𑈮",
+      "prediction": "𑈬",
+      "count": 1
+    },
+    {
+      "operation": "substitute",
+      "reference": "𑈏",
+      "prediction": "𑈊",
+      "count": 1
+    },
+    {
+      "operation": "insert",
+      "reference": "",
+      "prediction": "𑈙",
+      "count": 1
+    },
+    {
+      "operation": "insert",
+      "reference": "",
+      "prediction": "𑈢",
+      "count": 1
+    },
+    {
+      "operation": "substitute",
+      "reference": "𑈡",
+      "prediction": "𑈨",
+      "count": 1
+    },
+    {
+      "operation": "substitute",
+      "reference": "𑈬",
+      "prediction": "𑈲",
+      "count": 1
+    },
+    {
+      "operation": "insert",
+      "reference": "",
+      "prediction": "𑈮",
+      "count": 1
+    },
+    {
+      "operation": "substitute",
+      "reference": "𑈐",
+      "prediction": "𑈤",
+      "count": 1
+    },
+    {
+      "operation": "insert",
+      "reference": "",
+      "prediction": "𑈈",
+      "count": 1
+    },
+    {
+      "operation": "substitute",
+      "reference": "𑈐",
+      "prediction": "𑈋",
+      "count": 1
+    },
+    {
+      "operation": "substitute",
+      "reference": "𑈙",
+      "prediction": "𑈤",
+      "count": 1
+    },
+    {
+      "operation": "substitute",
+      "reference": "𑈉",
+      "prediction": "𑈙",
+      "count": 1
+    },
+    {
+      "operation": "substitute",
+      "reference": "𑈡",
+      "prediction": "𑈮",
+      "count": 1
+    },
+    {
+      "operation": "substitute",
+      "reference": "𑈤",
+      "prediction": "𑈟",
+      "count": 1
+    },
+    {
+      "operation": "substitute",
+      "reference": "𑈨",
+      "prediction": "𑈞",
+      "count": 1
+    },
+    {
+      "operation": "delete",
+      "reference": "𑈙",
+      "prediction": "",
+      "count": 1
+    },
+    {
+      "operation": "delete",
+      "reference": "𑈺",
+      "prediction": "",
+      "count": 1
+    }
+  ],
+  "interpretation": "CER covers only selected transcribed lines. Extra detections elsewhere are unscored. Net crop error difference is a paired intervention, not a causal decomposition; recognition and segmentation interact."
+}

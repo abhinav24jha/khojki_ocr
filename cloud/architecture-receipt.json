@@ -1,0 +1,27 @@
+[
+  {
+    "name": "arch-control-results.zip",
+    "bytes": 23882476,
+    "sha256": "f8119e0597a9c200cc525405629575d1dba8b4787932e067ff207935dd0557df"
+  },
+  {
+    "name": "arch-packed48-results.zip",
+    "bytes": 23853614,
+    "sha256": "61c55496854e384fce5f263b773a0fb5f1cbf59bf34e1277f82772ce71d8bf91"
+  },
+  {
+    "name": "arch-height64-results.zip",
+    "bytes": 23868860,
+    "sha256": "d79fbf386bb33ac5145b1cbdd6d3e8560f4df944b2b5d683e220f6f83e81f208"
+  },
+  {
+    "name": "arch-packed64-results.zip",
+    "bytes": 23850836,
+    "sha256": "7ee59b5d2aabe28e8fb5e021673df5a0c1e6f3c640341b841144bfb44f2c1580"
+  },
+  {
+    "name": "arch-extra-data-results.zip",
+    "bytes": 23874550,
+    "sha256": "64e5ad22cbd209e5500147e2464b7272128c4dbeec830926fdecbdcfa4f5aa2c"
+  }
+]

@@ -1,0 +1,715 @@
+[
+  {
+    "id": "p17r-01",
+    "page": 17,
+    "image": "lines/p17r-01.png",
+    "box": [
+      82,
+      224,
+      652,
+      277
+    ],
+    "region": [
+      85,
+      224,
+      654,
+      1084
+    ],
+    "split": "train",
+    "selected_for_transcription": true,
+    "text": "𑈟𑈰𑈪𑈰𑈧𑈬𑈺𑈩𑈯𑈟𑈮𑈐𑈞𑈺𑈞𑈭𑈦𑈴𑈐𑈞𑈺𑈪𑈲𑈤𑈬𑈺 ૧",
+    "annotation_tokens": "pa.e ha.e la.aa : sa.u pa.ii ja na : na.i ra.an ja na : ha.o ma.aa : SPACE 1",
+    "annotation_method": "AI assistant visual transcription against Unicode reference; non-expert; not model output",
+    "uncertain_positions": []
+  },
+  {
+    "id": "p17r-02",
+    "page": 17,
+    "image": "lines/p17r-02.png",
+    "box": [
+      103,
+      283,
+      648,
+      336
+    ],
+    "region": [
+      85,
+      224,
+      654,
+      1084
+    ],
+    "split": "train",
+    "selected_for_transcription": true,
+    "text": "𑈁𑈜𑈺𑈀𑈴𑈙𑈺𑈤𑈮𑈪𑈰𑈺𑈙𑈰𑈐𑈺𑈐𑈺𑈪𑈲𑈤𑈬𑈺 ૨",
+    "annotation_tokens": "aa ddda : a.an ta : ma.ii ha.e : ta.e ja : ja : ha.o ma.aa : SPACE 2",
+    "annotation_method": "AI assistant visual transcription against Unicode reference; non-expert; not model output",
+    "uncertain_positions": []
+  },
+  {
+    "id": "p17r-03",
+    "page": 17,
+    "image": "lines/p17r-03.png",
+    "box": [
+      94,
+      341,
+      645,
+      381
+    ],
+    "region": [
+      85,
+      224,
+      654,
+      1084
+    ],
+    "split": "train",
+    "selected_for_transcription": true,
+    "text": "𑈙𑈡𑈺𑈐𑈬𑈺𑈙𑈰𑈐𑈺𑈢𑈭𑈴𑈢𑈺𑈃𑈟𑈬𑈟𑈭𑈁𑈺 ૩",
+    "annotation_tokens": "ta ba : ja.aa : ta.e ja : bba.i.an bba : u pa.aa pa.i aa : SPACE 3",
+    "annotation_method": "AI assistant visual transcription against Unicode reference; non-expert; not model output",
+    "uncertain_positions": []
+  },
+  {
+    "id": "p17r-04",
+    "page": 17,
+    "image": "lines/p17r-04.png",
+    "box": [
+      105,
+      398,
+      656,
+      437
+    ],
+    "region": [
+      85,
+      224,
+      654,
+      1084
+    ],
+    "split": "train",
+    "selected_for_transcription": true,
+    "text": "𑈩𑈬𑈜𑈺𑈩𑈢𑈜𑈺𑈩𑈡𑈤𑈮𑈪𑈰𑈺𑈩𑈤𑈬𑈟𑈭𑈁𑈺 ૪",
+    "annotation_tokens": "sa.aa ddda : sa bba ddda : sa ba ma.ii ha.e : sa ma.aa pa.i aa : SPACE 4",
+    "annotation_method": "AI assistant visual transcription against Unicode reference; non-expert; not model output",
+    "uncertain_positions": []
+  },
+  {
+    "id": "p17r-05",
+    "page": 17,
+    "image": "lines/p17r-05.png",
+    "box": [
+      102,
+      457,
+      635,
+      495
+    ],
+    "region": [
+      85,
+      224,
+      654,
+      1084
+    ],
+    "split": "train",
+    "selected_for_transcription": true,
+    "text": "𑈁𑈜𑈺𑈀𑈴𑈙𑈺𑈪𑈲𑈤𑈬𑈺𑈀𑈈𑈰𑈧𑈬𑈺 ૫",
+    "annotation_tokens": "aa ddda : a.an ta : ha.o ma.aa : a ka.e la.aa : SPACE 5",
+    "annotation_method": "AI assistant visual transcription against Unicode reference; non-expert; not model output",
+    "uncertain_positions": []
+  },
+  {
+    "id": "p17r-06",
+    "page": 17,
+    "image": "lines/p17r-06.png",
+    "box": [
+      108,
+      514,
+      646,
+      557
+    ],
+    "region": [
+      85,
+      224,
+      654,
+      1084
+    ],
+    "split": "train",
+    "selected_for_transcription": true,
+    "text": "𑈙𑈡𑈺𑈙𑈲𑈺𑈩𑈙𑈊𑈯𑈦𑈺𑈩𑈯𑈟𑈮𑈐𑈞𑈺𑈈𑈰𑈺𑈡𑈰𑈧𑈬𑈺 ૬",
+    "annotation_tokens": "ta ba : ta.o : sa ta ga.u ra : sa.u pa.ii ja na : ka.e : ba.e la.aa : SPACE 6",
+    "annotation_method": "AI assistant visual transcription against Unicode reference; non-expert; not model output",
+    "uncertain_positions": []
+  },
+  {
+    "id": "p17r-07",
+    "page": 17,
+    "image": "lines/p17r-07.png",
+    "box": [
+      103,
+      572,
+      635,
+      611
+    ],
+    "region": [
+      85,
+      224,
+      654,
+      1084
+    ],
+    "split": "train",
+    "selected_for_transcription": true,
+    "text": "𑈟𑈭𑈩𑈺𑈟𑈰𑈧𑈺𑈐𑈰𑈺𑈞𑈦𑈺𑈈𑈰𑈦𑈬𑈺 ૭",
+    "annotation_tokens": "pa.i sa : pa.e la : ja.e : na ra : ka.e ra.aa : SPACE 7",
+    "annotation_method": "AI assistant visual transcription against Unicode reference; non-expert; not model output",
+    "uncertain_positions": []
+  },
+  {
+    "id": "p17r-08",
+    "page": 17,
+    "image": "lines/p17r-08.png",
+    "box": [
+      105,
+      623,
+      657,
+      673
+    ],
+    "region": [
+      85,
+      224,
+      654,
+      1084
+    ],
+    "split": "train",
+    "selected_for_transcription": true,
+    "text": "𑈙𑈡𑈺𑈙𑈲𑈺𑈩𑈙𑈊𑈯𑈦𑈺𑈞𑈰𑈺𑈩𑈙𑈬𑈦𑈬𑈺 ૮",
+    "annotation_tokens": "ta ba : ta.o : sa ta ga.u ra : na.e : sa ta.aa ra.aa : SPACE 8",
+    "annotation_method": "AI assistant visual transcription against Unicode reference; non-expert; not model output",
+    "uncertain_positions": []
+  },
+  {
+    "id": "p17r-09",
+    "page": 17,
+    "image": "lines/p17r-09.png",
+    "box": [
+      107,
+      690,
+      655,
+      742
+    ],
+    "region": [
+      85,
+      224,
+      654,
+      1084
+    ],
+    "split": "train",
+    "selected_for_transcription": true,
+    "text": "𑈞𑈴𑈪𑈮𑈴𑈺𑈙𑈡𑈺𑈟𑈮𑈙𑈺𑈞𑈴𑈪𑈮𑈴𑈺𑈙𑈡𑈺𑈦𑈤𑈬𑈺 ૯",
+    "annotation_tokens": "na.an ha.ii.an : ta ba : pa.ii ta : na.an ha.ii.an : ta ba : ra ma.aa : SPACE 9",
+    "annotation_method": "AI assistant visual transcription against Unicode reference; non-expert; not model output",
+    "uncertain_positions": []
+  },
+  {
+    "id": "p17r-10",
+    "page": 17,
+    "image": "lines/p17r-10.png",
+    "box": [
+      108,
+      748,
+      650,
+      789
+    ],
+    "region": [
+      85,
+      224,
+      654,
+      1084
+    ],
+    "split": "train",
+    "selected_for_transcription": true,
+    "text": "𑈞𑈴𑈪𑈮𑈴𑈺𑈙𑈡𑈺𑈞𑈬𑈤𑈺𑈞𑈴𑈪𑈮𑈴𑈺𑈙𑈡𑈭𑈺𑈐𑈬𑈤𑈬𑈺 ૧૦",
+    "annotation_tokens": "na.an ha.ii.an : ta ba : na.aa ma : na.an ha.ii.an : ta ba.i : ja.aa ma.aa : SPACE 10",
+    "annotation_method": "AI assistant visual transcription against Unicode reference; non-expert; not model output",
+    "uncertain_positions": []
+  },
+  {
+    "id": "p17r-11",
+    "page": 17,
+    "image": "lines/p17r-11.png",
+    "box": [
+      106,
+      804,
+      651,
+      843
+    ],
+    "region": [
+      85,
+      224,
+      654,
+      1084
+    ],
+    "split": "train",
+    "selected_for_transcription": true,
+    "text": "𑈟𑈰𑈪𑈰𑈧𑈬𑈺𑈀𑈟𑈞𑈮𑈺𑈉𑈭𑈴𑈗𑈺𑈃𑈟𑈬𑈟𑈭𑈁𑈺 ૧૧",
+    "annotation_tokens": "pa.e ha.e la.aa : a pa na.ii : kha.i.an ddha : u pa.aa pa.i aa : SPACE 11",
+    "annotation_method": "AI assistant visual transcription against Unicode reference; non-expert; not model output",
+    "uncertain_positions": []
+  },
+  {
+    "id": "p17r-12",
+    "page": 17,
+    "image": "lines/p17r-12.png",
+    "box": [
+      106,
+      863,
+      651,
+      905
+    ],
+    "region": [
+      85,
+      224,
+      654,
+      1084
+    ],
+    "split": "train",
+    "selected_for_transcription": true,
+    "text": "𑈩𑈲𑈺𑈙𑈞𑈺𑈤𑈮𑈪𑈰𑈴𑈟𑈮𑈺𑈞𑈯𑈦𑈺𑈞𑈭𑈟𑈬𑈟𑈭𑈁𑈺 ૧૨",
+    "annotation_tokens": "sa.o : ta na : ma.ii ha.e.an pa.ii : na.u ra : na.i pa.aa pa.i aa : SPACE 12",
+    "annotation_method": "AI assistant visual transcription against Unicode reference; non-expert; not model output",
+    "uncertain_positions": []
+  },
+  {
+    "id": "p17r-13",
+    "page": 17,
+    "image": "lines/p17r-13.png",
+    "box": [
+      105,
+      921,
+      651,
+      964
+    ],
+    "region": [
+      85,
+      224,
+      654,
+      1084
+    ],
+    "split": "train",
+    "selected_for_transcription": true,
+    "text": "𑈩𑈲𑈺𑈂𑈺𑈞𑈯𑈦𑈈𑈬𑈺𑈩𑈙𑈊𑈯𑈦𑈺𑈪𑈯𑈁𑈺 ૧૩",
+    "annotation_tokens": "sa.o : i : na.u ra ka.aa : sa ta ga.u ra : ha.u aa : SPACE 13",
+    "annotation_method": "AI assistant visual transcription against Unicode reference; non-expert; not model output",
+    "uncertain_positions": []
+  },
+  {
+    "id": "p17r-14",
+    "page": 17,
+    "image": "lines/p17r-14.png",
+    "box": [
+      106,
+      980,
+      651,
+      1018
+    ],
+    "region": [
+      85,
+      224,
+      654,
+      1084
+    ],
+    "split": "train",
+    "selected_for_transcription": true,
+    "text": "𑈙𑈡𑈺𑈟𑈮𑈏𑈰𑈺𑈠𑈭𑈦𑈺𑈦𑈎𑈞𑈬𑈺𑈈𑈮𑈁𑈺 ૧૪",
+    "annotation_tokens": "ta ba : pa.ii cha.e : pha.i ra : ra ca na.aa : ka.ii aa : SPACE 14",
+    "annotation_method": "AI assistant visual transcription against Unicode reference; non-expert; not model output",
+    "uncertain_positions": []
+  },
+  {
+    "id": "p17r-15",
+    "page": 17,
+    "image": "lines/p17r-15.png",
+    "box": [
+      107,
+      1025,
+      658,
+      1079
+    ],
+    "region": [
+      85,
+      224,
+      654,
+      1084
+    ],
+    "split": "train",
+    "selected_for_transcription": true,
+    "text": "𑈩𑈬𑈟𑈮𑈺𑈪𑈭𑈈𑈤𑈙𑈺𑈩𑈙𑈊𑈯𑈦𑈞𑈰𑈺𑈈𑈮𑈙𑈮𑈺 ૧૫",
+    "annotation_tokens": "sa.aa pa.ii : ha.i ka ma ta : sa ta ga.u ra na.e : ka.ii ta.ii : SPACE 15",
+    "annotation_method": "AI assistant visual transcription against Unicode reference; non-expert; not model output",
+    "uncertain_positions": []
+  },
+  {
+    "id": "p18r-01",
+    "page": 18,
+    "image": "lines/p18r-01.png",
+    "box": [
+      84,
+      149,
+      691,
+      193
+    ],
+    "region": [
+      85,
+      130,
+      710,
+      1110
+    ],
+    "split": "dev",
+    "selected_for_transcription": true,
+    "text": "𑈃𑈟𑈞𑈮𑈺𑈠𑈭𑈦𑈩𑈙𑈬𑈺𑈙𑈡𑈺𑈡𑈬𑈙𑈮𑈺𑈡𑈮𑈙𑈮𑈺 ૧૬",
+    "annotation_tokens": "u pa na.ii : pha.i ra sa ta.aa : ta ba : ba.aa ta.ii : ba.ii ta.ii : SPACE 16",
+    "annotation_method": "AI assistant visual transcription against Unicode reference; non-expert; not model output",
+    "uncertain_positions": []
+  },
+  {
+    "id": "p18r-02",
+    "page": 18,
+    "image": "lines/p18r-02.png",
+    "box": [
+      125,
+      211,
+      697,
+      252
+    ],
+    "region": [
+      85,
+      130,
+      710,
+      1110
+    ],
+    "split": "dev",
+    "selected_for_transcription": true,
+    "text": "𑈁𑈊𑈲𑈺𑈁𑈛𑈤𑈺𑈠𑈭𑈦𑈩𑈙𑈬𑈺𑈩𑈬𑈟𑈮𑈺 ૧૭",
+    "annotation_tokens": "aa ga.o : aa da ma : pha.i ra sa ta.aa : sa.aa pa.ii : SPACE 17",
+    "annotation_method": "AI assistant visual transcription against Unicode reference; non-expert; not model output",
+    "uncertain_positions": []
+  },
+  {
+    "id": "p18r-03",
+    "page": 18,
+    "image": "lines/p18r-03.png",
+    "box": [
+      123,
+      272,
+      695,
+      318
+    ],
+    "region": [
+      85,
+      130,
+      710,
+      1110
+    ],
+    "split": "dev",
+    "selected_for_transcription": true,
+    "text": "𑈩𑈲𑈺𑈩𑈡𑈺𑈪𑈯𑈟𑈭𑈺𑈀𑈟𑈘𑈮𑈺𑈐𑈬𑈙𑈮𑈺 ૧૮",
+    "annotation_tokens": "sa.o : sa ba : ha.u pa.i : a pa nna.ii : ja.aa ta.ii : SPACE 18",
+    "annotation_method": "AI assistant visual transcription against Unicode reference; non-expert; not model output",
+    "uncertain_positions": []
+  },
+  {
+    "id": "p19r-01",
+    "page": 19,
+    "image": "lines/p19r-01.png",
+    "box": [
+      104,
+      169,
+      658,
+      214
+    ],
+    "region": [
+      85,
+      155,
+      690,
+      1125
+    ],
+    "split": "test",
+    "selected_for_transcription": true,
+    "text": "𑈙𑈡𑈺𑈙𑈲𑈺𑈩𑈙𑈊𑈯𑈦𑈺𑈀𑈊𑈲𑈎𑈦𑈺𑈪𑈰𑈙𑈰𑈺 ૯",
+    "annotation_tokens": "ta ba : ta.o : sa ta ga.u ra : a ga.o ca ra : ha.e ta.e : SPACE 9",
+    "annotation_method": "AI assistant visual transcription against Unicode reference; non-expert; not model output",
+    "uncertain_positions": []
+  },
+  {
+    "id": "p19r-02",
+    "page": 19,
+    "image": "lines/p19r-02.png",
+    "box": [
+      107,
+      228,
+      668,
+      269
+    ],
+    "region": [
+      85,
+      155,
+      690,
+      1125
+    ],
+    "split": "test",
+    "selected_for_transcription": true,
+    "text": "𑈃𑈩𑈪𑈮𑈺𑈙𑈰𑈐𑈺𑈤𑈮𑈪𑈰𑈺𑈠𑈭𑈦𑈩𑈙𑈰𑈺𑈞𑈺𑈟𑈲𑈙𑈰𑈺 ૧૦",
+    "annotation_tokens": "u sa ha.ii : ta.e ja : ma.ii ha.e : pha.i ra sa ta.e : na : pa.o ta.e : SPACE 10",
+    "annotation_method": "AI assistant visual transcription against Unicode reference; non-expert; not model output",
+    "uncertain_positions": []
+  },
+  {
+    "id": "p19r-03",
+    "page": 19,
+    "image": "lines/p19r-03.png",
+    "box": [
+      109,
+      292,
+      672,
+      333
+    ],
+    "region": [
+      85,
+      155,
+      690,
+      1125
+    ],
+    "split": "test",
+    "selected_for_transcription": true,
+    "text": "𑈟𑈮𑈏𑈰𑈺𑈦𑈎𑈞𑈬𑈺𑈦𑈎𑈮𑈺𑈀𑈟𑈬𑈦𑈺 ૧૧",
+    "annotation_tokens": "pa.ii cha.e : ra ca na.aa : ra ca.ii : a pa.aa ra : SPACE 11",
+    "annotation_method": "AI assistant visual transcription against Unicode reference; non-expert; not model output",
+    "uncertain_positions": []
+  },
+  {
+    "id": "p19r-04",
+    "page": 19,
+    "image": "lines/p19r-04.png",
+    "box": [
+      80,
+      351,
+      672,
+      392
+    ],
+    "region": [
+      85,
+      155,
+      690,
+      1125
+    ],
+    "split": "test",
+    "selected_for_transcription": true,
+    "text": "𑈉𑈭𑈴𑈗𑈤𑈮𑈪𑈰𑈺𑈃𑈟𑈞𑈬𑈺𑈩𑈯𑈟𑈮𑈐𑈞𑈪𑈬𑈦𑈺 ૧૨",
+    "annotation_tokens": "kha.i.an ddha ma.ii ha.e : u pa na.aa : sa.u pa.ii ja na ha.aa ra : SPACE 12",
+    "annotation_method": "AI assistant visual transcription against Unicode reference; non-expert; not model output",
+    "uncertain_positions": []
+  },
+  {
+    "id": "p19r-05",
+    "page": 19,
+    "image": "lines/p19r-05.png",
+    "box": [
+      108,
+      411,
+      674,
+      455
+    ],
+    "region": [
+      85,
+      155,
+      690,
+      1125
+    ],
+    "split": "test",
+    "selected_for_transcription": true,
+    "text": "𑈙𑈡𑈪𑈮𑈺𑈦𑈎𑈰𑈁𑈺𑈝𑈴𑈝𑈯𑈈𑈬𑈦𑈺 ૧૩",
+    "annotation_tokens": "ta ba ha.ii : ra ca.e aa : dha.an dha.u ka.aa ra : SPACE 13",
+    "annotation_method": "AI assistant visual transcription against Unicode reference; non-expert; not model output",
+    "uncertain_positions": []
+  },
+  {
+    "id": "p20r-01",
+    "page": 20,
+    "image": "lines/p20r-01.png",
+    "box": [
+      122,
+      154,
+      674,
+      197
+    ],
+    "region": [
+      85,
+      140,
+      700,
+      1115
+    ],
+    "split": "dev",
+    "selected_for_transcription": true,
+    "text": "𑈟𑈭𑈩𑈬𑈺𑈩𑈙𑈊𑈯𑈦𑈺𑈙𑈤𑈰𑈺𑈟𑈬𑈟𑈭𑈥𑈬𑈺𑈞𑈭𑈩𑈰𑈩𑈲𑈺 ૨",
+    "annotation_tokens": "pa.i sa.aa : sa ta ga.u ra : ta ma.e : pa.aa pa.i ya.aa : na.i sa.e sa.o : SPACE 2",
+    "annotation_method": "AI assistant visual transcription against Unicode reference; non-expert; not model output",
+    "uncertain_positions": []
+  },
+  {
+    "id": "p20r-02",
+    "page": 20,
+    "image": "lines/p20r-02.png",
+    "box": [
+      120,
+      207,
+      681,
+      259
+    ],
+    "region": [
+      85,
+      140,
+      700,
+      1115
+    ],
+    "split": "dev",
+    "selected_for_transcription": true,
+    "text": "𑈝𑈝𑈯𑈴𑈈𑈬𑈦𑈺𑈤𑈮𑈪𑈰𑈺𑈝𑈦𑈰𑈁𑈺𑈝𑈮𑈁𑈞𑈺 ૩",
+    "annotation_tokens": "dha dha.u.an ka.aa ra : ma.ii ha.e : dha ra.e aa : dha.ii aa na : SPACE 3",
+    "annotation_method": "AI assistant visual transcription against Unicode reference; non-expert; not model output",
+    "uncertain_positions": []
+  },
+  {
+    "id": "p20r-03",
+    "page": 20,
+    "image": "lines/p20r-03.png",
+    "box": [
+      107,
+      275,
+      679,
+      320
+    ],
+    "region": [
+      85,
+      140,
+      700,
+      1115
+    ],
+    "split": "dev",
+    "selected_for_transcription": true,
+    "text": "𑈩𑈙𑈊𑈯𑈦𑈺𑈞𑈰𑈺𑈙𑈡𑈺𑈈𑈟𑈰𑈁𑈺𑈊𑈮𑈁𑈞𑈺 ૪",
+    "annotation_tokens": "sa ta ga.u ra : na.e : ta ba : ka pa.e aa : ga.ii aa na : SPACE 4",
+    "annotation_method": "AI assistant visual transcription against Unicode reference; non-expert; not model output",
+    "uncertain_positions": []
+  },
+  {
+    "id": "p20r-04",
+    "page": 20,
+    "image": "lines/p20r-04.png",
+    "box": [
+      120,
+      338,
+      679,
+      377
+    ],
+    "region": [
+      85,
+      140,
+      700,
+      1115
+    ],
+    "split": "test",
+    "selected_for_transcription": true,
+    "text": "𑈞𑈭𑈦𑈴𑈐𑈞𑈺𑈦𑈎𑈞𑈬𑈺𑈩𑈡𑈪𑈮𑈺𑈢𑈮𑈝𑈮𑈺 ૫",
+    "annotation_tokens": "na.i ra.an ja na : ra ca na.aa : sa ba ha.ii : bba.ii dha.ii : SPACE 5",
+    "annotation_method": "AI assistant visual transcription against Unicode reference; non-expert; not model output",
+    "uncertain_positions": []
+  },
+  {
+    "id": "p20r-05",
+    "page": 20,
+    "image": "lines/p20r-05.png",
+    "box": [
+      119,
+      399,
+      676,
+      442
+    ],
+    "region": [
+      85,
+      140,
+      700,
+      1115
+    ],
+    "split": "test",
+    "selected_for_transcription": true,
+    "text": "𑈩𑈙𑈈𑈮𑈺𑈜𑈲𑈟𑈮𑈺𑈩𑈙𑈊𑈯𑈦𑈞𑈰𑈺𑈩𑈮𑈝𑈮𑈺 ૬",
+    "annotation_tokens": "sa ta ka.ii : ddda.o pa.ii : sa ta ga.u ra na.e : sa.ii dha.ii : SPACE 6",
+    "annotation_method": "AI assistant visual transcription against Unicode reference; non-expert; not model output",
+    "uncertain_positions": []
+  },
+  {
+    "id": "p20r-06",
+    "page": 20,
+    "image": "lines/p20r-06.png",
+    "box": [
+      122,
+      458,
+      680,
+      499
+    ],
+    "region": [
+      85,
+      140,
+      700,
+      1115
+    ],
+    "split": "test",
+    "selected_for_transcription": true,
+    "text": "𑈁𑈟𑈰𑈴𑈺𑈟𑈰𑈧𑈺𑈦𑈎𑈞𑈬𑈈𑈬𑈺𑈈𑈮𑈤𑈬𑈺 ૭",
+    "annotation_tokens": "aa pa.e.an : pa.e la : ra ca na.aa ka.aa : ka.ii ma.aa : SPACE 7",
+    "annotation_method": "AI assistant visual transcription against Unicode reference; non-expert; not model output",
+    "uncertain_positions": []
+  },
+  {
+    "id": "p20r-07",
+    "page": 20,
+    "image": "lines/p20r-07.png",
+    "box": [
+      110,
+      522,
+      679,
+      565
+    ],
+    "region": [
+      85,
+      140,
+      700,
+      1115
+    ],
+    "split": "test",
+    "selected_for_transcription": true,
+    "text": "𑈩𑈙𑈟𑈴𑈚𑈺𑈤𑈬𑈦𑈊𑈺𑈩𑈙𑈊𑈯𑈦𑈈𑈯𑈴𑈺𑈛𑈮𑈤𑈬𑈺 ૮",
+    "annotation_tokens": "sa ta pa.an tha : ma.aa ra ga : sa ta ga.u ra ka.u.an : da.ii ma.aa : SPACE 8",
+    "annotation_method": "AI assistant visual transcription against Unicode reference; non-expert; not model output",
+    "uncertain_positions": []
+  },
+  {
+    "id": "p20r-08",
+    "page": 20,
+    "image": "lines/p20r-08.png",
+    "box": [
+      119,
+      582,
+      680,
+      621
+    ],
+    "region": [
+      85,
+      140,
+      700,
+      1115
+    ],
+    "split": "test",
+    "selected_for_transcription": true,
+    "text": "𑈉𑈭𑈴𑈗𑈺𑈡𑈭𑈦𑈤𑈴𑈗𑈺𑈦𑈎𑈰𑈁𑈺𑈁𑈩𑈤𑈬𑈞𑈺 ૯",
+    "annotation_tokens": "kha.i.an ddha : ba.i ra ma.an ddha : ra ca.e aa : aa sa ma.aa na : SPACE 9",
+    "annotation_method": "AI assistant visual transcription against Unicode reference; non-expert; not model output",
+    "uncertain_positions": []
+  }
+]

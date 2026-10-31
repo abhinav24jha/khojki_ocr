@@ -1,0 +1,27 @@
+{
+  "source": "/content/khojki-ocr/data/pages/p23.png",
+  "checkpoint_sha256": "997a125a212541dde7cc3702fbf70a7163a523115fec1eae03041296d3a675a4",
+  "device": "cuda",
+  "model_load_seconds": 0.29856689399991865,
+  "pages": [
+    {
+      "page": 1,
+      "image_size": [
+        747,
+        1200
+      ],
+      "region": [
+        56,
+        131,
+        704,
+        1141
+      ],
+      "manual_region": false,
+      "line_count": 21,
+      "detection_seconds": 0.4580485789999784,
+      "recognition_seconds": 1.2555946129998574,
+      "processing_seconds": 2.4535751739999796,
+      "scope": "Prototype for printed Khojki. All lines require review; handwriting is unvalidated."
+    }
+  ]
+}

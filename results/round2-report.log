@@ -1,0 +1,45 @@
+{
+  "primary": {
+    "lines": 5,
+    "characters": 118,
+    "missed_lines": 0,
+    "automatic_errors": 17,
+    "checked_crop_errors": 17,
+    "crop_changes_prediction_lines": 0,
+    "invalid_inventory_characters": 0,
+    "utf8_failures": 0,
+    "automatic_cer": 0.1440677966101695,
+    "checked_crop_cer": 0.1440677966101695,
+    "net_crop_error_difference": 0
+  },
+  "baseline_same_fresh_lines": {
+    "lines": 5,
+    "characters": 118,
+    "missed_lines": 0,
+    "automatic_errors": 25,
+    "checked_crop_errors": 24,
+    "crop_changes_prediction_lines": 1,
+    "invalid_inventory_characters": 0,
+    "utf8_failures": 0,
+    "automatic_cer": 0.211864406779661,
+    "checked_crop_cer": 0.2033898305084746,
+    "net_crop_error_difference": 1
+  },
+  "reference_sensitivity": {
+    "characters": 118,
+    "min_errors": 17,
+    "max_errors": 19,
+    "min_cer": 0.1440677966101695,
+    "max_cer": 0.16101694915254236,
+    "interpretation": "Range over predeclared non-expert alternative glyph readings, not a statistical confidence interval or a corrected primary score."
+  },
+  "stage_audit": {
+    "missed_selected_lines": 0,
+    "column_space_edits": 0,
+    "other_character_edits": 17,
+    "invalid_inventory_characters": 0,
+    "utf8_failures": 0,
+    "net_crop_error_difference": 0,
+    "interpretation": "Operational attribution, not an identifiable causal decomposition: compare checked crops with automatic crops; encoding counts concern mechanical mapping/storage, not correctness of historical glyph identity."
+  }
+}

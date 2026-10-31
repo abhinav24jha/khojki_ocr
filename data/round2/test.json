@@ -1,0 +1,150 @@
+[
+  {
+    "id": "p19r-06",
+    "page": 19,
+    "image": "lines/p19r-06.png",
+    "box": [
+      107,
+      470,
+      676,
+      509
+    ],
+    "region": [
+      85,
+      155,
+      690,
+      1125
+    ],
+    "split": "test",
+    "selected_for_transcription": false,
+    "text": "𑈟𑈮𑈏𑈰𑈺𑈙𑈡𑈈𑈬𑈺𑈣𑈁𑈺𑈡𑈭𑈩𑈙𑈬𑈦𑈺 ૧૪",
+    "annotation_tokens": "pa.ii cha.e : ta ba ka.aa : bha aa : ba.i sa ta.aa ra : SPACE 14",
+    "annotation_method": "Non-expert AI assistant visual transcription against Unicode chart; not copied from model output",
+    "uncertain_readings": [
+      {
+        "primary_tokens": "bha",
+        "alternative_tokens": "ma",
+        "alternative_text": "𑈟𑈮𑈏𑈰𑈺𑈙𑈡𑈈𑈬𑈺𑈤𑈁𑈺𑈡𑈭𑈩𑈙𑈬𑈦𑈺 ૧૪",
+        "reason": "Historical printed glyph shape differs from modern font; expert adjudication needed"
+      }
+    ]
+  },
+  {
+    "id": "p19r-07",
+    "page": 19,
+    "image": "lines/p19r-07.png",
+    "box": [
+      82,
+      533,
+      677,
+      575
+    ],
+    "region": [
+      85,
+      155,
+      690,
+      1125
+    ],
+    "split": "test",
+    "selected_for_transcription": false,
+    "text": "𑈙𑈡𑈺𑈐𑈯𑈦𑈙𑈣𑈺𑈐𑈯𑈊𑈙𑈺𑈀𑈟𑈬𑈦𑈺 ૧૫",
+    "annotation_tokens": "ta ba : ja.u ra ta bha : ja.u ga ta : a pa.aa ra : SPACE 15",
+    "annotation_method": "Non-expert AI assistant visual transcription against Unicode chart; not copied from model output",
+    "uncertain_readings": [
+      {
+        "primary_tokens": "ja.u ra",
+        "alternative_tokens": "ga.u ra",
+        "alternative_text": "𑈙𑈡𑈺𑈊𑈯𑈦𑈙𑈣𑈺𑈐𑈯𑈊𑈙𑈺𑈀𑈟𑈬𑈦𑈺 ૧૫",
+        "reason": "Historical printed glyph shape differs from modern font; expert adjudication needed"
+      },
+      {
+        "primary_tokens": "ta bha",
+        "alternative_tokens": "ta ma",
+        "alternative_text": "𑈙𑈡𑈺𑈐𑈯𑈦𑈙𑈤𑈺𑈐𑈯𑈊𑈙𑈺𑈀𑈟𑈬𑈦𑈺 ૧૫",
+        "reason": "Historical printed glyph shape differs from modern font; expert adjudication needed"
+      }
+    ]
+  },
+  {
+    "id": "p19r-08",
+    "page": 19,
+    "image": "lines/p19r-08.png",
+    "box": [
+      80,
+      592,
+      675,
+      630
+    ],
+    "region": [
+      85,
+      155,
+      690,
+      1125
+    ],
+    "split": "test",
+    "selected_for_transcription": false,
+    "text": "𑈩𑈉𑈡𑈺𑈩𑈬𑈤𑈰𑈺𑈦𑈎𑈰𑈁𑈺𑈩𑈴𑈩𑈬𑈦𑈺 ૧૬",
+    "annotation_tokens": "sa kha ba : sa.aa ma.e : ra ca.e aa : sa.an sa.aa ra : SPACE 16",
+    "annotation_method": "Non-expert AI assistant visual transcription against Unicode chart; not copied from model output",
+    "uncertain_readings": [
+      {
+        "primary_tokens": "sa kha ba",
+        "alternative_tokens": "sa sa ba",
+        "alternative_text": "𑈩𑈩𑈡𑈺𑈩𑈬𑈤𑈰𑈺𑈦𑈎𑈰𑈁𑈺𑈩𑈴𑈩𑈬𑈦𑈺 ૧૬",
+        "reason": "Historical printed glyph shape differs from modern font; expert adjudication needed"
+      },
+      {
+        "primary_tokens": "ra ca.e",
+        "alternative_tokens": "ra cha.e",
+        "alternative_text": "𑈩𑈉𑈡𑈺𑈩𑈬𑈤𑈰𑈺𑈦𑈏𑈰𑈁𑈺𑈩𑈴𑈩𑈬𑈦𑈺 ૧૬",
+        "reason": "Historical printed glyph shape differs from modern font; expert adjudication needed"
+      }
+    ]
+  },
+  {
+    "id": "p19r-09",
+    "page": 19,
+    "image": "lines/p19r-09.png",
+    "box": [
+      112,
+      650,
+      679,
+      690
+    ],
+    "region": [
+      85,
+      155,
+      690,
+      1125
+    ],
+    "split": "test",
+    "selected_for_transcription": false,
+    "text": "𑈨𑈰𑈜𑈺𑈤𑈮𑈪𑈰𑈺𑈀𑈊𑈲𑈎𑈦𑈺𑈨𑈰𑈁𑈦𑈬𑈺 ૧૭",
+    "annotation_tokens": "va.e ddda : ma.ii ha.e : a ga.o ca ra : va.e aa ra.aa : SPACE 17",
+    "annotation_method": "Non-expert AI assistant visual transcription against Unicode chart; not copied from model output",
+    "uncertain_readings": []
+  },
+  {
+    "id": "p19r-10",
+    "page": 19,
+    "image": "lines/p19r-10.png",
+    "box": [
+      80,
+      714,
+      680,
+      750
+    ],
+    "region": [
+      85,
+      155,
+      690,
+      1125
+    ],
+    "split": "test",
+    "selected_for_transcription": false,
+    "text": "𑈙𑈭𑈩𑈈𑈬𑈺𑈟𑈭𑈺𑈪𑈟𑈭𑈺𑈩𑈈𑈧𑈺𑈟𑈩𑈬𑈦𑈬𑈺 ૧૮",
+    "annotation_tokens": "ta.i sa ka.aa : pa.i : ha pa.i : sa ka la : pa sa.aa ra.aa : SPACE 18",
+    "annotation_method": "Non-expert AI assistant visual transcription against Unicode chart; not copied from model output",
+    "uncertain_readings": []
+  }
+]

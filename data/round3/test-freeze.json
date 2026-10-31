@@ -1,0 +1,8 @@
+{
+  "utc": "2026-10-31T12:03:59.372927+00:00",
+  "sha256": "c05aa26e2e508dec83c638c96e26439f8ba49b8810512fb3ab13dffdd1976ce6",
+  "lines": 5,
+  "characters": 123,
+  "status": "Frozen before round3 training and before inspecting recognizer predictions for these lines. Same-book, same-page relationships exist; not independent-book accuracy.",
+  "limitation": "Non-expert labels with explicit ambiguous readings. This set is selected for numbered body-line structure; footer/refrain abbreviations were excluded before prediction inspection because their mapping was unresolved."
+}

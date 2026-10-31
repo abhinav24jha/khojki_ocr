@@ -1,0 +1,21 @@
+{
+  "utc": "2026-10-31T10:34:20.804083+00:00",
+  "selected_checkpoint": "experiments/curve-10/best.pt",
+  "checkpoint_sha256": "50fb539328701284b2a059ee5855f02a35756aa229ad46c95bfb408887329a7f",
+  "selection": "Lowest development CER: 10/155. Cloud pilot 13/155, beam 11/155, ensemble 12/155 rejected.",
+  "decoding": "contrast preprocessing, split large horizontal gaps, greedy CTC",
+  "test_used_for_selection": false,
+  "test_annotations_sha256": "9985fdeecc5cc67ffce9fd6da4567b2cfa43d90a225b0e2fab214ebb32f6027e",
+  "pipeline_sources": {
+    "src/khojki_ocr/metrics.py": "81a909d37f6611245562563a67d522ac6b98722fba65db81ed05154934cda17b",
+    "src/khojki_ocr/unicode.py": "60037692e163955bb95aaab29628f6ddc840482c19b5fbeb7f0793bd5373b640",
+    "src/khojki_ocr/render.py": "9499c2ba83d26ce62c9721e1c6bca7e356f0c5df67f6a3bce8ba5143afc9c423",
+    "src/khojki_ocr/__init__.py": "5ce9bed538b94e18fed33b4992fea266a51f966835c5c27cf4ecaed65e048d77",
+    "src/khojki_ocr/decoding.py": "c65c61a149d0dc24d1692f01d483750585d84ca8e9cbafa44ae54f0417e07467",
+    "src/khojki_ocr/model.py": "5fc7c3648b165f33c63984906837f6183385d481e01a31a786f3d57c3634e445",
+    "src/khojki_ocr/pipeline.py": "3c3aebe1e468deec05d044bb05aece2ae5b95c626da3f8a7231d4fec6d2dacbb",
+    "src/khojki_ocr/recognize.py": "dac455d2ff31e634748c08292cc01ed0cf529f43385e011a8f321ab6646f0621",
+    "src/khojki_ocr/segment.py": "a95d83e7da768a20fe9040faec00ece60c117c8dc90f4968639b0e4b93e382ec",
+    "src/khojki_ocr/__main__.py": "01f4bbb015141727a0d615694dee2687eed40fdeb5bd75bc8e8954f573e68584"
+  }
+}

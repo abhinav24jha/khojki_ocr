@@ -1,0 +1,762 @@
+[
+  {
+    "step": 50,
+    "loss": 0.09214334934949875,
+    "validation_cer": 0.1935483870967742,
+    "errors": 30,
+    "characters": 155,
+    "seconds": 8.585084291989915,
+    "lines": [
+      {
+        "id": "p18r-01",
+        "reference": "𑈃𑈟𑈞𑈮𑈺𑈠𑈭𑈦𑈩𑈙𑈬𑈺𑈙𑈡𑈺𑈡𑈬𑈙𑈮𑈺𑈡𑈮𑈙𑈮𑈺 ૧૬",
+        "prediction": "𑈟𑈨𑈴𑈺𑈠𑈄𑈭𑈦𑈩𑈺𑈙𑈬𑈺𑈙𑈡𑈺𑈡𑈬𑈙𑈬𑈮𑈺𑈤𑈮𑈙𑈮𑈺 ૧૬",
+        "reference_characters": 28,
+        "errors": 7,
+        "cer": 0.25,
+        "substitute": 3,
+        "delete": 1,
+        "insert": 3
+      },
+      {
+        "id": "p18r-02",
+        "reference": "𑈁𑈊𑈲𑈺𑈁𑈛𑈤𑈺𑈠𑈭𑈦𑈩𑈙𑈬𑈺𑈩𑈬𑈟𑈮𑈺 ૧૭",
+        "prediction": "𑈁𑈬𑈊𑈲𑈺𑈁𑈬𑈛𑈪𑈕𑈺𑈠𑈭𑈦𑈩𑈙𑈬𑈺𑈩𑈬𑈟𑈬𑈺 ૧૭",
+        "reference_characters": 23,
+        "errors": 5,
+        "cer": 0.21739130434782608,
+        "substitute": 2,
+        "delete": 0,
+        "insert": 3
+      },
+      {
+        "id": "p18r-03",
+        "reference": "𑈩𑈲𑈺𑈩𑈡𑈺𑈪𑈯𑈟𑈭𑈺𑈀𑈟𑈘𑈮𑈺𑈐𑈬𑈙𑈮𑈺 ૧૮",
+        "prediction": "𑈩𑈰𑈲𑈺𑈩𑈡𑈪𑈺𑈪𑈯𑈟𑈭𑈺𑈀𑈟𑈘𑈮𑈺𑈐𑈬𑈙𑈮𑈺 ૧૯",
+        "reference_characters": 24,
+        "errors": 3,
+        "cer": 0.125,
+        "substitute": 1,
+        "delete": 0,
+        "insert": 2
+      },
+      {
+        "id": "p20r-01",
+        "reference": "𑈟𑈭𑈩𑈬𑈺𑈩𑈙𑈊𑈯𑈦𑈺𑈙𑈤𑈰𑈺𑈟𑈬𑈟𑈭𑈥𑈬𑈺𑈞𑈭𑈩𑈰𑈩𑈲𑈺 ૨",
+        "prediction": "𑈟𑈭𑈩𑈬𑈺𑈩𑈙𑈊𑈯𑈦𑈺𑈙𑈪𑈰𑈺𑈟𑈬𑈟𑈭𑈥𑈬𑈺𑈨𑈭𑈩𑈟𑈰𑈉𑈲𑈺 ૨",
+        "reference_characters": 31,
+        "errors": 4,
+        "cer": 0.12903225806451613,
+        "substitute": 3,
+        "delete": 0,
+        "insert": 1
+      },
+      {
+        "id": "p20r-02",
+        "reference": "𑈝𑈝𑈯𑈴𑈈𑈬𑈦𑈺𑈤𑈮𑈪𑈰𑈺𑈝𑈦𑈰𑈁𑈺𑈝𑈮𑈁𑈞𑈺 ૩",
+        "prediction": "𑈝𑈑𑈯𑈴𑈤𑈬𑈦𑈺𑈤𑈬𑈴𑈪𑈰𑈺𑈝𑈴𑈟𑈰𑈁𑈬𑈺𑈝𑈮𑈁𑈞𑈺 ૩",
+        "reference_characters": 25,
+        "errors": 7,
+        "cer": 0.28,
+        "substitute": 4,
+        "delete": 0,
+        "insert": 3
+      },
+      {
+        "id": "p20r-03",
+        "reference": "𑈩𑈙𑈊𑈯𑈦𑈺𑈞𑈰𑈺𑈙𑈡𑈺𑈈𑈟𑈰𑈁𑈺𑈊𑈮𑈁𑈞𑈺 ૪",
+        "prediction": "𑈩𑈙𑈊𑈯𑈦𑈺𑈢𑈰𑈴𑈺𑈙𑈡𑈺𑈪𑈟𑈰𑈁𑈬𑈺𑈊𑈮𑈁𑈞𑈺 ૪",
+        "reference_characters": 24,
+        "errors": 4,
+        "cer": 0.16666666666666666,
+        "substitute": 2,
+        "delete": 0,
+        "insert": 2
+      }
+    ]
+  },
+  {
+    "step": 100,
+    "loss": 0.10353948920965195,
+    "validation_cer": 0.16129032258064516,
+    "errors": 25,
+    "characters": 155,
+    "seconds": 15.241107917041518,
+    "lines": [
+      {
+        "id": "p18r-01",
+        "reference": "𑈃𑈟𑈞𑈮𑈺𑈠𑈭𑈦𑈩𑈙𑈬𑈺𑈙𑈡𑈺𑈡𑈬𑈙𑈮𑈺𑈡𑈮𑈙𑈮𑈺 ૧૬",
+        "prediction": "𑈟𑈨𑈴𑈺𑈠𑈮𑈭𑈦𑈩𑈺𑈙𑈬𑈺𑈙𑈡𑈺𑈡𑈬𑈙𑈮𑈺𑈤𑈮𑈙𑈮𑈺 ૧૬",
+        "reference_characters": 28,
+        "errors": 6,
+        "cer": 0.21428571428571427,
+        "substitute": 3,
+        "delete": 1,
+        "insert": 2
+      },
+      {
+        "id": "p18r-02",
+        "reference": "𑈁𑈊𑈲𑈺𑈁𑈛𑈤𑈺𑈠𑈭𑈦𑈩𑈙𑈬𑈺𑈩𑈬𑈟𑈮𑈺 ૧૭",
+        "prediction": "𑈁𑈊𑈰𑈺𑈁𑈪𑈕𑈺𑈠𑈭𑈦𑈩𑈙𑈬𑈺𑈩𑈬𑈟𑈮𑈺 ૨૭",
+        "reference_characters": 23,
+        "errors": 4,
+        "cer": 0.17391304347826086,
+        "substitute": 4,
+        "delete": 0,
+        "insert": 0
+      },
+      {
+        "id": "p18r-03",
+        "reference": "𑈩𑈲𑈺𑈩𑈡𑈺𑈪𑈯𑈟𑈭𑈺𑈀𑈟𑈘𑈮𑈺𑈐𑈬𑈙𑈮𑈺 ૧૮",
+        "prediction": "𑈩𑈰𑈲𑈺𑈩𑈡𑈺𑈪𑈯𑈟𑈭𑈺𑈀𑈟𑈘𑈮𑈺𑈐𑈬𑈤𑈮𑈺 ૧૯",
+        "reference_characters": 24,
+        "errors": 3,
+        "cer": 0.125,
+        "substitute": 2,
+        "delete": 0,
+        "insert": 1
+      },
+      {
+        "id": "p20r-01",
+        "reference": "𑈟𑈭𑈩𑈬𑈺𑈩𑈙𑈊𑈯𑈦𑈺𑈙𑈤𑈰𑈺𑈟𑈬𑈟𑈭𑈥𑈬𑈺𑈞𑈭𑈩𑈰𑈩𑈲𑈺 ૨",
+        "prediction": "𑈟𑈭𑈩𑈬𑈺𑈩𑈙𑈮𑈊𑈯𑈦𑈺𑈙𑈪𑈰𑈺𑈟𑈬𑈟𑈭𑈥𑈬𑈺𑈨𑈭𑈩𑈟𑈰𑈉𑈰𑈲𑈺 ૨",
+        "reference_characters": 31,
+        "errors": 6,
+        "cer": 0.1935483870967742,
+        "substitute": 3,
+        "delete": 0,
+        "insert": 3
+      },
+      {
+        "id": "p20r-02",
+        "reference": "𑈝𑈝𑈯𑈴𑈈𑈬𑈦𑈺𑈤𑈮𑈪𑈰𑈺𑈝𑈦𑈰𑈁𑈺𑈝𑈮𑈁𑈞𑈺 ૩",
+        "prediction": "𑈝𑈈𑈯𑈴𑈈𑈬𑈦𑈺𑈤𑈮𑈪𑈰𑈺𑈝𑈦𑈰𑈁𑈺𑈑𑈮𑈁𑈞𑈺 ૩",
+        "reference_characters": 25,
+        "errors": 2,
+        "cer": 0.08,
+        "substitute": 2,
+        "delete": 0,
+        "insert": 0
+      },
+      {
+        "id": "p20r-03",
+        "reference": "𑈩𑈙𑈊𑈯𑈦𑈺𑈞𑈰𑈺𑈙𑈡𑈺𑈈𑈟𑈰𑈁𑈺𑈊𑈮𑈁𑈞𑈺 ૪",
+        "prediction": "𑈩𑈤𑈊𑈯𑈦𑈺𑈢𑈰𑈴𑈺𑈙𑈡𑈺𑈈𑈚𑈰𑈁𑈺𑈊𑈮𑈁𑈞𑈺 ૪",
+        "reference_characters": 24,
+        "errors": 4,
+        "cer": 0.16666666666666666,
+        "substitute": 3,
+        "delete": 0,
+        "insert": 1
+      }
+    ]
+  },
+  {
+    "step": 150,
+    "loss": 0.04549206420779228,
+    "validation_cer": 0.15483870967741936,
+    "errors": 24,
+    "characters": 155,
+    "seconds": 21.179082458023913,
+    "lines": [
+      {
+        "id": "p18r-01",
+        "reference": "𑈃𑈟𑈞𑈮𑈺𑈠𑈭𑈦𑈩𑈙𑈬𑈺𑈙𑈡𑈺𑈡𑈬𑈙𑈮𑈺𑈡𑈮𑈙𑈮𑈺 ૧૬",
+        "prediction": "𑈟𑈨𑈴𑈺𑈠𑈄𑈭𑈦𑈩𑈙𑈬𑈺𑈙𑈡𑈺𑈡𑈬𑈙𑈮𑈺𑈤𑈮𑈙𑈮𑈺 ૧૬",
+        "reference_characters": 28,
+        "errors": 5,
+        "cer": 0.17857142857142858,
+        "substitute": 3,
+        "delete": 1,
+        "insert": 1
+      },
+      {
+        "id": "p18r-02",
+        "reference": "𑈁𑈊𑈲𑈺𑈁𑈛𑈤𑈺𑈠𑈭𑈦𑈩𑈙𑈬𑈺𑈩𑈬𑈟𑈮𑈺 ૧૭",
+        "prediction": "𑈁𑈊𑈰𑈺𑈁𑈛𑈗𑈺𑈠𑈭𑈦𑈩𑈙𑈬𑈺𑈩𑈬𑈚𑈬𑈺 ૧૭",
+        "reference_characters": 23,
+        "errors": 4,
+        "cer": 0.17391304347826086,
+        "substitute": 4,
+        "delete": 0,
+        "insert": 0
+      },
+      {
+        "id": "p18r-03",
+        "reference": "𑈩𑈲𑈺𑈩𑈡𑈺𑈪𑈯𑈟𑈭𑈺𑈀𑈟𑈘𑈮𑈺𑈐𑈬𑈙𑈮𑈺 ૧૮",
+        "prediction": "𑈩𑈰𑈲𑈺𑈩𑈡𑈺𑈪𑈯𑈟𑈭𑈺𑈀𑈟𑈘𑈮𑈺𑈐𑈬𑈤𑈮𑈺 ૧૮",
+        "reference_characters": 24,
+        "errors": 2,
+        "cer": 0.08333333333333333,
+        "substitute": 1,
+        "delete": 0,
+        "insert": 1
+      },
+      {
+        "id": "p20r-01",
+        "reference": "𑈟𑈭𑈩𑈬𑈺𑈩𑈙𑈊𑈯𑈦𑈺𑈙𑈤𑈰𑈺𑈟𑈬𑈟𑈭𑈥𑈬𑈺𑈞𑈭𑈩𑈰𑈩𑈲𑈺 ૨",
+        "prediction": "𑈟𑈭𑈩𑈬𑈺𑈩𑈙𑈊𑈯𑈦𑈺𑈙𑈪𑈰𑈺𑈟𑈬𑈟𑈭𑈥𑈬𑈺𑈨𑈭𑈩𑈟𑈰𑈉𑈰𑈲𑈺 ૨",
+        "reference_characters": 31,
+        "errors": 5,
+        "cer": 0.16129032258064516,
+        "substitute": 3,
+        "delete": 0,
+        "insert": 2
+      },
+      {
+        "id": "p20r-02",
+        "reference": "𑈝𑈝𑈯𑈴𑈈𑈬𑈦𑈺𑈤𑈮𑈪𑈰𑈺𑈝𑈦𑈰𑈁𑈺𑈝𑈮𑈁𑈞𑈺 ૩",
+        "prediction": "𑈝𑈑𑈯𑈴𑈝𑈬𑈦𑈺𑈤𑈮𑈪𑈰𑈺𑈝𑈟𑈰𑈁𑈺𑈑𑈮𑈁𑈞𑈺 ૩",
+        "reference_characters": 25,
+        "errors": 4,
+        "cer": 0.16,
+        "substitute": 4,
+        "delete": 0,
+        "insert": 0
+      },
+      {
+        "id": "p20r-03",
+        "reference": "𑈩𑈙𑈊𑈯𑈦𑈺𑈞𑈰𑈺𑈙𑈡𑈺𑈈𑈟𑈰𑈁𑈺𑈊𑈮𑈁𑈞𑈺 ૪",
+        "prediction": "𑈩𑈤𑈊𑈯𑈦𑈺𑈛𑈰𑈴𑈺𑈙𑈡𑈺𑈈𑈚𑈰𑈁𑈺𑈊𑈮𑈁𑈞𑈺 ૪",
+        "reference_characters": 24,
+        "errors": 4,
+        "cer": 0.16666666666666666,
+        "substitute": 3,
+        "delete": 0,
+        "insert": 1
+      }
+    ]
+  },
+  {
+    "step": 200,
+    "loss": 0.03959107771515846,
+    "validation_cer": 0.16774193548387098,
+    "errors": 26,
+    "characters": 155,
+    "seconds": 26.635053583071567,
+    "lines": [
+      {
+        "id": "p18r-01",
+        "reference": "𑈃𑈟𑈞𑈮𑈺𑈠𑈭𑈦𑈩𑈙𑈬𑈺𑈙𑈡𑈺𑈡𑈬𑈙𑈮𑈺𑈡𑈮𑈙𑈮𑈺 ૧૬",
+        "prediction": "𑈃𑈟𑈨𑈬𑈺𑈠𑈄𑈭𑈦𑈩𑈺𑈙𑈬𑈺𑈙𑈡𑈺𑈡𑈬𑈙𑈬𑈺𑈤𑈮𑈙𑈮𑈺 ૨૬",
+        "reference_characters": 28,
+        "errors": 7,
+        "cer": 0.25,
+        "substitute": 5,
+        "delete": 0,
+        "insert": 2
+      },
+      {
+        "id": "p18r-02",
+        "reference": "𑈁𑈊𑈲𑈺𑈁𑈛𑈤𑈺𑈠𑈭𑈦𑈩𑈙𑈬𑈺𑈩𑈬𑈟𑈮𑈺 ૧૭",
+        "prediction": "𑈁𑈊𑈰𑈺𑈁૨𑈺𑈠𑈭𑈦𑈩𑈙𑈬𑈺𑈩𑈬𑈚𑈬𑈺 ૨૭",
+        "reference_characters": 23,
+        "errors": 6,
+        "cer": 0.2608695652173913,
+        "substitute": 5,
+        "delete": 1,
+        "insert": 0
+      },
+      {
+        "id": "p18r-03",
+        "reference": "𑈩𑈲𑈺𑈩𑈡𑈺𑈪𑈯𑈟𑈭𑈺𑈀𑈟𑈘𑈮𑈺𑈐𑈬𑈙𑈮𑈺 ૧૮",
+        "prediction": "𑈩𑈰𑈲𑈺𑈩𑈡𑈺𑈪𑈯𑈟𑈭𑈺𑈀𑈟𑈘𑈮𑈺𑈐𑈬𑈙𑈮𑈺 ૧૯",
+        "reference_characters": 24,
+        "errors": 2,
+        "cer": 0.08333333333333333,
+        "substitute": 1,
+        "delete": 0,
+        "insert": 1
+      },
+      {
+        "id": "p20r-01",
+        "reference": "𑈟𑈭𑈩𑈬𑈺𑈩𑈙𑈊𑈯𑈦𑈺𑈙𑈤𑈰𑈺𑈟𑈬𑈟𑈭𑈥𑈬𑈺𑈞𑈭𑈩𑈰𑈩𑈲𑈺 ૨",
+        "prediction": "𑈟𑈭𑈩𑈬𑈺𑈩𑈙𑈊𑈯𑈦𑈺𑈙𑈪𑈰𑈺𑈟𑈬𑈟𑈭𑈥𑈬𑈺𑈨𑈭𑈩𑈟𑈰𑈉𑈰𑈲𑈺 ૨",
+        "reference_characters": 31,
+        "errors": 5,
+        "cer": 0.16129032258064516,
+        "substitute": 3,
+        "delete": 0,
+        "insert": 2
+      },
+      {
+        "id": "p20r-02",
+        "reference": "𑈝𑈝𑈯𑈴𑈈𑈬𑈦𑈺𑈤𑈮𑈪𑈰𑈺𑈝𑈦𑈰𑈁𑈺𑈝𑈮𑈁𑈞𑈺 ૩",
+        "prediction": "𑈝𑈝𑈯𑈴𑈝𑈬𑈦𑈺𑈤𑈮𑈴𑈪𑈰𑈺𑈝𑈟𑈰𑈁𑈺𑈝𑈮𑈁𑈞𑈺 ૩",
+        "reference_characters": 25,
+        "errors": 3,
+        "cer": 0.12,
+        "substitute": 2,
+        "delete": 0,
+        "insert": 1
+      },
+      {
+        "id": "p20r-03",
+        "reference": "𑈩𑈙𑈊𑈯𑈦𑈺𑈞𑈰𑈺𑈙𑈡𑈺𑈈𑈟𑈰𑈁𑈺𑈊𑈮𑈁𑈞𑈺 ૪",
+        "prediction": "𑈩𑈙𑈊𑈯𑈦𑈺𑈛𑈰𑈴𑈺𑈙𑈡𑈺𑈈𑈚𑈰𑈁𑈺𑈊𑈮𑈁𑈞𑈺 ૪",
+        "reference_characters": 24,
+        "errors": 3,
+        "cer": 0.125,
+        "substitute": 2,
+        "delete": 0,
+        "insert": 1
+      }
+    ]
+  },
+  {
+    "step": 250,
+    "loss": 0.028109528124332428,
+    "validation_cer": 0.15483870967741936,
+    "errors": 24,
+    "characters": 155,
+    "seconds": 31.577181291999295,
+    "lines": [
+      {
+        "id": "p18r-01",
+        "reference": "𑈃𑈟𑈞𑈮𑈺𑈠𑈭𑈦𑈩𑈙𑈬𑈺𑈙𑈡𑈺𑈡𑈬𑈙𑈮𑈺𑈡𑈮𑈙𑈮𑈺 ૧૬",
+        "prediction": "𑈃𑈟𑈨𑈴𑈺𑈠𑈄𑈭𑈦𑈩𑈺𑈙𑈬𑈺𑈙𑈡𑈺𑈡𑈬𑈙𑈮𑈺𑈤𑈮𑈙𑈮𑈺 ૧૬",
+        "reference_characters": 28,
+        "errors": 5,
+        "cer": 0.17857142857142858,
+        "substitute": 3,
+        "delete": 0,
+        "insert": 2
+      },
+      {
+        "id": "p18r-02",
+        "reference": "𑈁𑈊𑈲𑈺𑈁𑈛𑈤𑈺𑈠𑈭𑈦𑈩𑈙𑈬𑈺𑈩𑈬𑈟𑈮𑈺 ૧૭",
+        "prediction": "𑈁𑈊𑈰𑈺𑈁𑈛𑈪𑈪𑈕𑈺𑈠𑈭𑈦𑈩𑈙𑈬𑈺𑈩𑈬𑈟𑈬𑈺 ૧૭",
+        "reference_characters": 23,
+        "errors": 5,
+        "cer": 0.21739130434782608,
+        "substitute": 3,
+        "delete": 0,
+        "insert": 2
+      },
+      {
+        "id": "p18r-03",
+        "reference": "𑈩𑈲𑈺𑈩𑈡𑈺𑈪𑈯𑈟𑈭𑈺𑈀𑈟𑈘𑈮𑈺𑈐𑈬𑈙𑈮𑈺 ૧૮",
+        "prediction": "𑈩𑈰𑈲𑈺𑈩𑈡𑈺𑈪𑈯𑈟𑈭𑈺𑈀𑈟𑈘𑈮𑈺𑈐𑈬𑈤𑈮𑈺 ૧૯",
+        "reference_characters": 24,
+        "errors": 3,
+        "cer": 0.125,
+        "substitute": 2,
+        "delete": 0,
+        "insert": 1
+      },
+      {
+        "id": "p20r-01",
+        "reference": "𑈟𑈭𑈩𑈬𑈺𑈩𑈙𑈊𑈯𑈦𑈺𑈙𑈤𑈰𑈺𑈟𑈬𑈟𑈭𑈥𑈬𑈺𑈞𑈭𑈩𑈰𑈩𑈲𑈺 ૨",
+        "prediction": "𑈟𑈭𑈩𑈬𑈺𑈩𑈙𑈊𑈯𑈦𑈺𑈙𑈪𑈰𑈺𑈟𑈬𑈟𑈭𑈥𑈬𑈺𑈨𑈭𑈩𑈟𑈰𑈉𑈰𑈲𑈺 ૨",
+        "reference_characters": 31,
+        "errors": 5,
+        "cer": 0.16129032258064516,
+        "substitute": 3,
+        "delete": 0,
+        "insert": 2
+      },
+      {
+        "id": "p20r-02",
+        "reference": "𑈝𑈝𑈯𑈴𑈈𑈬𑈦𑈺𑈤𑈮𑈪𑈰𑈺𑈝𑈦𑈰𑈁𑈺𑈝𑈮𑈁𑈞𑈺 ૩",
+        "prediction": "𑈝𑈤𑈯𑈴𑈝𑈬𑈦𑈺𑈤𑈮𑈴𑈪𑈰𑈺𑈝𑈦𑈰𑈁𑈺𑈝𑈮𑈁𑈞𑈺 ૩",
+        "reference_characters": 25,
+        "errors": 3,
+        "cer": 0.12,
+        "substitute": 2,
+        "delete": 0,
+        "insert": 1
+      },
+      {
+        "id": "p20r-03",
+        "reference": "𑈩𑈙𑈊𑈯𑈦𑈺𑈞𑈰𑈺𑈙𑈡𑈺𑈈𑈟𑈰𑈁𑈺𑈊𑈮𑈁𑈞𑈺 ૪",
+        "prediction": "𑈩𑈙𑈊𑈯𑈦𑈺𑈛𑈰𑈴𑈺𑈙𑈡𑈺𑈪𑈟𑈰𑈁𑈺𑈊𑈮𑈁𑈞𑈺 ૪",
+        "reference_characters": 24,
+        "errors": 3,
+        "cer": 0.125,
+        "substitute": 2,
+        "delete": 0,
+        "insert": 1
+      }
+    ]
+  },
+  {
+    "step": 300,
+    "loss": 0.038072552531957626,
+    "validation_cer": 0.14193548387096774,
+    "errors": 22,
+    "characters": 155,
+    "seconds": 36.229889292037115,
+    "lines": [
+      {
+        "id": "p18r-01",
+        "reference": "𑈃𑈟𑈞𑈮𑈺𑈠𑈭𑈦𑈩𑈙𑈬𑈺𑈙𑈡𑈺𑈡𑈬𑈙𑈮𑈺𑈡𑈮𑈙𑈮𑈺 ૧૬",
+        "prediction": "𑈃𑈟𑈨𑈮𑈺𑈠𑈄𑈭𑈦𑈩𑈙𑈬𑈺𑈙𑈡𑈺𑈡𑈬𑈙𑈮𑈺𑈤𑈮𑈙𑈮𑈺 ૧૬",
+        "reference_characters": 28,
+        "errors": 3,
+        "cer": 0.10714285714285714,
+        "substitute": 2,
+        "delete": 0,
+        "insert": 1
+      },
+      {
+        "id": "p18r-02",
+        "reference": "𑈁𑈊𑈲𑈺𑈁𑈛𑈤𑈺𑈠𑈭𑈦𑈩𑈙𑈬𑈺𑈩𑈬𑈟𑈮𑈺 ૧૭",
+        "prediction": "𑈁𑈊𑈰𑈺𑈁𑈛𑈢𑈺𑈠𑈭𑈦𑈩𑈙𑈬𑈺𑈩𑈬𑈚𑈬𑈺 ૧૭",
+        "reference_characters": 23,
+        "errors": 4,
+        "cer": 0.17391304347826086,
+        "substitute": 4,
+        "delete": 0,
+        "insert": 0
+      },
+      {
+        "id": "p18r-03",
+        "reference": "𑈩𑈲𑈺𑈩𑈡𑈺𑈪𑈯𑈟𑈭𑈺𑈀𑈟𑈘𑈮𑈺𑈐𑈬𑈙𑈮𑈺 ૧૮",
+        "prediction": "𑈩𑈰𑈲𑈺𑈩𑈡𑈺𑈪𑈯𑈟𑈭𑈺𑈀𑈟𑈘𑈮𑈺𑈐𑈬𑈤𑈮𑈺 ૧૯",
+        "reference_characters": 24,
+        "errors": 3,
+        "cer": 0.125,
+        "substitute": 2,
+        "delete": 0,
+        "insert": 1
+      },
+      {
+        "id": "p20r-01",
+        "reference": "𑈟𑈭𑈩𑈬𑈺𑈩𑈙𑈊𑈯𑈦𑈺𑈙𑈤𑈰𑈺𑈟𑈬𑈟𑈭𑈥𑈬𑈺𑈞𑈭𑈩𑈰𑈩𑈲𑈺 ૨",
+        "prediction": "𑈟𑈭𑈩𑈬𑈺𑈩𑈙𑈊𑈯𑈦𑈺𑈙𑈪𑈰𑈺𑈟𑈬𑈟𑈭𑈥𑈬𑈺𑈨𑈭𑈩𑈟𑈰𑈉𑈰𑈲𑈺 ૨",
+        "reference_characters": 31,
+        "errors": 5,
+        "cer": 0.16129032258064516,
+        "substitute": 3,
+        "delete": 0,
+        "insert": 2
+      },
+      {
+        "id": "p20r-02",
+        "reference": "𑈝𑈝𑈯𑈴𑈈𑈬𑈦𑈺𑈤𑈮𑈪𑈰𑈺𑈝𑈦𑈰𑈁𑈺𑈝𑈮𑈁𑈞𑈺 ૩",
+        "prediction": "𑈝𑈝𑈯𑈴𑈈𑈬𑈦𑈺𑈤𑈮𑈪𑈰𑈺𑈝𑈟𑈰𑈁𑈺𑈑𑈮𑈁𑈞𑈺 ૩",
+        "reference_characters": 25,
+        "errors": 2,
+        "cer": 0.08,
+        "substitute": 2,
+        "delete": 0,
+        "insert": 0
+      },
+      {
+        "id": "p20r-03",
+        "reference": "𑈩𑈙𑈊𑈯𑈦𑈺𑈞𑈰𑈺𑈙𑈡𑈺𑈈𑈟𑈰𑈁𑈺𑈊𑈮𑈁𑈞𑈺 ૪",
+        "prediction": "𑈩𑈤𑈊𑈯𑈦𑈺𑈛𑈰𑈴𑈺𑈙𑈡𑈺𑈪𑈚𑈰𑈁𑈺𑈊𑈮𑈁𑈞𑈺 ૪",
+        "reference_characters": 24,
+        "errors": 5,
+        "cer": 0.20833333333333334,
+        "substitute": 4,
+        "delete": 0,
+        "insert": 1
+      }
+    ]
+  },
+  {
+    "step": 350,
+    "loss": 0.01372638251632452,
+    "validation_cer": 0.12258064516129032,
+    "errors": 19,
+    "characters": 155,
+    "seconds": 41.53690512501635,
+    "lines": [
+      {
+        "id": "p18r-01",
+        "reference": "𑈃𑈟𑈞𑈮𑈺𑈠𑈭𑈦𑈩𑈙𑈬𑈺𑈙𑈡𑈺𑈡𑈬𑈙𑈮𑈺𑈡𑈮𑈙𑈮𑈺 ૧૬",
+        "prediction": "𑈃𑈟𑈨𑈮𑈺𑈠𑈄𑈭𑈦𑈩𑈙𑈬𑈺𑈙𑈡𑈺𑈡𑈬𑈙𑈮𑈺𑈤𑈮𑈙𑈮𑈺 ૧૬",
+        "reference_characters": 28,
+        "errors": 3,
+        "cer": 0.10714285714285714,
+        "substitute": 2,
+        "delete": 0,
+        "insert": 1
+      },
+      {
+        "id": "p18r-02",
+        "reference": "𑈁𑈊𑈲𑈺𑈁𑈛𑈤𑈺𑈠𑈭𑈦𑈩𑈙𑈬𑈺𑈩𑈬𑈟𑈮𑈺 ૧૭",
+        "prediction": "𑈁𑈊𑈰𑈺𑈁𑈛𑈪𑈺𑈠𑈭𑈦𑈩𑈤𑈬𑈺𑈩𑈬𑈚𑈮𑈺 ૧૭",
+        "reference_characters": 23,
+        "errors": 4,
+        "cer": 0.17391304347826086,
+        "substitute": 4,
+        "delete": 0,
+        "insert": 0
+      },
+      {
+        "id": "p18r-03",
+        "reference": "𑈩𑈲𑈺𑈩𑈡𑈺𑈪𑈯𑈟𑈭𑈺𑈀𑈟𑈘𑈮𑈺𑈐𑈬𑈙𑈮𑈺 ૧૮",
+        "prediction": "𑈩𑈰𑈲𑈺𑈩𑈡𑈺𑈪𑈯𑈟𑈭𑈺𑈀𑈟𑈘𑈮𑈺𑈐𑈬𑈤𑈮𑈺 ૧૯",
+        "reference_characters": 24,
+        "errors": 3,
+        "cer": 0.125,
+        "substitute": 2,
+        "delete": 0,
+        "insert": 1
+      },
+      {
+        "id": "p20r-01",
+        "reference": "𑈟𑈭𑈩𑈬𑈺𑈩𑈙𑈊𑈯𑈦𑈺𑈙𑈤𑈰𑈺𑈟𑈬𑈟𑈭𑈥𑈬𑈺𑈞𑈭𑈩𑈰𑈩𑈲𑈺 ૨",
+        "prediction": "𑈟𑈭𑈩𑈬𑈺𑈩𑈙𑈊𑈯𑈦𑈺𑈙𑈪𑈰𑈺𑈟𑈬𑈟𑈭𑈥𑈬𑈺𑈨𑈭𑈩𑈟𑈰𑈉𑈰𑈲𑈺 ૨",
+        "reference_characters": 31,
+        "errors": 5,
+        "cer": 0.16129032258064516,
+        "substitute": 3,
+        "delete": 0,
+        "insert": 2
+      },
+      {
+        "id": "p20r-02",
+        "reference": "𑈝𑈝𑈯𑈴𑈈𑈬𑈦𑈺𑈤𑈮𑈪𑈰𑈺𑈝𑈦𑈰𑈁𑈺𑈝𑈮𑈁𑈞𑈺 ૩",
+        "prediction": "𑈝𑈝𑈯𑈴𑈈𑈬𑈦𑈺𑈤𑈮𑈪𑈰𑈺𑈝𑈦𑈰𑈁𑈺𑈝𑈮𑈁𑈞𑈺 ૩",
+        "reference_characters": 25,
+        "errors": 0,
+        "cer": 0.0,
+        "substitute": 0,
+        "delete": 0,
+        "insert": 0
+      },
+      {
+        "id": "p20r-03",
+        "reference": "𑈩𑈙𑈊𑈯𑈦𑈺𑈞𑈰𑈺𑈙𑈡𑈺𑈈𑈟𑈰𑈁𑈺𑈊𑈮𑈁𑈞𑈺 ૪",
+        "prediction": "𑈩𑈤𑈊𑈯𑈦𑈴𑈢𑈰𑈴𑈺𑈙𑈡𑈺𑈈𑈟𑈰𑈁𑈺𑈊𑈮𑈁𑈞𑈺 ૪",
+        "reference_characters": 24,
+        "errors": 4,
+        "cer": 0.16666666666666666,
+        "substitute": 3,
+        "delete": 0,
+        "insert": 1
+      }
+    ]
+  },
+  {
+    "step": 400,
+    "loss": 0.04253988340497017,
+    "validation_cer": 0.14193548387096774,
+    "errors": 22,
+    "characters": 155,
+    "seconds": 47.4083900420228,
+    "lines": [
+      {
+        "id": "p18r-01",
+        "reference": "𑈃𑈟𑈞𑈮𑈺𑈠𑈭𑈦𑈩𑈙𑈬𑈺𑈙𑈡𑈺𑈡𑈬𑈙𑈮𑈺𑈡𑈮𑈙𑈮𑈺 ૧૬",
+        "prediction": "𑈃𑈟𑈨𑈬𑈺𑈠𑈄𑈭𑈦𑈩𑈙𑈬𑈺𑈙𑈡𑈺𑈡𑈬𑈙𑈮𑈺𑈤𑈮𑈙𑈮𑈺 ૧૬",
+        "reference_characters": 28,
+        "errors": 4,
+        "cer": 0.14285714285714285,
+        "substitute": 3,
+        "delete": 0,
+        "insert": 1
+      },
+      {
+        "id": "p18r-02",
+        "reference": "𑈁𑈊𑈲𑈺𑈁𑈛𑈤𑈺𑈠𑈭𑈦𑈩𑈙𑈬𑈺𑈩𑈬𑈟𑈮𑈺 ૧૭",
+        "prediction": "𑈁𑈊𑈰𑈺𑈁𑈛𑈪𑈺𑈠𑈭𑈦𑈩𑈙𑈬𑈺𑈩𑈬𑈚𑈬𑈺 ૧૭",
+        "reference_characters": 23,
+        "errors": 4,
+        "cer": 0.17391304347826086,
+        "substitute": 4,
+        "delete": 0,
+        "insert": 0
+      },
+      {
+        "id": "p18r-03",
+        "reference": "𑈩𑈲𑈺𑈩𑈡𑈺𑈪𑈯𑈟𑈭𑈺𑈀𑈟𑈘𑈮𑈺𑈐𑈬𑈙𑈮𑈺 ૧૮",
+        "prediction": "𑈩𑈰𑈲𑈺𑈩𑈡𑈺𑈪𑈯𑈟𑈭𑈺𑈀𑈟𑈘𑈮𑈺𑈐𑈬𑈤𑈮𑈺 ૧૯",
+        "reference_characters": 24,
+        "errors": 3,
+        "cer": 0.125,
+        "substitute": 2,
+        "delete": 0,
+        "insert": 1
+      },
+      {
+        "id": "p20r-01",
+        "reference": "𑈟𑈭𑈩𑈬𑈺𑈩𑈙𑈊𑈯𑈦𑈺𑈙𑈤𑈰𑈺𑈟𑈬𑈟𑈭𑈥𑈬𑈺𑈞𑈭𑈩𑈰𑈩𑈲𑈺 ૨",
+        "prediction": "𑈟𑈭𑈩𑈬𑈺𑈩𑈙𑈊𑈯𑈦𑈺𑈙𑈪𑈰𑈺𑈟𑈬𑈟𑈭𑈥𑈬𑈺𑈨𑈭𑈩𑈟𑈰𑈉𑈰𑈲𑈺 ૨",
+        "reference_characters": 31,
+        "errors": 5,
+        "cer": 0.16129032258064516,
+        "substitute": 3,
+        "delete": 0,
+        "insert": 2
+      },
+      {
+        "id": "p20r-02",
+        "reference": "𑈝𑈝𑈯𑈴𑈈𑈬𑈦𑈺𑈤𑈮𑈪𑈰𑈺𑈝𑈦𑈰𑈁𑈺𑈝𑈮𑈁𑈞𑈺 ૩",
+        "prediction": "𑈝𑈈𑈯𑈴𑈈𑈬𑈦𑈺𑈤𑈮𑈪𑈰𑈺𑈝𑈦𑈰𑈁𑈺𑈑𑈮𑈁𑈞𑈺 ૩",
+        "reference_characters": 25,
+        "errors": 2,
+        "cer": 0.08,
+        "substitute": 2,
+        "delete": 0,
+        "insert": 0
+      },
+      {
+        "id": "p20r-03",
+        "reference": "𑈩𑈙𑈊𑈯𑈦𑈺𑈞𑈰𑈺𑈙𑈡𑈺𑈈𑈟𑈰𑈁𑈺𑈊𑈮𑈁𑈞𑈺 ૪",
+        "prediction": "𑈩𑈤𑈊𑈯𑈦𑈺𑈛𑈰𑈴𑈺𑈙𑈡𑈺𑈈𑈚𑈰𑈁𑈺𑈊𑈮𑈁𑈞𑈺 ૪",
+        "reference_characters": 24,
+        "errors": 4,
+        "cer": 0.16666666666666666,
+        "substitute": 3,
+        "delete": 0,
+        "insert": 1
+      }
+    ]
+  },
+  {
+    "step": 450,
+    "loss": 0.03902408853173256,
+    "validation_cer": 0.11612903225806452,
+    "errors": 18,
+    "characters": 155,
+    "seconds": 52.57670470804442,
+    "lines": [
+      {
+        "id": "p18r-01",
+        "reference": "𑈃𑈟𑈞𑈮𑈺𑈠𑈭𑈦𑈩𑈙𑈬𑈺𑈙𑈡𑈺𑈡𑈬𑈙𑈮𑈺𑈡𑈮𑈙𑈮𑈺 ૧૬",
+        "prediction": "𑈃𑈟𑈨𑈮𑈺𑈠𑈄𑈭𑈦𑈩𑈙𑈬𑈺𑈙𑈡𑈺𑈡𑈬𑈙𑈮𑈺𑈤𑈮𑈙𑈮𑈺 ૧૬",
+        "reference_characters": 28,
+        "errors": 3,
+        "cer": 0.10714285714285714,
+        "substitute": 2,
+        "delete": 0,
+        "insert": 1
+      },
+      {
+        "id": "p18r-02",
+        "reference": "𑈁𑈊𑈲𑈺𑈁𑈛𑈤𑈺𑈠𑈭𑈦𑈩𑈙𑈬𑈺𑈩𑈬𑈟𑈮𑈺 ૧૭",
+        "prediction": "𑈁𑈊𑈰𑈺𑈁𑈪𑈤𑈺𑈠𑈭𑈦𑈩𑈤𑈬𑈺𑈩𑈬𑈚𑈮𑈺 ૧૭",
+        "reference_characters": 23,
+        "errors": 4,
+        "cer": 0.17391304347826086,
+        "substitute": 4,
+        "delete": 0,
+        "insert": 0
+      },
+      {
+        "id": "p18r-03",
+        "reference": "𑈩𑈲𑈺𑈩𑈡𑈺𑈪𑈯𑈟𑈭𑈺𑈀𑈟𑈘𑈮𑈺𑈐𑈬𑈙𑈮𑈺 ૧૮",
+        "prediction": "𑈩𑈰𑈲𑈺𑈩𑈡𑈺𑈪𑈯𑈟𑈭𑈺𑈀𑈟𑈘𑈮𑈺𑈐𑈬𑈤𑈮𑈺 ૧૮",
+        "reference_characters": 24,
+        "errors": 2,
+        "cer": 0.08333333333333333,
+        "substitute": 1,
+        "delete": 0,
+        "insert": 1
+      },
+      {
+        "id": "p20r-01",
+        "reference": "𑈟𑈭𑈩𑈬𑈺𑈩𑈙𑈊𑈯𑈦𑈺𑈙𑈤𑈰𑈺𑈟𑈬𑈟𑈭𑈥𑈬𑈺𑈞𑈭𑈩𑈰𑈩𑈲𑈺 ૨",
+        "prediction": "𑈟𑈭𑈩𑈬𑈺𑈩𑈙𑈊𑈯𑈦𑈺𑈙𑈪𑈰𑈺𑈟𑈬𑈟𑈭𑈥𑈬𑈺𑈨𑈭𑈩𑈟𑈰𑈉𑈰𑈲𑈺 ૨",
+        "reference_characters": 31,
+        "errors": 5,
+        "cer": 0.16129032258064516,
+        "substitute": 3,
+        "delete": 0,
+        "insert": 2
+      },
+      {
+        "id": "p20r-02",
+        "reference": "𑈝𑈝𑈯𑈴𑈈𑈬𑈦𑈺𑈤𑈮𑈪𑈰𑈺𑈝𑈦𑈰𑈁𑈺𑈝𑈮𑈁𑈞𑈺 ૩",
+        "prediction": "𑈝𑈝𑈯𑈴𑈈𑈬𑈦𑈺𑈤𑈮𑈪𑈰𑈺𑈝𑈦𑈰𑈁𑈺𑈝𑈮𑈁𑈞𑈺 ૩",
+        "reference_characters": 25,
+        "errors": 0,
+        "cer": 0.0,
+        "substitute": 0,
+        "delete": 0,
+        "insert": 0
+      },
+      {
+        "id": "p20r-03",
+        "reference": "𑈩𑈙𑈊𑈯𑈦𑈺𑈞𑈰𑈺𑈙𑈡𑈺𑈈𑈟𑈰𑈁𑈺𑈊𑈮𑈁𑈞𑈺 ૪",
+        "prediction": "𑈩𑈤𑈊𑈯𑈦𑈺𑈛𑈰𑈴𑈺𑈙𑈡𑈺𑈈𑈚𑈰𑈁𑈺𑈊𑈮𑈁𑈞𑈺 ૪",
+        "reference_characters": 24,
+        "errors": 4,
+        "cer": 0.16666666666666666,
+        "substitute": 3,
+        "delete": 0,
+        "insert": 1
+      }
+    ]
+  },
+  {
+    "step": 500,
+    "loss": 0.08548415452241898,
+    "validation_cer": 0.16129032258064516,
+    "errors": 25,
+    "characters": 155,
+    "seconds": 57.89099070802331,
+    "lines": [
+      {
+        "id": "p18r-01",
+        "reference": "𑈃𑈟𑈞𑈮𑈺𑈠𑈭𑈦𑈩𑈙𑈬𑈺𑈙𑈡𑈺𑈡𑈬𑈙𑈮𑈺𑈡𑈮𑈙𑈮𑈺 ૧૬",
+        "prediction": "𑈃𑈟𑈨𑈴𑈺𑈠𑈄𑈭𑈦𑈩𑈙𑈬𑈺𑈙𑈡𑈺𑈡𑈬𑈤𑈬𑈮𑈺𑈤𑈮𑈙𑈮𑈺 ૧૬",
+        "reference_characters": 28,
+        "errors": 6,
+        "cer": 0.21428571428571427,
+        "substitute": 4,
+        "delete": 0,
+        "insert": 2
+      },
+      {
+        "id": "p18r-02",
+        "reference": "𑈁𑈊𑈲𑈺𑈁𑈛𑈤𑈺𑈠𑈭𑈦𑈩𑈙𑈬𑈺𑈩𑈬𑈟𑈮𑈺 ૧૭",
+        "prediction": "𑈁𑈊𑈰𑈺𑈁𑈪𑈺𑈠𑈭𑈦𑈩𑈤𑈬𑈺𑈩𑈬𑈚𑈬𑈺 ૧૭",
+        "reference_characters": 23,
+        "errors": 6,
+        "cer": 0.2608695652173913,
+        "substitute": 5,
+        "delete": 1,
+        "insert": 0
+      },
+      {
+        "id": "p18r-03",
+        "reference": "𑈩𑈲𑈺𑈩𑈡𑈺𑈪𑈯𑈟𑈭𑈺𑈀𑈟𑈘𑈮𑈺𑈐𑈬𑈙𑈮𑈺 ૧૮",
+        "prediction": "𑈩𑈰𑈲𑈺𑈩𑈡𑈺𑈪𑈯𑈟𑈭𑈺𑈀𑈟𑈘𑈮𑈺𑈐𑈬𑈤𑈮𑈺 ૧૯",
+        "reference_characters": 24,
+        "errors": 3,
+        "cer": 0.125,
+        "substitute": 2,
+        "delete": 0,
+        "insert": 1
+      },
+      {
+        "id": "p20r-01",
+        "reference": "𑈟𑈭𑈩𑈬𑈺𑈩𑈙𑈊𑈯𑈦𑈺𑈙𑈤𑈰𑈺𑈟𑈬𑈟𑈭𑈥𑈬𑈺𑈞𑈭𑈩𑈰𑈩𑈲𑈺 ૨",
+        "prediction": "𑈟𑈭𑈩𑈬𑈺𑈩𑈙𑈊𑈯𑈦𑈺𑈙𑈌𑈰𑈺𑈟𑈬𑈟𑈭𑈥𑈬𑈺𑈨𑈭𑈩𑈟𑈰𑈉𑈰𑈲𑈺 ૨",
+        "reference_characters": 31,
+        "errors": 5,
+        "cer": 0.16129032258064516,
+        "substitute": 3,
+        "delete": 0,
+        "insert": 2
+      },
+      {
+        "id": "p20r-02",
+        "reference": "𑈝𑈝𑈯𑈴𑈈𑈬𑈦𑈺𑈤𑈮𑈪𑈰𑈺𑈝𑈦𑈰𑈁𑈺𑈝𑈮𑈁𑈞𑈺 ૩",
+        "prediction": "𑈝𑈈𑈯𑈴𑈈𑈬𑈦𑈺𑈤𑈮𑈪𑈰𑈺𑈝𑈦𑈰𑈁𑈺𑈑𑈮𑈁𑈞𑈺 ૩",
+        "reference_characters": 25,
+        "errors": 2,
+        "cer": 0.08,
+        "substitute": 2,
+        "delete": 0,
+        "insert": 0
+      },
+      {
+        "id": "p20r-03",
+        "reference": "𑈩𑈙𑈊𑈯𑈦𑈺𑈞𑈰𑈺𑈙𑈡𑈺𑈈𑈟𑈰𑈁𑈺𑈊𑈮𑈁𑈞𑈺 ૪",
+        "prediction": "𑈩𑈤𑈊𑈯𑈦𑈺𑈢𑈰𑈴𑈺𑈙𑈡𑈺𑈈𑈟𑈰𑈁𑈺𑈊𑈮𑈁𑈞𑈺 ૪",
+        "reference_characters": 24,
+        "errors": 3,
+        "cer": 0.125,
+        "substitute": 2,
+        "delete": 0,
+        "insert": 1
+      }
+    ]
+  }
+]

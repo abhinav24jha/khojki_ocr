@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "khojki-ocr-takehome"
+version = "0.1.0"
+description = "Auditable printed Khojki OCR prototype"
+requires-python = ">=3.10"
+dependencies = ["torch>=2.2", "numpy>=1.26", "Pillow>=10", "opencv-python-headless>=4.9", "scipy>=1.12", "pypdf>=4", "pypdfium2>=4.30"]
+
+[project.optional-dependencies]
+train = ["uharfbuzz>=0.39", "freetype-py>=2.4"]
+test = ["pytest>=8"]
+baseline = ["requests>=2.31"]
+
+[project.scripts]
+khojki-ocr = "khojki_ocr.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

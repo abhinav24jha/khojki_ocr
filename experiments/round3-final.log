@@ -1,0 +1,4 @@
+{"name": "incumbent", "paths": ["models/round2-selected.pt"], "errors": 20, "characters": 453, "seconds": 1.6522658190001493, "cer": 0.04415011037527594}
+{"name": "round3-packed", "paths": ["experiments/round3-packed/best.pt"], "errors": 24, "characters": 453, "seconds": 1.1084038269998473, "cer": 0.052980132450331126}
+{"name": "round3-control", "paths": ["experiments/round3-control/best.pt"], "errors": 26, "characters": 453, "seconds": 1.0169970299998567, "cer": 0.05739514348785872}
+{"name": "round3-ensemble", "paths": ["experiments/round3-packed/best.pt", "experiments/round3-control/best.pt"], "errors": 25, "characters": 453, "seconds": 1.136120063000135, "cer": 0.05518763796909492}

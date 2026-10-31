@@ -1,0 +1,48 @@
+{
+  "utc": "2026-10-31T11:48:30.055661+00:00",
+  "model_sha256": "1721b073e808b5fa00e73898643b9c73e5eb0f9338247554ad30be5f92c07fd2",
+  "test_reference_sha256": "70cedf18f81bcef2e5ebcacb2ac7e4ec3b3e935661eb5d293d03d4e7aade851c",
+  "test_summary": {
+    "lines": 5,
+    "characters": 118,
+    "missed_lines": 0,
+    "automatic_errors": 17,
+    "checked_crop_errors": 17,
+    "crop_changes_prediction_lines": 0,
+    "invalid_inventory_characters": 0,
+    "utf8_failures": 0,
+    "automatic_cer": 0.1440677966101695,
+    "checked_crop_cer": 0.1440677966101695,
+    "net_crop_error_difference": 0
+  },
+  "cpu_gpu_page19_text_equal": true,
+  "cpu_page": {
+    "source": "/content/khojki-ocr/data/pages/p19.png",
+    "checkpoint_sha256": "1721b073e808b5fa00e73898643b9c73e5eb0f9338247554ad30be5f92c07fd2",
+    "device": "cpu",
+    "model_load_seconds": 0.06063025599996763,
+    "pages": [
+      {
+        "page": 1,
+        "image_size": [
+          739,
+          1200
+        ],
+        "region": [
+          66,
+          130,
+          687,
+          1131
+        ],
+        "manual_region": false,
+        "layout": "robust",
+        "line_count": 16,
+        "detection_seconds": 0.18945812899994507,
+        "recognition_seconds": 2.5887539160003143,
+        "processing_seconds": 3.1412967029999663,
+        "scope": "Prototype for printed Khojki. All lines require review; handwriting is unvalidated."
+      }
+    ]
+  },
+  "test_used_for_selection": false
+}

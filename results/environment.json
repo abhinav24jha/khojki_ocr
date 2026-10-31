@@ -1,0 +1,6 @@
+{
+  "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+  "torch": "2.11.0+cu130",
+  "gpu": "Tesla T4",
+  "platform": "Linux-6.6.159+-x86_64-with-glibc2.39"
+}

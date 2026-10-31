@@ -1,0 +1,38 @@
+{
+  "checkpoint": "outputs/khojki-ocr/experiments/synthetic-v1/best.pt",
+  "steps": 500,
+  "device": "mps",
+  "lr": 0.0002,
+  "output": "curve-15",
+  "resume": false,
+  "synthetic_fraction": 0.25,
+  "seed": 51,
+  "train_limit": 15,
+  "annotation_sha256": "9985fdeecc5cc67ffce9fd6da4567b2cfa43d90a225b0e2fab214ebb32f6027e",
+  "train_line_ids": [
+    "p17r-01",
+    "p17r-02",
+    "p17r-03",
+    "p17r-04",
+    "p17r-05",
+    "p17r-06",
+    "p17r-07",
+    "p17r-08",
+    "p17r-09",
+    "p17r-10",
+    "p17r-11",
+    "p17r-12",
+    "p17r-13",
+    "p17r-14",
+    "p17r-15"
+  ],
+  "validation_line_ids": [
+    "p18r-01",
+    "p18r-02",
+    "p18r-03",
+    "p20r-01",
+    "p20r-02",
+    "p20r-03"
+  ],
+  "test_used": false
+}

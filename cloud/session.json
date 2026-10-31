@@ -1,0 +1,16 @@
+{
+  "utc": "2026-10-31T10:16:39.467220+00:00",
+  "notebook_url": "https://colab.research.google.com/drive/1XQLD5JF1sLm1yRitKJlWA_bpyygu-ox_",
+  "observed_starting_compute_units": 168.49,
+  "minimum_remaining_units": 75,
+  "initial_plan_max_units": 5,
+  "local_policy": "No further local model training or large-model inference. Lightweight editing and file packaging only.",
+  "test_data_in_bundle": false,
+  "training_lines": 15,
+  "development_lines": 6,
+  "bundle_sha256": "223f5bb7b53871d81bc153662abcb3a18a0b103f58cb57624dadee79c591c225",
+  "pilot_notebook_url": "https://colab.research.google.com/drive/1CWPTxA07Jy5Tb6a-34bS9fEEFTRWlPUy",
+  "pilot_results_sha256": "2a0a0cf4e02575a65a4a55b665b0e090b22586728798f7f32c510b6e5dbb8346",
+  "pilot_result": "13/155 dev errors; retain original curve10 at 10/155",
+  "pilot_shutdown_verified": "No active sessions in Colab UI"
+}

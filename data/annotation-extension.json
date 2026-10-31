@@ -1,0 +1,6 @@
+{
+  "utc": "2026-10-31T09:55:57.332596+00:00",
+  "sha256": "9985fdeecc5cc67ffce9fd6da4567b2cfa43d90a225b0e2fab214ebb32f6027e",
+  "change": "Added page20 first3 entries to dev and next5 entries to test, before any recognition predictions on page20. Existing v1 references unchanged. New p20r-07 DA+II corrected during visual render check before prediction.",
+  "limitations": "All references are AI-assisted visual transcriptions against Unicode/Noto, not certified by a Khojki expert. Similar historical TA/MA and NA/VA forms require particular scrutiny."
+}

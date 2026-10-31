@@ -1,0 +1,23 @@
+usage: khojki-ocr [-h] [--checkpoint CHECKPOINT] --output OUTPUT
+                  [--device {cpu,cuda,mps}] [--pages PAGES [PAGES ...]]
+                  [--pdf-native] [--region LEFT TOP RIGHT BOTTOM]
+                  [--threads THREADS]
+                  source
+
+Printed Khojki page OCR with UTF-8 output and an offline review page.
+
+positional arguments:
+  source                Page image or PDF
+
+options:
+  -h, --help            show this help message and exit
+  --checkpoint CHECKPOINT
+  --output OUTPUT
+  --device {cpu,cuda,mps}
+  --pages PAGES [PAGES ...]
+                        One-based PDF page numbers; default all
+  --pdf-native          Use the only embedded image per PDF page, preserving
+                        original scan resolution
+  --region LEFT TOP RIGHT BOTTOM
+                        Optional assisted body crop; default automatic
+  --threads THREADS

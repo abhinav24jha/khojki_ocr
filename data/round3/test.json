@@ -1,0 +1,188 @@
+[
+  {
+    "id": "p20r-09",
+    "page": 20,
+    "image": "lines/p20r-09.png",
+    "box": [
+      119,
+      643,
+      695,
+      686
+    ],
+    "region": [
+      85,
+      140,
+      700,
+      1115
+    ],
+    "split": "test",
+    "selected_for_transcription": false,
+    "text": "𑈩𑈙𑈊𑈯𑈦𑈺𑈈𑈟𑈰𑈁𑈺𑈙𑈡𑈺𑈀𑈤𑈦𑈺𑈊𑈯𑈁𑈡𑈺 ૧૦",
+    "annotation_tokens": "sa ta ga.u ra : ka pa.e aa : ta ba : a ma ra : ga.u aa ba : SPACE 10",
+    "annotation_method": "Non-expert visual chart transcription, not copied from model output; historical forms need expert adjudication",
+    "uncertain_readings": [
+      {
+        "primary_tokens": "a ma ra",
+        "alternative_tokens": "a ta ra",
+        "alternative_text": "𑈩𑈙𑈊𑈯𑈦𑈺𑈈𑈟𑈰𑈁𑈺𑈙𑈡𑈺𑈀𑈙𑈦𑈺𑈊𑈯𑈁𑈡𑈺 ૧૦",
+        "reason": "Visually ambiguous historical printed form relative to modern chart"
+      }
+    ]
+  },
+  {
+    "id": "p20r-10",
+    "page": 20,
+    "image": "lines/p20r-10.png",
+    "box": [
+      120,
+      704,
+      697,
+      749
+    ],
+    "region": [
+      85,
+      140,
+      700,
+      1115
+    ],
+    "split": "test",
+    "selected_for_transcription": false,
+    "text": "𑈁𑈟𑈘𑈮𑈺𑈤𑈬𑈟𑈭𑈁𑈺𑈁𑈟𑈘𑈰𑈺𑈪𑈬𑈥𑈺𑈣𑈡𑈺 ૧૧",
+    "annotation_tokens": "aa pa nna.ii : ma.aa pa.i aa : aa pa nna.e : ha.aa ya : bha ba : SPACE 11",
+    "annotation_method": "Non-expert visual chart transcription, not copied from model output; historical forms need expert adjudication",
+    "uncertain_readings": [
+      {
+        "primary_tokens": "ma.aa pa.i",
+        "alternative_tokens": "ta.aa pa.i",
+        "alternative_text": "𑈁𑈟𑈘𑈮𑈺𑈙𑈬𑈟𑈭𑈁𑈺𑈁𑈟𑈘𑈰𑈺𑈪𑈬𑈥𑈺𑈣𑈡𑈺 ૧૧",
+        "reason": "Visually ambiguous historical printed form relative to modern chart"
+      },
+      {
+        "primary_tokens": "ha.aa ya",
+        "alternative_tokens": "ha.aa ya.u",
+        "alternative_text": "𑈁𑈟𑈘𑈮𑈺𑈤𑈬𑈟𑈭𑈁𑈺𑈁𑈟𑈘𑈰𑈺𑈪𑈬𑈥𑈯𑈺𑈣𑈡𑈺 ૧૧",
+        "reason": "Visually ambiguous historical printed form relative to modern chart"
+      },
+      {
+        "primary_tokens": "bha ba",
+        "alternative_tokens": "ma ba",
+        "alternative_text": "𑈁𑈟𑈘𑈮𑈺𑈤𑈬𑈟𑈭𑈁𑈺𑈁𑈟𑈘𑈰𑈺𑈪𑈬𑈥𑈺𑈤𑈡𑈺 ૧૧",
+        "reason": "Visually ambiguous historical printed form relative to modern chart"
+      },
+      {
+        "primary_tokens": "bha ba",
+        "alternative_tokens": "bba ba",
+        "alternative_text": "𑈁𑈟𑈘𑈮𑈺𑈤𑈬𑈟𑈭𑈁𑈺𑈁𑈟𑈘𑈰𑈺𑈪𑈬𑈥𑈺𑈢𑈡𑈺 ૧૧",
+        "reason": "Visually ambiguous historical printed form relative to modern chart"
+      }
+    ]
+  },
+  {
+    "id": "p20r-11",
+    "page": 20,
+    "image": "lines/p20r-11.png",
+    "box": [
+      121,
+      765,
+      697,
+      809
+    ],
+    "region": [
+      85,
+      140,
+      700,
+      1115
+    ],
+    "split": "test",
+    "selected_for_transcription": false,
+    "text": "𑈐𑈯𑈊𑈙𑈺𑈡𑈬𑈙𑈮𑈺𑈩𑈙𑈊𑈯𑈦𑈈𑈰𑈺𑈏𑈡𑈺 ૧૨",
+    "annotation_tokens": "ja.u ga ta : ba.aa ta.ii : sa ta ga.u ra ka.e : cha ba : SPACE 12",
+    "annotation_method": "Non-expert visual chart transcription, not copied from model output; historical forms need expert adjudication",
+    "uncertain_readings": [
+      {
+        "primary_tokens": "ra ka.e",
+        "alternative_tokens": "ra cha.e",
+        "alternative_text": "𑈐𑈯𑈊𑈙𑈺𑈡𑈬𑈙𑈮𑈺𑈩𑈙𑈊𑈯𑈦𑈏𑈰𑈺𑈏𑈡𑈺 ૧૨",
+        "reason": "Visually ambiguous historical printed form relative to modern chart"
+      },
+      {
+        "primary_tokens": "ra ka.e",
+        "alternative_tokens": "ra ca.e",
+        "alternative_text": "𑈐𑈯𑈊𑈙𑈺𑈡𑈬𑈙𑈮𑈺𑈩𑈙𑈊𑈯𑈦𑈎𑈰𑈺𑈏𑈡𑈺 ૧૨",
+        "reason": "Visually ambiguous historical printed form relative to modern chart"
+      },
+      {
+        "primary_tokens": "cha ba",
+        "alternative_tokens": "bha ba",
+        "alternative_text": "𑈐𑈯𑈊𑈙𑈺𑈡𑈬𑈙𑈮𑈺𑈩𑈙𑈊𑈯𑈦𑈈𑈰𑈺𑈣𑈡𑈺 ૧૨",
+        "reason": "Visually ambiguous historical printed form relative to modern chart"
+      }
+    ]
+  },
+  {
+    "id": "p18r-14",
+    "page": 18,
+    "image": "lines/p18r-14.png",
+    "box": [
+      105,
+      946,
+      671,
+      989
+    ],
+    "region": [
+      85,
+      130,
+      710,
+      1110
+    ],
+    "split": "test",
+    "selected_for_transcription": false,
+    "text": "𑈃𑈟𑈰𑈺𑈩𑈙𑈬𑈦𑈬𑈺𑈀𑈊𑈲𑈎𑈦𑈺𑈟𑈰𑈓𑈂𑈺 ૬",
+    "annotation_tokens": "u pa.e : sa ta.aa ra.aa : a ga.o ca ra : pa.e nya i : SPACE 6",
+    "annotation_method": "Non-expert visual chart transcription, not copied from model output; historical forms need expert adjudication",
+    "uncertain_readings": [
+      {
+        "primary_tokens": "u pa.e",
+        "alternative_tokens": "u tha.e",
+        "alternative_text": "𑈃𑈚𑈰𑈺𑈩𑈙𑈬𑈦𑈬𑈺𑈀𑈊𑈲𑈎𑈦𑈺𑈟𑈰𑈓𑈂𑈺 ૬",
+        "reason": "Visually ambiguous historical printed form relative to modern chart"
+      },
+      {
+        "primary_tokens": "pa.e nya i",
+        "alternative_tokens": "tha.e nya i",
+        "alternative_text": "𑈃𑈟𑈰𑈺𑈩𑈙𑈬𑈦𑈬𑈺𑈀𑈊𑈲𑈎𑈦𑈺𑈚𑈰𑈓𑈂𑈺 ૬",
+        "reason": "Visually ambiguous historical printed form relative to modern chart"
+      }
+    ]
+  },
+  {
+    "id": "p18r-15",
+    "page": 18,
+    "image": "lines/p18r-15.png",
+    "box": [
+      118,
+      1006,
+      674,
+      1048
+    ],
+    "region": [
+      85,
+      130,
+      710,
+      1110
+    ],
+    "split": "test",
+    "selected_for_transcription": false,
+    "text": "𑈙𑈡𑈙𑈲𑈺𑈠𑈭𑈦𑈩𑈙𑈬𑈺𑈈𑈦𑈙𑈬𑈺𑈈𑈬𑈤𑈬𑈺 ૭",
+    "annotation_tokens": "ta ba ta.o : pha.i ra sa ta.aa : ka ra ta.aa : ka.aa ma.aa : SPACE 7",
+    "annotation_method": "Non-expert visual chart transcription, not copied from model output; historical forms need expert adjudication",
+    "uncertain_readings": [
+      {
+        "primary_tokens": "ka.aa ma.aa",
+        "alternative_tokens": "ka.aa ta.aa",
+        "alternative_text": "𑈙𑈡𑈙𑈲𑈺𑈠𑈭𑈦𑈩𑈙𑈬𑈺𑈈𑈦𑈙𑈬𑈺𑈈𑈬𑈙𑈬𑈺 ૭",
+        "reason": "Visually ambiguous historical printed form relative to modern chart"
+      }
+    ]
+  }
+]

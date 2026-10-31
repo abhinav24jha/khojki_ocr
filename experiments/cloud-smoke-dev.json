@@ -1,0 +1,139 @@
+{
+  "config": {
+    "checkpoint": [
+      "/content/khojki-ocr/experiments/curve-10/best.pt"
+    ],
+    "split": "dev",
+    "preprocess": "contrast",
+    "no_columns": false,
+    "device": "cuda",
+    "beam": 1,
+    "output": "/content/khojki-ocr/experiments/cloud-smoke-dev.json"
+  },
+  "summary": {
+    "lines": 6,
+    "characters": 155,
+    "errors": 10,
+    "load_seconds": 1.1949533520000841,
+    "inference_seconds": 1.9790063460000056,
+    "cer": 0.06451612903225806
+  },
+  "lines": [
+    {
+      "id": "p18r-01",
+      "reference": "𑈃𑈟𑈞𑈮𑈺𑈠𑈭𑈦𑈩𑈙𑈬𑈺𑈙𑈡𑈺𑈡𑈬𑈙𑈮𑈺𑈡𑈮𑈙𑈮𑈺 ૧૬",
+      "prediction": "𑈃𑈟𑈨𑈮𑈺𑈠𑈄𑈭𑈦𑈩𑈙𑈬𑈺𑈙𑈡𑈺𑈡𑈬𑈤𑈮𑈺𑈡𑈮𑈙𑈮𑈺 ૧૬",
+      "seconds": 1.8825805459999856,
+      "reference_characters": 28,
+      "errors": 3,
+      "cer": 0.10714285714285714,
+      "substitute": 2,
+      "delete": 0,
+      "insert": 1
+    },
+    {
+      "id": "p18r-02",
+      "reference": "𑈁𑈊𑈲𑈺𑈁𑈛𑈤𑈺𑈠𑈭𑈦𑈩𑈙𑈬𑈺𑈩𑈬𑈟𑈮𑈺 ૧૭",
+      "prediction": "𑈁𑈊𑈰𑈺𑈁𑈛𑈤𑈺𑈠𑈭𑈦𑈩𑈙𑈬𑈺𑈩𑈬𑈚𑈮𑈺 ૧૭",
+      "seconds": 0.018897440999921855,
+      "reference_characters": 23,
+      "errors": 2,
+      "cer": 0.08695652173913043,
+      "substitute": 2,
+      "delete": 0,
+      "insert": 0
+    },
+    {
+      "id": "p18r-03",
+      "reference": "𑈩𑈲𑈺𑈩𑈡𑈺𑈪𑈯𑈟𑈭𑈺𑈀𑈟𑈘𑈮𑈺𑈐𑈬𑈙𑈮𑈺 ૧૮",
+      "prediction": "𑈩𑈲𑈺𑈩𑈡𑈺𑈪𑈯𑈟𑈭𑈺𑈀𑈟𑈘𑈮𑈺𑈐𑈬𑈤𑈮𑈺 ૧૮",
+      "seconds": 0.021630719000086174,
+      "reference_characters": 24,
+      "errors": 1,
+      "cer": 0.041666666666666664,
+      "substitute": 1,
+      "delete": 0,
+      "insert": 0
+    },
+    {
+      "id": "p20r-01",
+      "reference": "𑈟𑈭𑈩𑈬𑈺𑈩𑈙𑈊𑈯𑈦𑈺𑈙𑈤𑈰𑈺𑈟𑈬𑈟𑈭𑈥𑈬𑈺𑈞𑈭𑈩𑈰𑈩𑈲𑈺 ૨",
+      "prediction": "𑈟𑈭𑈩𑈬𑈺𑈩𑈙𑈊𑈯𑈦𑈺𑈙𑈤𑈰𑈺𑈟𑈬𑈟𑈭𑈥𑈬𑈺𑈨𑈭𑈩𑈟𑈰𑈟𑈲𑈺 ૨",
+      "seconds": 0.017314466000016182,
+      "reference_characters": 31,
+      "errors": 3,
+      "cer": 0.0967741935483871,
+      "substitute": 2,
+      "delete": 0,
+      "insert": 1
+    },
+    {
+      "id": "p20r-02",
+      "reference": "𑈝𑈝𑈯𑈴𑈈𑈬𑈦𑈺𑈤𑈮𑈪𑈰𑈺𑈝𑈦𑈰𑈁𑈺𑈝𑈮𑈁𑈞𑈺 ૩",
+      "prediction": "𑈝𑈝𑈯𑈴𑈈𑈬𑈦𑈺𑈤𑈮𑈪𑈰𑈺𑈝𑈦𑈰𑈁𑈺𑈝𑈮𑈁𑈞𑈺 ૩",
+      "seconds": 0.020293411000011474,
+      "reference_characters": 25,
+      "errors": 0,
+      "cer": 0.0,
+      "substitute": 0,
+      "delete": 0,
+      "insert": 0
+    },
+    {
+      "id": "p20r-03",
+      "reference": "𑈩𑈙𑈊𑈯𑈦𑈺𑈞𑈰𑈺𑈙𑈡𑈺𑈈𑈟𑈰𑈁𑈺𑈊𑈮𑈁𑈞𑈺 ૪",
+      "prediction": "𑈩𑈙𑈊𑈯𑈦𑈺𑈞𑈰𑈺𑈙𑈡𑈺𑈈𑈚𑈰𑈁𑈺𑈊𑈮𑈁𑈞𑈺 ૪",
+      "seconds": 0.018289762999984305,
+      "reference_characters": 24,
+      "errors": 1,
+      "cer": 0.041666666666666664,
+      "substitute": 1,
+      "delete": 0,
+      "insert": 0
+    }
+  ],
+  "confusions": [
+    {
+      "operation": "substitute",
+      "reference": "𑈞",
+      "prediction": "𑈨",
+      "count": 2
+    },
+    {
+      "operation": "substitute",
+      "reference": "𑈙",
+      "prediction": "𑈤",
+      "count": 2
+    },
+    {
+      "operation": "substitute",
+      "reference": "𑈟",
+      "prediction": "𑈚",
+      "count": 2
+    },
+    {
+      "operation": "insert",
+      "reference": "",
+      "prediction": "𑈄",
+      "count": 1
+    },
+    {
+      "operation": "substitute",
+      "reference": "𑈲",
+      "prediction": "𑈰",
+      "count": 1
+    },
+    {
+      "operation": "insert",
+      "reference": "",
+      "prediction": "𑈟",
+      "count": 1
+    },
+    {
+      "operation": "substitute",
+      "reference": "𑈩",
+      "prediction": "𑈟",
+      "count": 1
+    }
+  ]
+}

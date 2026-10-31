@@ -1,0 +1,62 @@
+[
+  {
+    "id": "p19r-01",
+    "number_of_column_chunks": 1,
+    "expected_space": 1,
+    "predicted_space": 0
+  },
+  {
+    "id": "p19r-02",
+    "number_of_column_chunks": 1,
+    "expected_space": 1,
+    "predicted_space": 0
+  },
+  {
+    "id": "p19r-03",
+    "number_of_column_chunks": 2,
+    "expected_space": 1,
+    "predicted_space": 1
+  },
+  {
+    "id": "p19r-04",
+    "number_of_column_chunks": 2,
+    "expected_space": 1,
+    "predicted_space": 1
+  },
+  {
+    "id": "p19r-05",
+    "number_of_column_chunks": 2,
+    "expected_space": 1,
+    "predicted_space": 1
+  },
+  {
+    "id": "p20r-04",
+    "number_of_column_chunks": 2,
+    "expected_space": 1,
+    "predicted_space": 1
+  },
+  {
+    "id": "p20r-05",
+    "number_of_column_chunks": 2,
+    "expected_space": 1,
+    "predicted_space": 1
+  },
+  {
+    "id": "p20r-06",
+    "number_of_column_chunks": 2,
+    "expected_space": 1,
+    "predicted_space": 1
+  },
+  {
+    "id": "p20r-07",
+    "number_of_column_chunks": 2,
+    "expected_space": 1,
+    "predicted_space": 1
+  },
+  {
+    "id": "p20r-08",
+    "number_of_column_chunks": 2,
+    "expected_space": 1,
+    "predicted_space": 1
+  }
+]

@@ -1,0 +1,1 @@
+{"lines": 18, "characters": 453, "missed_lines": 0, "automatic_errors": 20, "checked_crop_errors": 20, "crop_changes_prediction_lines": 0, "invalid_inventory_characters": 0, "utf8_failures": 0, "automatic_cer": 0.04415011037527594, "checked_crop_cer": 0.04415011037527594, "net_crop_error_difference": 0}

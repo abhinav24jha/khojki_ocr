@@ -1,0 +1,1 @@
+{"unchanged": {"errors": 10, "characters": 155, "cer": 0.06451612903225806}, "half_resolution": {"errors": 15, "characters": 155, "cer": 0.0967741935483871}, "blur_0.8px": {"errors": 10, "characters": 155, "cer": 0.06451612903225806}, "skew_1_degree": {"errors": 14, "characters": 155, "cer": 0.09032258064516129}}

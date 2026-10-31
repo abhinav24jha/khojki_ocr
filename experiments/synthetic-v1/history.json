@@ -1,0 +1,222 @@
+[
+  {
+    "step": 100,
+    "loss": 3.8442542552948,
+    "validation_cer": 1.0,
+    "errors": 2910,
+    "characters": 2910,
+    "seconds": 151.45747337501962,
+    "examples": [
+      {
+        "reference": "𑈞𑈋𑈞𑈍𑈱𑈩𑈴𑈺𑈁𑈇𑈐𑈱𑈖𑈬",
+        "prediction": ""
+      },
+      {
+        "reference": "𑈅𑈤𑈰𑈥𑈅𑈏𑈩𑈭𑈅𑈪𑈴𑈜𑈬𑈺",
+        "prediction": ""
+      },
+      {
+        "reference": "𑈙𑈣𑈮𑈺𑈈𑈰𑈟𑈰𑈐𑈱 ૪૮",
+        "prediction": ""
+      }
+    ]
+  },
+  {
+    "step": 200,
+    "loss": 3.9740803241729736,
+    "validation_cer": 1.0,
+    "errors": 2910,
+    "characters": 2910,
+    "seconds": 211.96520170895383,
+    "examples": [
+      {
+        "reference": "𑈞𑈋𑈞𑈍𑈱𑈩𑈴𑈺𑈁𑈇𑈐𑈱𑈖𑈬",
+        "prediction": ""
+      },
+      {
+        "reference": "𑈅𑈤𑈰𑈥𑈅𑈏𑈩𑈭𑈅𑈪𑈴𑈜𑈬𑈺",
+        "prediction": ""
+      },
+      {
+        "reference": "𑈙𑈣𑈮𑈺𑈈𑈰𑈟𑈰𑈐𑈱 ૪૮",
+        "prediction": ""
+      }
+    ]
+  },
+  {
+    "step": 300,
+    "loss": 3.8788950443267822,
+    "validation_cer": 1.0,
+    "errors": 2910,
+    "characters": 2910,
+    "seconds": 256.0426662500249,
+    "examples": [
+      {
+        "reference": "𑈞𑈋𑈞𑈍𑈱𑈩𑈴𑈺𑈁𑈇𑈐𑈱𑈖𑈬",
+        "prediction": ""
+      },
+      {
+        "reference": "𑈅𑈤𑈰𑈥𑈅𑈏𑈩𑈭𑈅𑈪𑈴𑈜𑈬𑈺",
+        "prediction": ""
+      },
+      {
+        "reference": "𑈙𑈣𑈮𑈺𑈈𑈰𑈟𑈰𑈐𑈱 ૪૮",
+        "prediction": ""
+      }
+    ]
+  },
+  {
+    "step": 400,
+    "loss": 3.5200793743133545,
+    "validation_cer": 1.0,
+    "errors": 2910,
+    "characters": 2910,
+    "seconds": 294.685372750042,
+    "examples": [
+      {
+        "reference": "𑈞𑈋𑈞𑈍𑈱𑈩𑈴𑈺𑈁𑈇𑈐𑈱𑈖𑈬",
+        "prediction": ""
+      },
+      {
+        "reference": "𑈅𑈤𑈰𑈥𑈅𑈏𑈩𑈭𑈅𑈪𑈴𑈜𑈬𑈺",
+        "prediction": ""
+      },
+      {
+        "reference": "𑈙𑈣𑈮𑈺𑈈𑈰𑈟𑈰𑈐𑈱 ૪૮",
+        "prediction": ""
+      }
+    ]
+  },
+  {
+    "step": 500,
+    "loss": 2.4688379764556885,
+    "validation_cer": 0.7505154639175258,
+    "errors": 2184,
+    "characters": 2910,
+    "seconds": 321.674498458975,
+    "examples": [
+      {
+        "reference": "𑈞𑈋𑈞𑈍𑈱𑈩𑈴𑈺𑈁𑈇𑈐𑈱𑈖𑈬",
+        "prediction": "𑈄𑈱𑈺𑈇𑈳𑈬"
+      },
+      {
+        "reference": "𑈅𑈤𑈰𑈥𑈅𑈏𑈩𑈭𑈅𑈪𑈴𑈜𑈬𑈺",
+        "prediction": "𑈅𑈱𑈅𑈱𑈱𑈬𑈺"
+      },
+      {
+        "reference": "𑈙𑈣𑈮𑈺𑈈𑈰𑈟𑈰𑈐𑈱 ૪૮",
+        "prediction": "𑈄𑈺𑈱𑈳𑈱"
+      }
+    ]
+  },
+  {
+    "step": 600,
+    "loss": 0.8828932642936707,
+    "validation_cer": 0.25120274914089347,
+    "errors": 731,
+    "characters": 2910,
+    "seconds": 345.34998287505005,
+    "examples": [
+      {
+        "reference": "𑈞𑈋𑈞𑈍𑈱𑈩𑈴𑈺𑈁𑈇𑈐𑈱𑈖𑈬",
+        "prediction": "𑈛𑈋𑈞𑈓𑈱𑈩𑈴𑈺𑈁𑈬𑈇𑈐𑈳𑈖𑈬"
+      },
+      {
+        "reference": "𑈅𑈤𑈰𑈥𑈅𑈏𑈩𑈭𑈅𑈪𑈴𑈜𑈬𑈺",
+        "prediction": "𑈅𑈤𑈰𑈥𑈅𑈏𑈩𑈭𑈅𑈜𑈴𑈜𑈬𑈺"
+      },
+      {
+        "reference": "𑈙𑈣𑈮𑈺𑈈𑈰𑈟𑈰𑈐𑈱 ૪૮",
+        "prediction": "𑈙𑈮𑈣𑈮𑈺𑈈𑈰𑈠𑈰𑈐𑈱𑈺𑈆𑈆"
+      }
+    ]
+  },
+  {
+    "step": 700,
+    "loss": 0.33906683325767517,
+    "validation_cer": 0.14054982817869416,
+    "errors": 409,
+    "characters": 2910,
+    "seconds": 365.7921822499484,
+    "examples": [
+      {
+        "reference": "𑈞𑈋𑈞𑈍𑈱𑈩𑈴𑈺𑈁𑈇𑈐𑈱𑈖𑈬",
+        "prediction": "𑈞𑈋𑈞𑈍𑈱𑈩𑈴𑈺𑈁𑈬𑈡𑈳𑈐𑈱𑈖𑈬"
+      },
+      {
+        "reference": "𑈅𑈤𑈰𑈥𑈅𑈏𑈩𑈭𑈅𑈪𑈴𑈜𑈬𑈺",
+        "prediction": "𑈅𑈤𑈰𑈥𑈅𑈏𑈩𑈭𑈅𑈪𑈴𑈜𑈬𑈺"
+      },
+      {
+        "reference": "𑈙𑈣𑈮𑈺𑈈𑈰𑈟𑈰𑈐𑈱 ૪૮",
+        "prediction": "𑈙𑈣𑈮𑈺𑈈𑈰𑈟𑈐𑈱 𑈆"
+      }
+    ]
+  },
+  {
+    "step": 800,
+    "loss": 0.2367897778749466,
+    "validation_cer": 0.03161512027491409,
+    "errors": 92,
+    "characters": 2910,
+    "seconds": 383.87881087500136,
+    "examples": [
+      {
+        "reference": "𑈞𑈋𑈞𑈍𑈱𑈩𑈴𑈺𑈁𑈇𑈐𑈱𑈖𑈬",
+        "prediction": "𑈞𑈋𑈯𑈞𑈍𑈱𑈩𑈴𑈺𑈁𑈇𑈐𑈱𑈖𑈬"
+      },
+      {
+        "reference": "𑈅𑈤𑈰𑈥𑈅𑈏𑈩𑈭𑈅𑈪𑈴𑈜𑈬𑈺",
+        "prediction": "𑈅𑈤𑈰𑈥𑈅𑈏𑈩𑈭𑈅𑈪𑈴𑈜𑈬𑈺"
+      },
+      {
+        "reference": "𑈙𑈣𑈮𑈺𑈈𑈰𑈟𑈰𑈐𑈱 ૪૮",
+        "prediction": "𑈙𑈣𑈮𑈺𑈈𑈰𑈟𑈰𑈐𑈱 ૪𑈆"
+      }
+    ]
+  },
+  {
+    "step": 900,
+    "loss": 0.15383513271808624,
+    "validation_cer": 0.04536082474226804,
+    "errors": 132,
+    "characters": 2910,
+    "seconds": 403.29582279198803,
+    "examples": [
+      {
+        "reference": "𑈞𑈋𑈞𑈍𑈱𑈩𑈴𑈺𑈁𑈇𑈐𑈱𑈖𑈬",
+        "prediction": "𑈞𑈋𑈞𑈍𑈱𑈩𑈴𑈺𑈁𑈇𑈐𑈱𑈖𑈬"
+      },
+      {
+        "reference": "𑈅𑈤𑈰𑈥𑈅𑈏𑈩𑈭𑈅𑈪𑈴𑈜𑈬𑈺",
+        "prediction": "𑈅𑈤𑈰𑈗𑈅𑈏𑈩𑈭𑈅𑈪𑈴𑈜𑈬𑈺"
+      },
+      {
+        "reference": "𑈙𑈣𑈮𑈺𑈈𑈰𑈟𑈰𑈐𑈱 ૪૮",
+        "prediction": "𑈙𑈣𑈮𑈺𑈈𑈰𑈟𑈰𑈐𑈱 ૪૯"
+      }
+    ]
+  },
+  {
+    "step": 1000,
+    "loss": 0.14595752954483032,
+    "validation_cer": 0.013058419243986255,
+    "errors": 38,
+    "characters": 2910,
+    "seconds": 428.42968979198486,
+    "examples": [
+      {
+        "reference": "𑈞𑈋𑈞𑈍𑈱𑈩𑈴𑈺𑈁𑈇𑈐𑈱𑈖𑈬",
+        "prediction": "𑈞𑈋𑈯𑈞𑈍𑈱𑈩𑈴𑈺𑈁𑈇𑈐𑈱𑈖𑈬"
+      },
+      {
+        "reference": "𑈅𑈤𑈰𑈥𑈅𑈏𑈩𑈭𑈅𑈪𑈴𑈜𑈬𑈺",
+        "prediction": "𑈅𑈤𑈰𑈥𑈅𑈏𑈩𑈭𑈅𑈪𑈴𑈜𑈬𑈺"
+      },
+      {
+        "reference": "𑈙𑈣𑈮𑈺𑈈𑈰𑈟𑈰𑈐𑈱 ૪૮",
+        "prediction": "𑈙𑈣𑈮𑈺𑈈𑈰𑈟𑈰𑈐𑈱 ૪૮"
+      }
+    ]
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "name": "round3-packed-results.zip",
+    "bytes": 23882972,
+    "sha256": "78bd7ecbbdfb79dbdf0ab2521e114cedc0c230b51e807ea2252341664569c2c4"
+  },
+  {
+    "name": "round3-control-results.zip",
+    "bytes": 23881951,
+    "sha256": "7664f8e90054bdbb3ad2d127a8f1b4df6526485c02c6229d68eddd42557356e7"
+  },
+  {
+    "name": "round3-evaluation-results.zip",
+    "bytes": 22594823,
+    "sha256": "295b23f763d3a106c11285a12897943af031dc9b1a52bfe7a63a071fe189625f"
+  }
+]

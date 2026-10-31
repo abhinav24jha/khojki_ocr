@@ -1,0 +1,8 @@
+{
+  "utc": "2026-10-31T11:09:18.674391+00:00",
+  "sha256": "70cedf18f81bcef2e5ebcacb2ac7e4ec3b3e935661eb5d293d03d4e7aade851c",
+  "lines": 5,
+  "characters": 118,
+  "status": "References frozen before inspecting round2 or prior baseline predictions for these selected lines. Prior whole-page baseline inference included these images but its unscored text was not inspected. Same book/page as development; not an independent-book benchmark.",
+  "annotation_limitation": "Non-expert references with explicit alternative readings; primary CER and sensitivity must both be reported."
+}

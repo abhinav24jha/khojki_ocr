@@ -1,0 +1,42 @@
+[
+  {
+    "experiment": "100-step pilot",
+    "url": "https://colab.research.google.com/drive/1CWPTxA07Jy5Tb6a-34bS9fEEFTRWlPUy",
+    "status": "completed and verified"
+  },
+  {
+    "experiment": "Historical baseline evaluation",
+    "url": "https://colab.research.google.com/drive/1hsV8Y68_kxyn7Yq5hKIUx-sVHQHqrmeg",
+    "status": "completed and verified"
+  },
+  {
+    "experiment": "Round-two 300-step pilots",
+    "url": "https://colab.research.google.com/drive/1HvLkyCGm-1QbsGSnPz5727if5y2WDnGf",
+    "status": "completed and verified"
+  },
+  {
+    "experiment": "Three 3000-step runs",
+    "url": "https://colab.research.google.com/drive/1l_UT0g6kil42sj_r536J43M7EhqlyIB-",
+    "status": "completed and verified"
+  },
+  {
+    "experiment": "Architecture and data ablations",
+    "url": "https://colab.research.google.com/drive/12T_rxC9jMemOH0I-le0klRCv1aSJ6s_H",
+    "status": "completed and verified"
+  },
+  {
+    "experiment": "Targeted follow-up and selection",
+    "url": "https://colab.research.google.com/drive/1Y_-PRPCjywAxL7NDvsB1_XspZLw6KXw4",
+    "status": "completed, verified, runtime terminated"
+  },
+  {
+    "experiment": "Round-two frozen evaluation",
+    "url": "https://colab.research.google.com/drive/1erEZEUGOZKnWoqgw_5WYWEE6KYMVioNi",
+    "status": "completed, verified, runtime terminated"
+  },
+  {
+    "experiment": "Targeted data expansion and frozen round-three evaluation",
+    "url": "https://colab.research.google.com/drive/1i86c-5mmBax68_YTa8PXPJBlZhOwtP8w",
+    "status": "completed, verified, runtime terminated"
+  }
+]

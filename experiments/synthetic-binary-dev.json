@@ -1,0 +1,190 @@
+{
+  "config": {
+    "checkpoint": "outputs/khojki-ocr/experiments/synthetic-v1/best.pt",
+    "split": "dev",
+    "preprocess": "binary",
+    "no_columns": false,
+    "device": "cpu",
+    "output": "outputs/khojki-ocr/experiments/synthetic-binary-dev.json"
+  },
+  "summary": {
+    "lines": 3,
+    "characters": 75,
+    "errors": 28,
+    "load_seconds": 0.008021915913559496,
+    "inference_seconds": 0.10489958408288658,
+    "cer": 0.37333333333333335
+  },
+  "lines": [
+    {
+      "id": "p18r-01",
+      "reference": "𑈃𑈟𑈞𑈮𑈺𑈠𑈭𑈦𑈩𑈙𑈬𑈺𑈙𑈡𑈺𑈡𑈬𑈙𑈮𑈺𑈡𑈮𑈙𑈮𑈺 ૧૬",
+      "prediction": "૯𑈮𑈟𑈨𑈬𑈺𑈠𑈭𑈦𑈩𑈙𑈮𑈬𑈺𑈙𑈙𑈺𑈡𑈬𑈙𑈬𑈮𑈺𑈙𑈮𑈮𑈙𑈮𑈮𑈺 𑈟૬",
+      "seconds": 0.047373417066410184,
+      "reference_characters": 28,
+      "errors": 11,
+      "cer": 0.39285714285714285,
+      "substitute": 6,
+      "delete": 0,
+      "insert": 5
+    },
+    {
+      "id": "p18r-02",
+      "reference": "𑈁𑈊𑈲𑈺𑈁𑈛𑈤𑈺𑈠𑈭𑈦𑈩𑈙𑈬𑈺𑈩𑈬𑈟𑈮𑈺 ૧૭",
+      "prediction": "𑈁𑈬𑈊𑈲𑈺𑈁𑈬𑈛𑈪𑈏𑈺𑈠𑈭𑈦𑈩𑈙𑈬𑈺𑈩𑈬𑈟𑈬𑈺 𑈢𑈯",
+      "seconds": 0.03170370799489319,
+      "reference_characters": 23,
+      "errors": 7,
+      "cer": 0.30434782608695654,
+      "substitute": 4,
+      "delete": 0,
+      "insert": 3
+    },
+    {
+      "id": "p18r-03",
+      "reference": "𑈩𑈲𑈺𑈩𑈡𑈺𑈪𑈯𑈟𑈭𑈺𑈀𑈟𑈘𑈮𑈺𑈐𑈬𑈙𑈮𑈺 ૧૮",
+      "prediction": "𑈩𑈰𑈬𑈺𑈩𑈙𑈪𑈺𑈪𑈯𑈺𑈟𑈦𑈮𑈺𑈐𑈬𑈙𑈮𑈺 𑈟૯",
+      "seconds": 0.0258224590215832,
+      "reference_characters": 24,
+      "errors": 10,
+      "cer": 0.4166666666666667,
+      "substitute": 5,
+      "delete": 3,
+      "insert": 2
+    }
+  ],
+  "confusions": [
+    {
+      "operation": "insert",
+      "reference": "",
+      "prediction": "𑈬",
+      "count": 3
+    },
+    {
+      "operation": "substitute",
+      "reference": "𑈮",
+      "prediction": "𑈬",
+      "count": 2
+    },
+    {
+      "operation": "insert",
+      "reference": "",
+      "prediction": "𑈮",
+      "count": 2
+    },
+    {
+      "operation": "insert",
+      "reference": "",
+      "prediction": "𑈙",
+      "count": 2
+    },
+    {
+      "operation": "substitute",
+      "reference": "૧",
+      "prediction": "𑈟",
+      "count": 2
+    },
+    {
+      "operation": "insert",
+      "reference": "",
+      "prediction": "૯",
+      "count": 1
+    },
+    {
+      "operation": "substitute",
+      "reference": "𑈃",
+      "prediction": "𑈮",
+      "count": 1
+    },
+    {
+      "operation": "substitute",
+      "reference": "𑈞",
+      "prediction": "𑈨",
+      "count": 1
+    },
+    {
+      "operation": "substitute",
+      "reference": "𑈡",
+      "prediction": "𑈙",
+      "count": 1
+    },
+    {
+      "operation": "substitute",
+      "reference": "𑈡",
+      "prediction": "𑈮",
+      "count": 1
+    },
+    {
+      "operation": "insert",
+      "reference": "",
+      "prediction": "𑈪",
+      "count": 1
+    },
+    {
+      "operation": "substitute",
+      "reference": "𑈤",
+      "prediction": "𑈏",
+      "count": 1
+    },
+    {
+      "operation": "substitute",
+      "reference": "૧",
+      "prediction": "𑈢",
+      "count": 1
+    },
+    {
+      "operation": "substitute",
+      "reference": "૭",
+      "prediction": "𑈯",
+      "count": 1
+    },
+    {
+      "operation": "insert",
+      "reference": "",
+      "prediction": "𑈰",
+      "count": 1
+    },
+    {
+      "operation": "substitute",
+      "reference": "𑈲",
+      "prediction": "𑈬",
+      "count": 1
+    },
+    {
+      "operation": "substitute",
+      "reference": "𑈡",
+      "prediction": "𑈪",
+      "count": 1
+    },
+    {
+      "operation": "delete",
+      "reference": "𑈟",
+      "prediction": "",
+      "count": 1
+    },
+    {
+      "operation": "delete",
+      "reference": "𑈭",
+      "prediction": "",
+      "count": 1
+    },
+    {
+      "operation": "delete",
+      "reference": "𑈀",
+      "prediction": "",
+      "count": 1
+    },
+    {
+      "operation": "substitute",
+      "reference": "𑈘",
+      "prediction": "𑈦",
+      "count": 1
+    },
+    {
+      "operation": "substitute",
+      "reference": "૮",
+      "prediction": "૯",
+      "count": 1
+    }
+  ]
+}

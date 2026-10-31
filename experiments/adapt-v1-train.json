@@ -1,0 +1,201 @@
+{
+  "config": {
+    "checkpoint": "outputs/khojki-ocr/experiments/adapt-v1/best.pt",
+    "split": "train",
+    "preprocess": "contrast",
+    "no_columns": false,
+    "device": "cpu",
+    "output": "outputs/khojki-ocr/experiments/adapt-v1-train.json"
+  },
+  "summary": {
+    "lines": 15,
+    "characters": 384,
+    "errors": 0,
+    "load_seconds": 0.013226707931607962,
+    "inference_seconds": 0.396573877078481,
+    "cer": 0.0
+  },
+  "lines": [
+    {
+      "id": "p17r-01",
+      "reference": "𑈟𑈰𑈪𑈰𑈧𑈬𑈺𑈩𑈯𑈟𑈮𑈐𑈞𑈺𑈞𑈭𑈦𑈴𑈐𑈞𑈺𑈪𑈲𑈤𑈬𑈺 ૧",
+      "prediction": "𑈟𑈰𑈪𑈰𑈧𑈬𑈺𑈩𑈯𑈟𑈮𑈐𑈞𑈺𑈞𑈭𑈦𑈴𑈐𑈞𑈺𑈪𑈲𑈤𑈬𑈺 ૧",
+      "seconds": 0.02609345898963511,
+      "reference_characters": 28,
+      "errors": 0,
+      "cer": 0.0,
+      "substitute": 0,
+      "delete": 0,
+      "insert": 0
+    },
+    {
+      "id": "p17r-02",
+      "reference": "𑈁𑈜𑈺𑈀𑈴𑈙𑈺𑈤𑈮𑈪𑈰𑈺𑈙𑈰𑈐𑈺𑈐𑈺𑈪𑈲𑈤𑈬𑈺 ૨",
+      "prediction": "𑈁𑈜𑈺𑈀𑈴𑈙𑈺𑈤𑈮𑈪𑈰𑈺𑈙𑈰𑈐𑈺𑈐𑈺𑈪𑈲𑈤𑈬𑈺 ૨",
+      "seconds": 0.02940304100047797,
+      "reference_characters": 25,
+      "errors": 0,
+      "cer": 0.0,
+      "substitute": 0,
+      "delete": 0,
+      "insert": 0
+    },
+    {
+      "id": "p17r-03",
+      "reference": "𑈙𑈡𑈺𑈐𑈬𑈺𑈙𑈰𑈐𑈺𑈢𑈭𑈴𑈢𑈺𑈃𑈟𑈬𑈟𑈭𑈁𑈺 ૩",
+      "prediction": "𑈙𑈡𑈺𑈐𑈬𑈺𑈙𑈰𑈐𑈺𑈢𑈭𑈴𑈢𑈺𑈃𑈟𑈬𑈟𑈭𑈁𑈺 ૩",
+      "seconds": 0.027123667066916823,
+      "reference_characters": 24,
+      "errors": 0,
+      "cer": 0.0,
+      "substitute": 0,
+      "delete": 0,
+      "insert": 0
+    },
+    {
+      "id": "p17r-04",
+      "reference": "𑈩𑈬𑈜𑈺𑈩𑈢𑈜𑈺𑈩𑈡𑈤𑈮𑈪𑈰𑈺𑈩𑈤𑈬𑈟𑈭𑈁𑈺 ૪",
+      "prediction": "𑈩𑈬𑈜𑈺𑈩𑈢𑈜𑈺𑈩𑈡𑈤𑈮𑈪𑈰𑈺𑈩𑈤𑈬𑈟𑈭𑈁𑈺 ૪",
+      "seconds": 0.03497916692867875,
+      "reference_characters": 24,
+      "errors": 0,
+      "cer": 0.0,
+      "substitute": 0,
+      "delete": 0,
+      "insert": 0
+    },
+    {
+      "id": "p17r-05",
+      "reference": "𑈁𑈜𑈺𑈀𑈴𑈙𑈺𑈪𑈲𑈤𑈬𑈺𑈀𑈈𑈰𑈧𑈬𑈺 ૫",
+      "prediction": "𑈁𑈜𑈺𑈀𑈴𑈙𑈺𑈪𑈲𑈤𑈬𑈺𑈀𑈈𑈰𑈧𑈬𑈺 ૫",
+      "seconds": 0.02075537503696978,
+      "reference_characters": 20,
+      "errors": 0,
+      "cer": 0.0,
+      "substitute": 0,
+      "delete": 0,
+      "insert": 0
+    },
+    {
+      "id": "p17r-06",
+      "reference": "𑈙𑈡𑈺𑈙𑈲𑈺𑈩𑈙𑈊𑈯𑈦𑈺𑈩𑈯𑈟𑈮𑈐𑈞𑈺𑈈𑈰𑈺𑈡𑈰𑈧𑈬𑈺 ૬",
+      "prediction": "𑈙𑈡𑈺𑈙𑈲𑈺𑈩𑈙𑈊𑈯𑈦𑈺𑈩𑈯𑈟𑈮𑈐𑈞𑈺𑈈𑈰𑈺𑈡𑈰𑈧𑈬𑈺 ૬",
+      "seconds": 0.029926958959549665,
+      "reference_characters": 29,
+      "errors": 0,
+      "cer": 0.0,
+      "substitute": 0,
+      "delete": 0,
+      "insert": 0
+    },
+    {
+      "id": "p17r-07",
+      "reference": "𑈟𑈭𑈩𑈺𑈟𑈰𑈧𑈺𑈐𑈰𑈺𑈞𑈦𑈺𑈈𑈰𑈦𑈬𑈺 ૭",
+      "prediction": "𑈟𑈭𑈩𑈺𑈟𑈰𑈧𑈺𑈐𑈰𑈺𑈞𑈦𑈺𑈈𑈰𑈦𑈬𑈺 ૭",
+      "seconds": 0.0219748750096187,
+      "reference_characters": 21,
+      "errors": 0,
+      "cer": 0.0,
+      "substitute": 0,
+      "delete": 0,
+      "insert": 0
+    },
+    {
+      "id": "p17r-08",
+      "reference": "𑈙𑈡𑈺𑈙𑈲𑈺𑈩𑈙𑈊𑈯𑈦𑈺𑈞𑈰𑈺𑈩𑈙𑈬𑈦𑈬𑈺 ૮",
+      "prediction": "𑈙𑈡𑈺𑈙𑈲𑈺𑈩𑈙𑈊𑈯𑈦𑈺𑈞𑈰𑈺𑈩𑈙𑈬𑈦𑈬𑈺 ૮",
+      "seconds": 0.02568262501154095,
+      "reference_characters": 23,
+      "errors": 0,
+      "cer": 0.0,
+      "substitute": 0,
+      "delete": 0,
+      "insert": 0
+    },
+    {
+      "id": "p17r-09",
+      "reference": "𑈞𑈴𑈪𑈮𑈴𑈺𑈙𑈡𑈺𑈟𑈮𑈙𑈺𑈞𑈴𑈪𑈮𑈴𑈺𑈙𑈡𑈺𑈦𑈤𑈬𑈺 ૯",
+      "prediction": "𑈞𑈴𑈪𑈮𑈴𑈺𑈙𑈡𑈺𑈟𑈮𑈙𑈺𑈞𑈴𑈪𑈮𑈴𑈺𑈙𑈡𑈺𑈦𑈤𑈬𑈺 ૯",
+      "seconds": 0.024601332959719002,
+      "reference_characters": 28,
+      "errors": 0,
+      "cer": 0.0,
+      "substitute": 0,
+      "delete": 0,
+      "insert": 0
+    },
+    {
+      "id": "p17r-10",
+      "reference": "𑈞𑈴𑈪𑈮𑈴𑈺𑈙𑈡𑈺𑈞𑈬𑈤𑈺𑈞𑈴𑈪𑈮𑈴𑈺𑈙𑈡𑈭𑈺𑈐𑈬𑈤𑈬𑈺 ૧૦",
+      "prediction": "𑈞𑈴𑈪𑈮𑈴𑈺𑈙𑈡𑈺𑈞𑈬𑈤𑈺𑈞𑈴𑈪𑈮𑈴𑈺𑈙𑈡𑈭𑈺𑈐𑈬𑈤𑈬𑈺 ૧૦",
+      "seconds": 0.027727416018024087,
+      "reference_characters": 31,
+      "errors": 0,
+      "cer": 0.0,
+      "substitute": 0,
+      "delete": 0,
+      "insert": 0
+    },
+    {
+      "id": "p17r-11",
+      "reference": "𑈟𑈰𑈪𑈰𑈧𑈬𑈺𑈀𑈟𑈞𑈮𑈺𑈉𑈭𑈴𑈗𑈺𑈃𑈟𑈬𑈟𑈭𑈁𑈺 ૧૧",
+      "prediction": "𑈟𑈰𑈪𑈰𑈧𑈬𑈺𑈀𑈟𑈞𑈮𑈺𑈉𑈭𑈴𑈗𑈺𑈃𑈟𑈬𑈟𑈭𑈁𑈺 ૧૧",
+      "seconds": 0.02933691698126495,
+      "reference_characters": 27,
+      "errors": 0,
+      "cer": 0.0,
+      "substitute": 0,
+      "delete": 0,
+      "insert": 0
+    },
+    {
+      "id": "p17r-12",
+      "reference": "𑈩𑈲𑈺𑈙𑈞𑈺𑈤𑈮𑈪𑈰𑈴𑈟𑈮𑈺𑈞𑈯𑈦𑈺𑈞𑈭𑈟𑈬𑈟𑈭𑈁𑈺 ૧૨",
+      "prediction": "𑈩𑈲𑈺𑈙𑈞𑈺𑈤𑈮𑈪𑈰𑈴𑈟𑈮𑈺𑈞𑈯𑈦𑈺𑈞𑈭𑈟𑈬𑈟𑈭𑈁𑈺 ૧૨",
+      "seconds": 0.027902084053494036,
+      "reference_characters": 29,
+      "errors": 0,
+      "cer": 0.0,
+      "substitute": 0,
+      "delete": 0,
+      "insert": 0
+    },
+    {
+      "id": "p17r-13",
+      "reference": "𑈩𑈲𑈺𑈂𑈺𑈞𑈯𑈦𑈈𑈬𑈺𑈩𑈙𑈊𑈯𑈦𑈺𑈪𑈯𑈁𑈺 ૧૩",
+      "prediction": "𑈩𑈲𑈺𑈂𑈺𑈞𑈯𑈦𑈈𑈬𑈺𑈩𑈙𑈊𑈯𑈦𑈺𑈪𑈯𑈁𑈺 ૧૩",
+      "seconds": 0.026591666974127293,
+      "reference_characters": 24,
+      "errors": 0,
+      "cer": 0.0,
+      "substitute": 0,
+      "delete": 0,
+      "insert": 0
+    },
+    {
+      "id": "p17r-14",
+      "reference": "𑈙𑈡𑈺𑈟𑈮𑈏𑈰𑈺𑈠𑈭𑈦𑈺𑈦𑈎𑈞𑈬𑈺𑈈𑈮𑈁𑈺 ૧૪",
+      "prediction": "𑈙𑈡𑈺𑈟𑈮𑈏𑈰𑈺𑈠𑈭𑈦𑈺𑈦𑈎𑈞𑈬𑈺𑈈𑈮𑈁𑈺 ૧૪",
+      "seconds": 0.028067042003385723,
+      "reference_characters": 24,
+      "errors": 0,
+      "cer": 0.0,
+      "substitute": 0,
+      "delete": 0,
+      "insert": 0
+    },
+    {
+      "id": "p17r-15",
+      "reference": "𑈩𑈬𑈟𑈮𑈺𑈪𑈭𑈈𑈤𑈙𑈺𑈩𑈙𑈊𑈯𑈦𑈞𑈰𑈺𑈈𑈮𑈙𑈮𑈺 ૧૫",
+      "prediction": "𑈩𑈬𑈟𑈮𑈺𑈪𑈭𑈈𑈤𑈙𑈺𑈩𑈙𑈊𑈯𑈦𑈞𑈰𑈺𑈈𑈮𑈙𑈮𑈺 ૧૫",
+      "seconds": 0.01640825008507818,
+      "reference_characters": 27,
+      "errors": 0,
+      "cer": 0.0,
+      "substitute": 0,
+      "delete": 0,
+      "insert": 0
+    }
+  ],
+  "confusions": []
+}

@@ -1,0 +1,22 @@
+{
+  "automatic_test_errors": 21,
+  "line_detection": {
+    "missed_selected_lines": 0,
+    "net_character_error_change_vs_checked_crops": 0,
+    "predictions_changed_by_crop": 2
+  },
+  "column_layout": {
+    "missing_column_spaces": 2,
+    "evidence": "column-audit.json: both affected lines produced one chunk despite two reference columns"
+  },
+  "recognition": {
+    "remaining_nonspace_edits": 19,
+    "checked_crop_total_edits": 21
+  },
+  "unicode_mapping": {
+    "out_of_inventory_characters": 0,
+    "utf8_roundtrip_failures": 0,
+    "multiple_vowel_warning_lines": 1
+  },
+  "caveat": "Operational attribution: two space deletions assigned to column layout, nineteen remaining edits to recognition; mapping counts mean mechanical code-point/storage errors only. Equal aggregate checked/automatic CER does not prove segmentation has no effect."
+}

@@ -1,0 +1,38 @@
+{
+  "checkpoint": "/content/khojki-ocr/experiments/curve-10/best.pt",
+  "steps": 100,
+  "device": "cuda",
+  "lr": 5e-05,
+  "output": "cloud-pilot-100",
+  "resume": false,
+  "synthetic_fraction": 0.25,
+  "seed": 71,
+  "train_limit": null,
+  "annotation_sha256": "40d3817d409254b1d32dfeca224d1110c1aefa71b409efce7a686c81b6153ee5",
+  "train_line_ids": [
+    "p17r-01",
+    "p17r-02",
+    "p17r-03",
+    "p17r-04",
+    "p17r-05",
+    "p17r-06",
+    "p17r-07",
+    "p17r-08",
+    "p17r-09",
+    "p17r-10",
+    "p17r-11",
+    "p17r-12",
+    "p17r-13",
+    "p17r-14",
+    "p17r-15"
+  ],
+  "validation_line_ids": [
+    "p18r-01",
+    "p18r-02",
+    "p18r-03",
+    "p20r-01",
+    "p20r-02",
+    "p20r-03"
+  ],
+  "test_used": false
+}

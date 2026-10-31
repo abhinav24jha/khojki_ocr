@@ -1,0 +1,154 @@
+[
+  {
+    "step": 50,
+    "loss": 0.06327519565820694,
+    "validation_cer": 0.08387096774193549,
+    "errors": 13,
+    "characters": 155,
+    "seconds": 2.4423100949999252,
+    "lines": [
+      {
+        "id": "p18r-01",
+        "reference": "𑈃𑈟𑈞𑈮𑈺𑈠𑈭𑈦𑈩𑈙𑈬𑈺𑈙𑈡𑈺𑈡𑈬𑈙𑈮𑈺𑈡𑈮𑈙𑈮𑈺 ૧૬",
+        "prediction": "𑈟𑈨𑈮𑈺𑈠𑈭𑈦𑈩𑈙𑈬𑈺𑈙𑈡𑈺𑈡𑈬𑈤𑈮𑈺𑈡𑈮𑈙𑈮𑈺 ૧૬",
+        "reference_characters": 28,
+        "errors": 3,
+        "cer": 0.10714285714285714,
+        "substitute": 2,
+        "delete": 1,
+        "insert": 0
+      },
+      {
+        "id": "p18r-02",
+        "reference": "𑈁𑈊𑈲𑈺𑈁𑈛𑈤𑈺𑈠𑈭𑈦𑈩𑈙𑈬𑈺𑈩𑈬𑈟𑈮𑈺 ૧૭",
+        "prediction": "𑈁𑈊𑈰𑈺𑈁𑈛𑈤𑈺𑈠𑈭𑈦𑈩𑈤𑈬𑈺𑈩𑈬𑈚𑈮𑈺 ૧૭",
+        "reference_characters": 23,
+        "errors": 3,
+        "cer": 0.13043478260869565,
+        "substitute": 3,
+        "delete": 0,
+        "insert": 0
+      },
+      {
+        "id": "p18r-03",
+        "reference": "𑈩𑈲𑈺𑈩𑈡𑈺𑈪𑈯𑈟𑈭𑈺𑈀𑈟𑈘𑈮𑈺𑈐𑈬𑈙𑈮𑈺 ૧૮",
+        "prediction": "𑈩𑈲𑈺𑈩𑈡𑈺𑈪𑈯𑈟𑈭𑈺𑈀𑈟𑈘𑈮𑈺𑈐𑈬𑈤𑈮𑈺 ૧૮",
+        "reference_characters": 24,
+        "errors": 1,
+        "cer": 0.041666666666666664,
+        "substitute": 1,
+        "delete": 0,
+        "insert": 0
+      },
+      {
+        "id": "p20r-01",
+        "reference": "𑈟𑈭𑈩𑈬𑈺𑈩𑈙𑈊𑈯𑈦𑈺𑈙𑈤𑈰𑈺𑈟𑈬𑈟𑈭𑈥𑈬𑈺𑈞𑈭𑈩𑈰𑈩𑈲𑈺 ૨",
+        "prediction": "𑈟𑈭𑈩𑈬𑈺𑈩𑈙𑈊𑈯𑈦𑈺𑈙𑈤𑈰𑈺𑈟𑈬𑈟𑈭𑈥𑈬𑈺𑈨𑈭𑈩𑈟𑈰𑈟𑈲𑈺 ૨",
+        "reference_characters": 31,
+        "errors": 3,
+        "cer": 0.0967741935483871,
+        "substitute": 2,
+        "delete": 0,
+        "insert": 1
+      },
+      {
+        "id": "p20r-02",
+        "reference": "𑈝𑈝𑈯𑈴𑈈𑈬𑈦𑈺𑈤𑈮𑈪𑈰𑈺𑈝𑈦𑈰𑈁𑈺𑈝𑈮𑈁𑈞𑈺 ૩",
+        "prediction": "𑈝𑈈𑈯𑈴𑈈𑈬𑈦𑈺𑈤𑈮𑈪𑈰𑈺𑈝𑈦𑈰𑈁𑈺𑈝𑈮𑈁𑈞𑈺 ૩",
+        "reference_characters": 25,
+        "errors": 1,
+        "cer": 0.04,
+        "substitute": 1,
+        "delete": 0,
+        "insert": 0
+      },
+      {
+        "id": "p20r-03",
+        "reference": "𑈩𑈙𑈊𑈯𑈦𑈺𑈞𑈰𑈺𑈙𑈡𑈺𑈈𑈟𑈰𑈁𑈺𑈊𑈮𑈁𑈞𑈺 ૪",
+        "prediction": "𑈩𑈙𑈊𑈯𑈦𑈺𑈞𑈰𑈴𑈺𑈙𑈡𑈺𑈈𑈚𑈰𑈁𑈺𑈊𑈮𑈁𑈞𑈺 ૪",
+        "reference_characters": 24,
+        "errors": 2,
+        "cer": 0.08333333333333333,
+        "substitute": 1,
+        "delete": 0,
+        "insert": 1
+      }
+    ]
+  },
+  {
+    "step": 100,
+    "loss": 0.10323649644851685,
+    "validation_cer": 0.08387096774193549,
+    "errors": 13,
+    "characters": 155,
+    "seconds": 3.885255968000024,
+    "lines": [
+      {
+        "id": "p18r-01",
+        "reference": "𑈃𑈟𑈞𑈮𑈺𑈠𑈭𑈦𑈩𑈙𑈬𑈺𑈙𑈡𑈺𑈡𑈬𑈙𑈮𑈺𑈡𑈮𑈙𑈮𑈺 ૧૬",
+        "prediction": "𑈟𑈨𑈮𑈺𑈠𑈭𑈦𑈩𑈙𑈬𑈺𑈙𑈡𑈺𑈡𑈬𑈤𑈮𑈺𑈡𑈮𑈙𑈮𑈺 ૧૬",
+        "reference_characters": 28,
+        "errors": 3,
+        "cer": 0.10714285714285714,
+        "substitute": 2,
+        "delete": 1,
+        "insert": 0
+      },
+      {
+        "id": "p18r-02",
+        "reference": "𑈁𑈊𑈲𑈺𑈁𑈛𑈤𑈺𑈠𑈭𑈦𑈩𑈙𑈬𑈺𑈩𑈬𑈟𑈮𑈺 ૧૭",
+        "prediction": "𑈁𑈊𑈰𑈺𑈁𑈛𑈤𑈺𑈠𑈭𑈦𑈩𑈙𑈬𑈺𑈩𑈬𑈚𑈮𑈺 ૧૭",
+        "reference_characters": 23,
+        "errors": 2,
+        "cer": 0.08695652173913043,
+        "substitute": 2,
+        "delete": 0,
+        "insert": 0
+      },
+      {
+        "id": "p18r-03",
+        "reference": "𑈩𑈲𑈺𑈩𑈡𑈺𑈪𑈯𑈟𑈭𑈺𑈀𑈟𑈘𑈮𑈺𑈐𑈬𑈙𑈮𑈺 ૧૮",
+        "prediction": "𑈩𑈲𑈺𑈩𑈡𑈺𑈪𑈯𑈟𑈭𑈺𑈀𑈟𑈘𑈮𑈺𑈐𑈬𑈤𑈮𑈺 ૧૮",
+        "reference_characters": 24,
+        "errors": 1,
+        "cer": 0.041666666666666664,
+        "substitute": 1,
+        "delete": 0,
+        "insert": 0
+      },
+      {
+        "id": "p20r-01",
+        "reference": "𑈟𑈭𑈩𑈬𑈺𑈩𑈙𑈊𑈯𑈦𑈺𑈙𑈤𑈰𑈺𑈟𑈬𑈟𑈭𑈥𑈬𑈺𑈞𑈭𑈩𑈰𑈩𑈲𑈺 ૨",
+        "prediction": "𑈟𑈭𑈩𑈬𑈺𑈩𑈙𑈊𑈯𑈦𑈺𑈙𑈤𑈰𑈺𑈟𑈬𑈟𑈭𑈥𑈬𑈺𑈨𑈭𑈩𑈟𑈰𑈟𑈲𑈺 ૨",
+        "reference_characters": 31,
+        "errors": 3,
+        "cer": 0.0967741935483871,
+        "substitute": 2,
+        "delete": 0,
+        "insert": 1
+      },
+      {
+        "id": "p20r-02",
+        "reference": "𑈝𑈝𑈯𑈴𑈈𑈬𑈦𑈺𑈤𑈮𑈪𑈰𑈺𑈝𑈦𑈰𑈁𑈺𑈝𑈮𑈁𑈞𑈺 ૩",
+        "prediction": "𑈝𑈈𑈯𑈴𑈈𑈬𑈦𑈺𑈤𑈮𑈪𑈰𑈺𑈝𑈦𑈰𑈁𑈺𑈑𑈮𑈁𑈞𑈺 ૩",
+        "reference_characters": 25,
+        "errors": 2,
+        "cer": 0.08,
+        "substitute": 2,
+        "delete": 0,
+        "insert": 0
+      },
+      {
+        "id": "p20r-03",
+        "reference": "𑈩𑈙𑈊𑈯𑈦𑈺𑈞𑈰𑈺𑈙𑈡𑈺𑈈𑈟𑈰𑈁𑈺𑈊𑈮𑈁𑈞𑈺 ૪",
+        "prediction": "𑈩𑈙𑈊𑈯𑈦𑈺𑈞𑈰𑈴𑈺𑈙𑈡𑈺𑈈𑈚𑈰𑈁𑈺𑈊𑈮𑈁𑈞𑈺 ૪",
+        "reference_characters": 24,
+        "errors": 2,
+        "cer": 0.08333333333333333,
+        "substitute": 1,
+        "delete": 0,
+        "insert": 1
+      }
+    ]
+  }
+]

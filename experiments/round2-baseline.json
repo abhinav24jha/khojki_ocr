@@ -1,0 +1,345 @@
+{
+  "config": {
+    "checkpoint": [
+      "/content/khojki-ocr/models/printed-khojki.pt"
+    ],
+    "split": "dev",
+    "preprocess": "contrast",
+    "no_columns": false,
+    "device": "cuda",
+    "beam": 1,
+    "output": "/content/khojki-ocr/experiments/round2-baseline.json",
+    "annotations": "/content/khojki-ocr/data/round2/train-dev.json",
+    "layout": "robust"
+  },
+  "summary": {
+    "lines": 16,
+    "characters": 405,
+    "errors": 31,
+    "load_seconds": 0.8297735099999954,
+    "inference_seconds": 1.9422745609999765,
+    "cer": 0.07654320987654321
+  },
+  "lines": [
+    {
+      "id": "p18r-01",
+      "reference": "𑈃𑈟𑈞𑈮𑈺𑈠𑈭𑈦𑈩𑈙𑈬𑈺𑈙𑈡𑈺𑈡𑈬𑈙𑈮𑈺𑈡𑈮𑈙𑈮𑈺 ૧૬",
+      "prediction": "𑈃𑈟𑈨𑈮𑈺𑈠𑈭𑈦𑈩𑈙𑈬𑈺𑈙𑈡𑈺𑈡𑈬𑈤𑈮𑈺𑈡𑈮𑈙𑈮𑈺 ૧૬",
+      "seconds": 1.6546019520000073,
+      "reference_characters": 28,
+      "errors": 2,
+      "cer": 0.07142857142857142,
+      "substitute": 2,
+      "delete": 0,
+      "insert": 0
+    },
+    {
+      "id": "p18r-02",
+      "reference": "𑈁𑈊𑈲𑈺𑈁𑈛𑈤𑈺𑈠𑈭𑈦𑈩𑈙𑈬𑈺𑈩𑈬𑈟𑈮𑈺 ૧૭",
+      "prediction": "𑈁𑈊𑈰𑈺𑈁𑈛𑈤𑈺𑈠𑈭𑈦𑈩𑈙𑈬𑈺𑈩𑈬𑈚𑈮𑈺 ૧૭",
+      "seconds": 0.01928067699998337,
+      "reference_characters": 23,
+      "errors": 2,
+      "cer": 0.08695652173913043,
+      "substitute": 2,
+      "delete": 0,
+      "insert": 0
+    },
+    {
+      "id": "p18r-03",
+      "reference": "𑈩𑈲𑈺𑈩𑈡𑈺𑈪𑈯𑈟𑈭𑈺𑈀𑈟𑈘𑈮𑈺𑈐𑈬𑈙𑈮𑈺 ૧૮",
+      "prediction": "𑈩𑈲𑈺𑈩𑈡𑈺𑈪𑈯𑈟𑈭𑈺𑈀𑈟𑈘𑈮𑈺𑈐𑈬𑈤𑈮𑈺 ૧૮",
+      "seconds": 0.019674393999991935,
+      "reference_characters": 24,
+      "errors": 1,
+      "cer": 0.041666666666666664,
+      "substitute": 1,
+      "delete": 0,
+      "insert": 0
+    },
+    {
+      "id": "p19r-01",
+      "reference": "𑈙𑈡𑈺𑈙𑈲𑈺𑈩𑈙𑈊𑈯𑈦𑈺𑈀𑈊𑈲𑈎𑈦𑈺𑈪𑈰𑈙𑈰𑈺 ૯",
+      "prediction": "𑈙𑈡𑈺𑈙𑈲𑈺𑈩𑈙𑈊𑈯𑈦𑈺𑈀𑈊𑈲𑈎𑈦𑈺𑈪𑈲𑈙𑈰𑈺 ૯",
+      "seconds": 0.04055473099998608,
+      "reference_characters": 25,
+      "errors": 1,
+      "cer": 0.04,
+      "substitute": 1,
+      "delete": 0,
+      "insert": 0
+    },
+    {
+      "id": "p19r-02",
+      "reference": "𑈃𑈩𑈪𑈮𑈺𑈙𑈰𑈐𑈺𑈤𑈮𑈪𑈰𑈺𑈠𑈭𑈦𑈩𑈙𑈰𑈺𑈞𑈺𑈟𑈲𑈙𑈰𑈺 ૧૦",
+      "prediction": "𑈃𑈩𑈪𑈮𑈺𑈙𑈰𑈐𑈺𑈤𑈮𑈪𑈰𑈺𑈠𑈭𑈦𑈩𑈙𑈰𑈺𑈞𑈺𑈟𑈰𑈲𑈙𑈰𑈺 ૧૦",
+      "seconds": 0.01722089899999446,
+      "reference_characters": 31,
+      "errors": 1,
+      "cer": 0.03225806451612903,
+      "substitute": 0,
+      "delete": 0,
+      "insert": 1
+    },
+    {
+      "id": "p19r-03",
+      "reference": "𑈟𑈮𑈏𑈰𑈺𑈦𑈎𑈞𑈬𑈺𑈦𑈎𑈮𑈺𑈀𑈟𑈬𑈦𑈺 ૧૧",
+      "prediction": "𑈟𑈮𑈏𑈰𑈺𑈦𑈎𑈞𑈬𑈺𑈦𑈊𑈮𑈺𑈀𑈟𑈬𑈦𑈺 ૧૧",
+      "seconds": 0.016144585000006373,
+      "reference_characters": 22,
+      "errors": 1,
+      "cer": 0.045454545454545456,
+      "substitute": 1,
+      "delete": 0,
+      "insert": 0
+    },
+    {
+      "id": "p19r-04",
+      "reference": "𑈉𑈭𑈴𑈗𑈤𑈮𑈪𑈰𑈺𑈃𑈟𑈞𑈬𑈺𑈩𑈯𑈟𑈮𑈐𑈞𑈪𑈬𑈦𑈺 ૧૨",
+      "prediction": "𑈟𑈭𑈴𑈔𑈤𑈮𑈪𑈰𑈺𑈃𑈟𑈞𑈬𑈺𑈩𑈯𑈦𑈮𑈐𑈞𑈪𑈬𑈦𑈺 ૧૨",
+      "seconds": 0.016706401999954323,
+      "reference_characters": 27,
+      "errors": 3,
+      "cer": 0.1111111111111111,
+      "substitute": 3,
+      "delete": 0,
+      "insert": 0
+    },
+    {
+      "id": "p19r-05",
+      "reference": "𑈙𑈡𑈪𑈮𑈺𑈦𑈎𑈰𑈁𑈺𑈝𑈴𑈝𑈯𑈈𑈬𑈦𑈺 ૧૩",
+      "prediction": "𑈙𑈡𑈪𑈮𑈺𑈦𑈊𑈰𑈁𑈺𑈝𑈴𑈝𑈯𑈈𑈬𑈦𑈺 ૧૩",
+      "seconds": 0.01610730700002705,
+      "reference_characters": 21,
+      "errors": 1,
+      "cer": 0.047619047619047616,
+      "substitute": 1,
+      "delete": 0,
+      "insert": 0
+    },
+    {
+      "id": "p20r-01",
+      "reference": "𑈟𑈭𑈩𑈬𑈺𑈩𑈙𑈊𑈯𑈦𑈺𑈙𑈤𑈰𑈺𑈟𑈬𑈟𑈭𑈥𑈬𑈺𑈞𑈭𑈩𑈰𑈩𑈲𑈺 ૨",
+      "prediction": "𑈟𑈭𑈩𑈬𑈺𑈩𑈙𑈊𑈯𑈦𑈺𑈙𑈤𑈰𑈺𑈟𑈬𑈟𑈭𑈥𑈬𑈺𑈨𑈭𑈩𑈟𑈰𑈟𑈲𑈺 ૨",
+      "seconds": 0.01767677600003026,
+      "reference_characters": 31,
+      "errors": 3,
+      "cer": 0.0967741935483871,
+      "substitute": 2,
+      "delete": 0,
+      "insert": 1
+    },
+    {
+      "id": "p20r-02",
+      "reference": "𑈝𑈝𑈯𑈴𑈈𑈬𑈦𑈺𑈤𑈮𑈪𑈰𑈺𑈝𑈦𑈰𑈁𑈺𑈝𑈮𑈁𑈞𑈺 ૩",
+      "prediction": "𑈝𑈝𑈯𑈴𑈈𑈬𑈦𑈺𑈤𑈮𑈪𑈰𑈺𑈝𑈦𑈰𑈁𑈺𑈝𑈮𑈁𑈞𑈺 ૩",
+      "seconds": 0.017297765000023446,
+      "reference_characters": 25,
+      "errors": 0,
+      "cer": 0.0,
+      "substitute": 0,
+      "delete": 0,
+      "insert": 0
+    },
+    {
+      "id": "p20r-03",
+      "reference": "𑈩𑈙𑈊𑈯𑈦𑈺𑈞𑈰𑈺𑈙𑈡𑈺𑈈𑈟𑈰𑈁𑈺𑈊𑈮𑈁𑈞𑈺 ૪",
+      "prediction": "𑈩𑈤𑈊𑈯𑈦𑈺𑈞𑈰𑈴𑈺𑈙𑈡𑈺𑈈𑈟𑈰𑈁𑈺𑈮𑈁𑈞𑈺 ૪",
+      "seconds": 0.01867960499998844,
+      "reference_characters": 24,
+      "errors": 3,
+      "cer": 0.125,
+      "substitute": 1,
+      "delete": 1,
+      "insert": 1
+    },
+    {
+      "id": "p20r-04",
+      "reference": "𑈞𑈭𑈦𑈴𑈐𑈞𑈺𑈦𑈎𑈞𑈬𑈺𑈩𑈡𑈪𑈮𑈺𑈢𑈮𑈝𑈮𑈺 ૫",
+      "prediction": "𑈞𑈭𑈦𑈴𑈐𑈞𑈺𑈦𑈎𑈞𑈬𑈺𑈩𑈡𑈪𑈮𑈺𑈢𑈮𑈝𑈮𑈺 ૫",
+      "seconds": 0.017793154000003142,
+      "reference_characters": 24,
+      "errors": 0,
+      "cer": 0.0,
+      "substitute": 0,
+      "delete": 0,
+      "insert": 0
+    },
+    {
+      "id": "p20r-05",
+      "reference": "𑈩𑈙𑈈𑈮𑈺𑈜𑈲𑈟𑈮𑈺𑈩𑈙𑈊𑈯𑈦𑈞𑈰𑈺𑈩𑈮𑈝𑈮𑈺 ૬",
+      "prediction": "𑈩𑈙𑈈𑈮𑈺𑈜𑈬𑈦𑈮𑈺𑈩𑈙𑈊𑈯𑈦𑈞𑈰𑈴𑈺𑈩𑈮𑈝𑈮𑈺 ૬",
+      "seconds": 0.017129466000028515,
+      "reference_characters": 25,
+      "errors": 3,
+      "cer": 0.12,
+      "substitute": 2,
+      "delete": 0,
+      "insert": 1
+    },
+    {
+      "id": "p20r-06",
+      "reference": "𑈁𑈟𑈰𑈴𑈺𑈟𑈰𑈧𑈺𑈦𑈎𑈞𑈬𑈈𑈬𑈺𑈈𑈮𑈤𑈬𑈺 ૭",
+      "prediction": "𑈁𑈟𑈰𑈴𑈺𑈟𑈰𑈧𑈺𑈦𑈎𑈞𑈬𑈈𑈬𑈺𑈙𑈑𑈮𑈙𑈬𑈺 ૭",
+      "seconds": 0.01651137699997207,
+      "reference_characters": 23,
+      "errors": 3,
+      "cer": 0.13043478260869565,
+      "substitute": 2,
+      "delete": 0,
+      "insert": 1
+    },
+    {
+      "id": "p20r-07",
+      "reference": "𑈩𑈙𑈟𑈴𑈚𑈺𑈤𑈬𑈦𑈊𑈺𑈩𑈙𑈊𑈯𑈦𑈈𑈯𑈴𑈺𑈛𑈮𑈤𑈬𑈺 ૮",
+      "prediction": "𑈩𑈙𑈟𑈚𑈺𑈤𑈬𑈦𑈊𑈺𑈩𑈙𑈊𑈯𑈦𑈡𑈯𑈴𑈺𑈛𑈮𑈙𑈬𑈺 ૮",
+      "seconds": 0.019404188999999405,
+      "reference_characters": 27,
+      "errors": 3,
+      "cer": 0.1111111111111111,
+      "substitute": 2,
+      "delete": 1,
+      "insert": 0
+    },
+    {
+      "id": "p20r-08",
+      "reference": "𑈉𑈭𑈴𑈗𑈺𑈡𑈭𑈦𑈤𑈴𑈗𑈺𑈦𑈎𑈰𑈁𑈺𑈁𑈩𑈤𑈬𑈞𑈺 ૯",
+      "prediction": "𑈟𑈭𑈗𑈺𑈤𑈭𑈦𑈤𑈴𑈗𑈺𑈦𑈊𑈰𑈁𑈺𑈁𑈩𑈤𑈬𑈞𑈺 ૯",
+      "seconds": 0.0174912819999804,
+      "reference_characters": 25,
+      "errors": 4,
+      "cer": 0.16,
+      "substitute": 3,
+      "delete": 1,
+      "insert": 0
+    }
+  ],
+  "confusions": [
+    {
+      "operation": "substitute",
+      "reference": "𑈙",
+      "prediction": "𑈤",
+      "count": 3
+    },
+    {
+      "operation": "substitute",
+      "reference": "𑈎",
+      "prediction": "𑈊",
+      "count": 3
+    },
+    {
+      "operation": "substitute",
+      "reference": "𑈞",
+      "prediction": "𑈨",
+      "count": 2
+    },
+    {
+      "operation": "substitute",
+      "reference": "𑈉",
+      "prediction": "𑈟",
+      "count": 2
+    },
+    {
+      "operation": "substitute",
+      "reference": "𑈟",
+      "prediction": "𑈦",
+      "count": 2
+    },
+    {
+      "operation": "insert",
+      "reference": "",
+      "prediction": "𑈴",
+      "count": 2
+    },
+    {
+      "operation": "substitute",
+      "reference": "𑈤",
+      "prediction": "𑈙",
+      "count": 2
+    },
+    {
+      "operation": "delete",
+      "reference": "𑈴",
+      "prediction": "",
+      "count": 2
+    },
+    {
+      "operation": "substitute",
+      "reference": "𑈲",
+      "prediction": "𑈰",
+      "count": 1
+    },
+    {
+      "operation": "substitute",
+      "reference": "𑈟",
+      "prediction": "𑈚",
+      "count": 1
+    },
+    {
+      "operation": "substitute",
+      "reference": "𑈰",
+      "prediction": "𑈲",
+      "count": 1
+    },
+    {
+      "operation": "insert",
+      "reference": "",
+      "prediction": "𑈰",
+      "count": 1
+    },
+    {
+      "operation": "substitute",
+      "reference": "𑈗",
+      "prediction": "𑈔",
+      "count": 1
+    },
+    {
+      "operation": "insert",
+      "reference": "",
+      "prediction": "𑈟",
+      "count": 1
+    },
+    {
+      "operation": "substitute",
+      "reference": "𑈩",
+      "prediction": "𑈟",
+      "count": 1
+    },
+    {
+      "operation": "delete",
+      "reference": "𑈊",
+      "prediction": "",
+      "count": 1
+    },
+    {
+      "operation": "substitute",
+      "reference": "𑈲",
+      "prediction": "𑈬",
+      "count": 1
+    },
+    {
+      "operation": "insert",
+      "reference": "",
+      "prediction": "𑈙",
+      "count": 1
+    },
+    {
+      "operation": "substitute",
+      "reference": "𑈈",
+      "prediction": "𑈑",
+      "count": 1
+    },
+    {
+      "operation": "substitute",
+      "reference": "𑈈",
+      "prediction": "𑈡",
+      "count": 1
+    },
+    {
+      "operation": "substitute",
+      "reference": "𑈡",
+      "prediction": "𑈤",
+      "count": 1
+    }
+  ]
+}

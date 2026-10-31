@@ -1,0 +1,42 @@
+{
+  "model_file": "models/printed-khojki.pt",
+  "sha256": "6646034c85ad073ce64e7dd1c4efe15ab2dbf68a023e435382eff3f79ff50b5c",
+  "bytes": 8523551,
+  "architecture": "Two CNN-BiLSTM-CTC models, one packed and one ordinary recurrence; log-mean probabilities",
+  "parameters_per_member": 1060946,
+  "height": 48,
+  "layout": "robust",
+  "beam_width": 10,
+  "structural_filter": true,
+  "actual_training_lines": 15,
+  "actual_training_codepoints": 384,
+  "round3_candidates_rejected": true,
+  "selected_source_members": [
+    "experiments/precision-packed/best.pt",
+    "experiments/long-control/best.pt"
+  ],
+  "primary_test": {
+    "lines": 5,
+    "characters": 123,
+    "missed_lines": 0,
+    "automatic_errors": 26,
+    "checked_crop_errors": 26,
+    "crop_changes_prediction_lines": 0,
+    "invalid_inventory_characters": 0,
+    "utf8_failures": 0,
+    "automatic_cer": 0.21138211382113822,
+    "checked_crop_cer": 0.21138211382113822,
+    "net_crop_error_difference": 0
+  },
+  "limitations": [
+    "Non-expert labels",
+    "Same-book/page evaluation",
+    "Restricted positive training repertoire",
+    "Handwriting unvalidated",
+    "Development selection overfits small data"
+  ],
+  "devices_verified": [
+    "cpu",
+    "cuda"
+  ]
+}

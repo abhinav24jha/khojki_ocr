@@ -1,0 +1,277 @@
+[
+  {
+    "experiment": "adapt-v1",
+    "evaluations": 12,
+    "last_step": 600,
+    "best": {
+      "step": 450,
+      "loss": 0.03640836849808693,
+      "validation_cer": 0.08,
+      "errors": 6,
+      "characters": 75,
+      "seconds": 95.16022133396473
+    }
+  },
+  {
+    "experiment": "arch-control",
+    "evaluations": 12,
+    "last_step": 600,
+    "best": {
+      "step": 400,
+      "loss": 0.004614523146301508,
+      "validation_cer": 0.04938271604938271,
+      "errors": 20,
+      "characters": 405,
+      "seconds": 15.259498062999967
+    }
+  },
+  {
+    "experiment": "arch-extra-data",
+    "evaluations": 12,
+    "last_step": 600,
+    "best": {
+      "step": 350,
+      "loss": 0.012943536043167114,
+      "validation_cer": 0.056790123456790124,
+      "errors": 23,
+      "characters": 405,
+      "seconds": 12.401856153999915
+    }
+  },
+  {
+    "experiment": "arch-height64",
+    "evaluations": 12,
+    "last_step": 600,
+    "best": {
+      "step": 550,
+      "loss": 0.006710071582347155,
+      "validation_cer": 0.08641975308641975,
+      "errors": 35,
+      "characters": 405,
+      "seconds": 25.833215988000006
+    }
+  },
+  {
+    "experiment": "arch-packed48",
+    "evaluations": 12,
+    "last_step": 600,
+    "best": {
+      "step": 600,
+      "loss": 0.0028892382979393005,
+      "validation_cer": 0.04691358024691358,
+      "errors": 19,
+      "characters": 405,
+      "seconds": 32.164023131999954
+    }
+  },
+  {
+    "experiment": "arch-packed64",
+    "evaluations": 12,
+    "last_step": 600,
+    "best": {
+      "step": 600,
+      "loss": 0.015393613837659359,
+      "validation_cer": 0.08641975308641975,
+      "errors": 35,
+      "characters": 405,
+      "seconds": 41.44167324900002
+    }
+  },
+  {
+    "experiment": "cloud-pilot-100",
+    "evaluations": 2,
+    "last_step": 100,
+    "best": {
+      "step": 50,
+      "loss": 0.06327519565820694,
+      "validation_cer": 0.08387096774193549,
+      "errors": 13,
+      "characters": 155,
+      "seconds": 2.4423100949999252
+    }
+  },
+  {
+    "experiment": "curve-10",
+    "evaluations": 10,
+    "last_step": 500,
+    "best": {
+      "step": 300,
+      "loss": 0.044699836522340775,
+      "validation_cer": 0.06451612903225806,
+      "errors": 10,
+      "characters": 155,
+      "seconds": 37.77872470894363
+    }
+  },
+  {
+    "experiment": "curve-15",
+    "evaluations": 10,
+    "last_step": 500,
+    "best": {
+      "step": 400,
+      "loss": 0.0395718514919281,
+      "validation_cer": 0.08387096774193549,
+      "errors": 13,
+      "characters": 155,
+      "seconds": 44.09594929206651
+    }
+  },
+  {
+    "experiment": "curve-3",
+    "evaluations": 10,
+    "last_step": 500,
+    "best": {
+      "step": 450,
+      "loss": 0.03902408853173256,
+      "validation_cer": 0.11612903225806452,
+      "errors": 18,
+      "characters": 155,
+      "seconds": 52.57670470804442
+    }
+  },
+  {
+    "experiment": "curve-5",
+    "evaluations": 10,
+    "last_step": 500,
+    "best": {
+      "step": 300,
+      "loss": 0.055769335478544235,
+      "validation_cer": 0.12258064516129032,
+      "errors": 19,
+      "characters": 155,
+      "seconds": 39.45996029197704
+    }
+  },
+  {
+    "experiment": "long-bold",
+    "evaluations": 60,
+    "last_step": 3000,
+    "best": {
+      "step": 2700,
+      "loss": 0.007681386545300484,
+      "validation_cer": 0.04691358024691358,
+      "errors": 19,
+      "characters": 405,
+      "seconds": 83.23283090900003
+    }
+  },
+  {
+    "experiment": "long-control",
+    "evaluations": 60,
+    "last_step": 3000,
+    "best": {
+      "step": 2800,
+      "loss": 0.004315785598009825,
+      "validation_cer": 0.044444444444444446,
+      "errors": 18,
+      "characters": 405,
+      "seconds": 78.17999419100005
+    }
+  },
+  {
+    "experiment": "long-word10",
+    "evaluations": 60,
+    "last_step": 3000,
+    "best": {
+      "step": 1550,
+      "loss": 0.01617572456598282,
+      "validation_cer": 0.04938271604938271,
+      "errors": 20,
+      "characters": 405,
+      "seconds": 49.26000026600002
+    }
+  },
+  {
+    "experiment": "round2-bold",
+    "evaluations": 6,
+    "last_step": 300,
+    "best": {
+      "step": 250,
+      "loss": 0.092805415391922,
+      "validation_cer": 0.08888888888888889,
+      "errors": 36,
+      "characters": 405,
+      "seconds": 9.65141838400001
+    }
+  },
+  {
+    "experiment": "round2-control",
+    "evaluations": 6,
+    "last_step": 300,
+    "best": {
+      "step": 150,
+      "loss": 0.029086360707879066,
+      "validation_cer": 0.0691358024691358,
+      "errors": 28,
+      "characters": 405,
+      "seconds": 6.319191287000024
+    }
+  },
+  {
+    "experiment": "round2-words",
+    "evaluations": 6,
+    "last_step": 300,
+    "best": {
+      "step": 250,
+      "loss": 0.10393979400396347,
+      "validation_cer": 0.08641975308641975,
+      "errors": 35,
+      "characters": 405,
+      "seconds": 9.064134641999999
+    }
+  },
+  {
+    "experiment": "synthetic-v1",
+    "evaluations": 10,
+    "last_step": 1000,
+    "best": {
+      "step": 1000,
+      "loss": 0.14595752954483032,
+      "validation_cer": 0.013058419243986255,
+      "errors": 38,
+      "characters": 2910,
+      "seconds": 428.42968979198486,
+      "examples": [
+        {
+          "reference": "\ud804\ude1e\ud804\ude0b\ud804\ude1e\ud804\ude0d\ud804\ude31\ud804\ude29\ud804\ude34\ud804\ude3a\ud804\ude01\ud804\ude07\ud804\ude10\ud804\ude31\ud804\ude16\ud804\ude2c",
+          "prediction": "\ud804\ude1e\ud804\ude0b\ud804\ude2f\ud804\ude1e\ud804\ude0d\ud804\ude31\ud804\ude29\ud804\ude34\ud804\ude3a\ud804\ude01\ud804\ude07\ud804\ude10\ud804\ude31\ud804\ude16\ud804\ude2c"
+        },
+        {
+          "reference": "\ud804\ude05\ud804\ude24\ud804\ude30\ud804\ude25\ud804\ude05\ud804\ude0f\ud804\ude29\ud804\ude2d\ud804\ude05\ud804\ude2a\ud804\ude34\ud804\ude1c\ud804\ude2c\ud804\ude3a",
+          "prediction": "\ud804\ude05\ud804\ude24\ud804\ude30\ud804\ude25\ud804\ude05\ud804\ude0f\ud804\ude29\ud804\ude2d\ud804\ude05\ud804\ude2a\ud804\ude34\ud804\ude1c\ud804\ude2c\ud804\ude3a"
+        },
+        {
+          "reference": "\ud804\ude19\ud804\ude23\ud804\ude2e\ud804\ude3a\ud804\ude08\ud804\ude30\ud804\ude1f\ud804\ude30\ud804\ude10\ud804\ude31 \u0aea\u0aee",
+          "prediction": "\ud804\ude19\ud804\ude23\ud804\ude2e\ud804\ude3a\ud804\ude08\ud804\ude30\ud804\ude1f\ud804\ude30\ud804\ude10\ud804\ude31 \u0aea\u0aee"
+        }
+      ]
+    }
+  },
+  {
+    "experiment": "synthetic-v2",
+    "evaluations": 3,
+    "last_step": 300,
+    "best": {
+      "step": 300,
+      "loss": 0.1437617987394333,
+      "validation_cer": 0.03413284132841329,
+      "errors": 111,
+      "characters": 3252,
+      "seconds": 104.13940233399626,
+      "examples": [
+        {
+          "reference": "\ud804\ude1e\ud804\ude2e\ud804\ude3a\ud804\ude1e\ud804\ude38\ud804\ude24\ud804\ude34\ud804\ude3a\ud804\ude07\ud804\ude10\ud804\ude2c\ud804\ude3f\ud804\ude17\ud804\ude25\ud804\ude10",
+          "prediction": "\ud804\ude1e\ud804\ude2e\ud804\ude3a\ud804\ude1e\ud804\ude38\ud804\ude24\ud804\ude34\ud804\ude3a\ud804\ude07\ud804\ude10\ud804\ude2c\ud804\ude3f\ud804\ude17\ud804\ude2f\ud804\ude25\ud804\ude10"
+        },
+        {
+          "reference": "\ud804\ude1c\ud804\ude28\ud804\ude23\ud804\ude18\ud804\ude2d\ud804\ude0d\ud804\ude33\ud804\ude18\ud804\ude3a\ud804\ude07\ud804\ude3a\ud804\ude2b\ud804\ude1e\ud804\ude2f\ud804\ude3f\ud804\ude30\ud804\ude10\ud804\ude2d\ud804\ude18\ud804\ude30\ud804\ude18\ud804\ude2f\ud804\ude3a\ud804\ude0d\ud804\ude2e\ud804\ude3a\ud804\ude3f\ud804\ude2c\ud804\ude3a\ud804\ude06\ud804\ude3a\ud804\ude02\ud804\ude38\ud804\ude28\ud804\ude34\ud804\ude0c\ud804\ude16\ud804\ude38\ud804\ude0b\ud804\ude10\ud804\ude32\ud804\ude18 \u0ae9\u0aee",
+          "prediction": "\ud804\ude1c\ud804\ude28\ud804\ude23\ud804\ude34\ud804\ude18\ud804\ude2d\ud804\ude0d\ud804\ude33\ud804\ude18\ud804\ude3a\ud804\ude07\ud804\ude3a\ud804\ude2b\ud804\ude30\ud804\ude1e\ud804\ude2f\ud804\ude3f\ud804\ude30\ud804\ude10\ud804\ude2d\ud804\ude18\ud804\ude30\ud804\ude18\ud804\ude2f\ud804\ude3a\ud804\ude0d\ud804\ude2e\ud804\ude3a\ud804\ude3f\ud804\ude2c\ud804\ude3a\ud804\ude06\ud804\ude3a\ud804\ude02\ud804\ude38\ud804\ude28\ud804\ude34\ud804\ude0c\ud804\ude16\ud804\ude38\ud804\ude0b\ud804\ude10\ud804\ude32\ud804\ude18 \u0ae9\u0aee"
+        },
+        {
+          "reference": "\ud804\ude22\ud804\ude33\ud804\ude19\ud804\ude31\ud804\ude3b\ud804\ude0a\ud804\ude05\ud804\ude10\ud804\ude30\ud804\ude3a\ud804\ude22\ud804\ude40\ud804\ude3a\ud804\ude19\ud804\ude2e\ud804\ude3a\ud804\ude00\ud804\ude0f\ud804\ude36\ud804\ude2f\ud804\ude1c\ud804\ude3a\ud804\ude23\ud804\ude34\ud804\ude14\ud804\ude3a\ud804\ude27\ud804\ude2d\ud804\ude29\ud804\ude39\ud804\ude09\ud804\ude31\ud804\ude28\ud804\ude2b\ud804\ude34\ud804\ude22",
+          "prediction": "\ud804\ude22\ud804\ude33\ud804\ude19\ud804\ude31\ud804\ude3b\ud804\ude0a\ud804\ude05\ud804\ude10\ud804\ude30\ud804\ude3a\ud804\ude22\ud804\ude40\ud804\ude3a\ud804\ude19\ud804\ude2e\ud804\ude3a\ud804\ude00\ud804\ude0f\ud804\ude36\ud804\ude2f\ud804\ude1c\ud804\ude3a\ud804\ude23\ud804\ude34\ud804\ude14\ud804\ude3a\ud804\ude27\ud804\ude2d\ud804\ude29\ud804\ude39\ud804\ude09\ud804\ude31\ud804\ude28\ud804\ude2b\ud804\ude34\ud804\ude22"
+        }
+      ]
+    }
+  }
+]

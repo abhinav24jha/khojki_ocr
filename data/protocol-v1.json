@@ -1,0 +1,1281 @@
+{
+  "created_utc": "2026-10-31T09:36:58.451483+00:00",
+  "selection": "All 15 contents entries on page 17 train; first 3 body lines page18 dev; first5 body lines page19 final test. First2 page23 lines separate body-text stress dev. Selected before recognizer predictions on these lines.",
+  "region_policy": "Operator-selected body regions exclude decorative frames and headings. Line locations inside those regions are detected automatically. Report separately from fully automatic page processing.",
+  "annotation_policy": "Literal visual transcription by AI assistant against rendered Unicode chart, independently of OCR output; not expert-certified. Space before distant number column. Preserve visible word separators. Unresolved identity must be marked, not silently inferred.",
+  "lines": [
+    {
+      "id": "p17r-01",
+      "page": 17,
+      "image": "lines/p17r-01.png",
+      "box": [
+        82,
+        224,
+        652,
+        277
+      ],
+      "region": [
+        85,
+        224,
+        654,
+        1084
+      ],
+      "split": "train",
+      "selected_for_transcription": true
+    },
+    {
+      "id": "p17r-02",
+      "page": 17,
+      "image": "lines/p17r-02.png",
+      "box": [
+        103,
+        283,
+        648,
+        336
+      ],
+      "region": [
+        85,
+        224,
+        654,
+        1084
+      ],
+      "split": "train",
+      "selected_for_transcription": true
+    },
+    {
+      "id": "p17r-03",
+      "page": 17,
+      "image": "lines/p17r-03.png",
+      "box": [
+        94,
+        341,
+        645,
+        381
+      ],
+      "region": [
+        85,
+        224,
+        654,
+        1084
+      ],
+      "split": "train",
+      "selected_for_transcription": true
+    },
+    {
+      "id": "p17r-04",
+      "page": 17,
+      "image": "lines/p17r-04.png",
+      "box": [
+        105,
+        398,
+        656,
+        437
+      ],
+      "region": [
+        85,
+        224,
+        654,
+        1084
+      ],
+      "split": "train",
+      "selected_for_transcription": true
+    },
+    {
+      "id": "p17r-05",
+      "page": 17,
+      "image": "lines/p17r-05.png",
+      "box": [
+        102,
+        457,
+        635,
+        495
+      ],
+      "region": [
+        85,
+        224,
+        654,
+        1084
+      ],
+      "split": "train",
+      "selected_for_transcription": true
+    },
+    {
+      "id": "p17r-06",
+      "page": 17,
+      "image": "lines/p17r-06.png",
+      "box": [
+        108,
+        514,
+        646,
+        557
+      ],
+      "region": [
+        85,
+        224,
+        654,
+        1084
+      ],
+      "split": "train",
+      "selected_for_transcription": true
+    },
+    {
+      "id": "p17r-07",
+      "page": 17,
+      "image": "lines/p17r-07.png",
+      "box": [
+        103,
+        572,
+        635,
+        611
+      ],
+      "region": [
+        85,
+        224,
+        654,
+        1084
+      ],
+      "split": "train",
+      "selected_for_transcription": true
+    },
+    {
+      "id": "p17r-08",
+      "page": 17,
+      "image": "lines/p17r-08.png",
+      "box": [
+        105,
+        623,
+        657,
+        673
+      ],
+      "region": [
+        85,
+        224,
+        654,
+        1084
+      ],
+      "split": "train",
+      "selected_for_transcription": true
+    },
+    {
+      "id": "p17r-09",
+      "page": 17,
+      "image": "lines/p17r-09.png",
+      "box": [
+        107,
+        690,
+        655,
+        742
+      ],
+      "region": [
+        85,
+        224,
+        654,
+        1084
+      ],
+      "split": "train",
+      "selected_for_transcription": true
+    },
+    {
+      "id": "p17r-10",
+      "page": 17,
+      "image": "lines/p17r-10.png",
+      "box": [
+        108,
+        748,
+        650,
+        789
+      ],
+      "region": [
+        85,
+        224,
+        654,
+        1084
+      ],
+      "split": "train",
+      "selected_for_transcription": true
+    },
+    {
+      "id": "p17r-11",
+      "page": 17,
+      "image": "lines/p17r-11.png",
+      "box": [
+        106,
+        804,
+        651,
+        843
+      ],
+      "region": [
+        85,
+        224,
+        654,
+        1084
+      ],
+      "split": "train",
+      "selected_for_transcription": true
+    },
+    {
+      "id": "p17r-12",
+      "page": 17,
+      "image": "lines/p17r-12.png",
+      "box": [
+        106,
+        863,
+        651,
+        905
+      ],
+      "region": [
+        85,
+        224,
+        654,
+        1084
+      ],
+      "split": "train",
+      "selected_for_transcription": true
+    },
+    {
+      "id": "p17r-13",
+      "page": 17,
+      "image": "lines/p17r-13.png",
+      "box": [
+        105,
+        921,
+        651,
+        964
+      ],
+      "region": [
+        85,
+        224,
+        654,
+        1084
+      ],
+      "split": "train",
+      "selected_for_transcription": true
+    },
+    {
+      "id": "p17r-14",
+      "page": 17,
+      "image": "lines/p17r-14.png",
+      "box": [
+        106,
+        980,
+        651,
+        1018
+      ],
+      "region": [
+        85,
+        224,
+        654,
+        1084
+      ],
+      "split": "train",
+      "selected_for_transcription": true
+    },
+    {
+      "id": "p17r-15",
+      "page": 17,
+      "image": "lines/p17r-15.png",
+      "box": [
+        107,
+        1025,
+        658,
+        1079
+      ],
+      "region": [
+        85,
+        224,
+        654,
+        1084
+      ],
+      "split": "train",
+      "selected_for_transcription": true
+    },
+    {
+      "id": "p18r-01",
+      "page": 18,
+      "image": "lines/p18r-01.png",
+      "box": [
+        84,
+        149,
+        691,
+        193
+      ],
+      "region": [
+        85,
+        130,
+        710,
+        1110
+      ],
+      "split": "dev",
+      "selected_for_transcription": true
+    },
+    {
+      "id": "p18r-02",
+      "page": 18,
+      "image": "lines/p18r-02.png",
+      "box": [
+        125,
+        211,
+        697,
+        252
+      ],
+      "region": [
+        85,
+        130,
+        710,
+        1110
+      ],
+      "split": "dev",
+      "selected_for_transcription": true
+    },
+    {
+      "id": "p18r-03",
+      "page": 18,
+      "image": "lines/p18r-03.png",
+      "box": [
+        123,
+        272,
+        695,
+        318
+      ],
+      "region": [
+        85,
+        130,
+        710,
+        1110
+      ],
+      "split": "dev",
+      "selected_for_transcription": true
+    },
+    {
+      "id": "p18r-04",
+      "page": 18,
+      "image": "lines/p18r-04.png",
+      "box": [
+        192,
+        333,
+        627,
+        381
+      ],
+      "region": [
+        85,
+        130,
+        710,
+        1110
+      ],
+      "split": "dev",
+      "selected_for_transcription": false
+    },
+    {
+      "id": "p18r-05",
+      "page": 18,
+      "image": "lines/p18r-05.png",
+      "box": [
+        194,
+        396,
+        614,
+        433
+      ],
+      "region": [
+        85,
+        130,
+        710,
+        1110
+      ],
+      "split": "dev",
+      "selected_for_transcription": false
+    },
+    {
+      "id": "p18r-06",
+      "page": 18,
+      "image": "lines/p18r-06.png",
+      "box": [
+        193,
+        455,
+        632,
+        496
+      ],
+      "region": [
+        85,
+        130,
+        710,
+        1110
+      ],
+      "split": "dev",
+      "selected_for_transcription": false
+    },
+    {
+      "id": "p18r-07",
+      "page": 18,
+      "image": "lines/p18r-07.png",
+      "box": [
+        87,
+        516,
+        495,
+        555
+      ],
+      "region": [
+        85,
+        130,
+        710,
+        1110
+      ],
+      "split": "dev",
+      "selected_for_transcription": false
+    },
+    {
+      "id": "p18r-08",
+      "page": 18,
+      "image": "lines/p18r-08.png",
+      "box": [
+        190,
+        578,
+        710,
+        622
+      ],
+      "region": [
+        85,
+        130,
+        710,
+        1110
+      ],
+      "split": "dev",
+      "selected_for_transcription": false
+    },
+    {
+      "id": "p18r-09",
+      "page": 18,
+      "image": "lines/p18r-09.png",
+      "box": [
+        80,
+        638,
+        674,
+        683
+      ],
+      "region": [
+        85,
+        130,
+        710,
+        1110
+      ],
+      "split": "dev",
+      "selected_for_transcription": false
+    },
+    {
+      "id": "p18r-10",
+      "page": 18,
+      "image": "lines/p18r-10.png",
+      "box": [
+        80,
+        701,
+        700,
+        744
+      ],
+      "region": [
+        85,
+        130,
+        710,
+        1110
+      ],
+      "split": "dev",
+      "selected_for_transcription": false
+    },
+    {
+      "id": "p18r-11",
+      "page": 18,
+      "image": "lines/p18r-11.png",
+      "box": [
+        120,
+        761,
+        674,
+        806
+      ],
+      "region": [
+        85,
+        130,
+        710,
+        1110
+      ],
+      "split": "dev",
+      "selected_for_transcription": false
+    },
+    {
+      "id": "p18r-12",
+      "page": 18,
+      "image": "lines/p18r-12.png",
+      "box": [
+        118,
+        822,
+        676,
+        866
+      ],
+      "region": [
+        85,
+        130,
+        710,
+        1110
+      ],
+      "split": "dev",
+      "selected_for_transcription": false
+    },
+    {
+      "id": "p18r-13",
+      "page": 18,
+      "image": "lines/p18r-13.png",
+      "box": [
+        119,
+        883,
+        675,
+        928
+      ],
+      "region": [
+        85,
+        130,
+        710,
+        1110
+      ],
+      "split": "dev",
+      "selected_for_transcription": false
+    },
+    {
+      "id": "p18r-14",
+      "page": 18,
+      "image": "lines/p18r-14.png",
+      "box": [
+        105,
+        946,
+        671,
+        989
+      ],
+      "region": [
+        85,
+        130,
+        710,
+        1110
+      ],
+      "split": "dev",
+      "selected_for_transcription": false
+    },
+    {
+      "id": "p18r-15",
+      "page": 18,
+      "image": "lines/p18r-15.png",
+      "box": [
+        118,
+        1006,
+        674,
+        1048
+      ],
+      "region": [
+        85,
+        130,
+        710,
+        1110
+      ],
+      "split": "dev",
+      "selected_for_transcription": false
+    },
+    {
+      "id": "p18r-16",
+      "page": 18,
+      "image": "lines/p18r-16.png",
+      "box": [
+        98,
+        1070,
+        672,
+        1110
+      ],
+      "region": [
+        85,
+        130,
+        710,
+        1110
+      ],
+      "split": "dev",
+      "selected_for_transcription": false
+    },
+    {
+      "id": "p19r-01",
+      "page": 19,
+      "image": "lines/p19r-01.png",
+      "box": [
+        104,
+        169,
+        658,
+        214
+      ],
+      "region": [
+        85,
+        155,
+        690,
+        1125
+      ],
+      "split": "test",
+      "selected_for_transcription": true
+    },
+    {
+      "id": "p19r-02",
+      "page": 19,
+      "image": "lines/p19r-02.png",
+      "box": [
+        107,
+        228,
+        668,
+        269
+      ],
+      "region": [
+        85,
+        155,
+        690,
+        1125
+      ],
+      "split": "test",
+      "selected_for_transcription": true
+    },
+    {
+      "id": "p19r-03",
+      "page": 19,
+      "image": "lines/p19r-03.png",
+      "box": [
+        109,
+        292,
+        672,
+        333
+      ],
+      "region": [
+        85,
+        155,
+        690,
+        1125
+      ],
+      "split": "test",
+      "selected_for_transcription": true
+    },
+    {
+      "id": "p19r-04",
+      "page": 19,
+      "image": "lines/p19r-04.png",
+      "box": [
+        80,
+        351,
+        672,
+        392
+      ],
+      "region": [
+        85,
+        155,
+        690,
+        1125
+      ],
+      "split": "test",
+      "selected_for_transcription": true
+    },
+    {
+      "id": "p19r-05",
+      "page": 19,
+      "image": "lines/p19r-05.png",
+      "box": [
+        108,
+        411,
+        674,
+        455
+      ],
+      "region": [
+        85,
+        155,
+        690,
+        1125
+      ],
+      "split": "test",
+      "selected_for_transcription": true
+    },
+    {
+      "id": "p19r-06",
+      "page": 19,
+      "image": "lines/p19r-06.png",
+      "box": [
+        107,
+        470,
+        676,
+        509
+      ],
+      "region": [
+        85,
+        155,
+        690,
+        1125
+      ],
+      "split": "test",
+      "selected_for_transcription": false
+    },
+    {
+      "id": "p19r-07",
+      "page": 19,
+      "image": "lines/p19r-07.png",
+      "box": [
+        82,
+        533,
+        677,
+        575
+      ],
+      "region": [
+        85,
+        155,
+        690,
+        1125
+      ],
+      "split": "test",
+      "selected_for_transcription": false
+    },
+    {
+      "id": "p19r-08",
+      "page": 19,
+      "image": "lines/p19r-08.png",
+      "box": [
+        80,
+        592,
+        675,
+        630
+      ],
+      "region": [
+        85,
+        155,
+        690,
+        1125
+      ],
+      "split": "test",
+      "selected_for_transcription": false
+    },
+    {
+      "id": "p19r-09",
+      "page": 19,
+      "image": "lines/p19r-09.png",
+      "box": [
+        112,
+        650,
+        679,
+        690
+      ],
+      "region": [
+        85,
+        155,
+        690,
+        1125
+      ],
+      "split": "test",
+      "selected_for_transcription": false
+    },
+    {
+      "id": "p19r-10",
+      "page": 19,
+      "image": "lines/p19r-10.png",
+      "box": [
+        80,
+        714,
+        680,
+        750
+      ],
+      "region": [
+        85,
+        155,
+        690,
+        1125
+      ],
+      "split": "test",
+      "selected_for_transcription": false
+    },
+    {
+      "id": "p19r-11",
+      "page": 19,
+      "image": "lines/p19r-11.png",
+      "box": [
+        250,
+        771,
+        499,
+        814
+      ],
+      "region": [
+        85,
+        155,
+        690,
+        1125
+      ],
+      "split": "test",
+      "selected_for_transcription": false
+    },
+    {
+      "id": "p19r-12",
+      "page": 19,
+      "image": "lines/p19r-12.png",
+      "box": [
+        87,
+        834,
+        678,
+        870
+      ],
+      "region": [
+        85,
+        155,
+        690,
+        1125
+      ],
+      "split": "test",
+      "selected_for_transcription": false
+    },
+    {
+      "id": "p19r-13",
+      "page": 19,
+      "image": "lines/p19r-13.png",
+      "box": [
+        182,
+        891,
+        602,
+        930
+      ],
+      "region": [
+        85,
+        155,
+        690,
+        1125
+      ],
+      "split": "test",
+      "selected_for_transcription": false
+    },
+    {
+      "id": "p19r-14",
+      "page": 19,
+      "image": "lines/p19r-14.png",
+      "box": [
+        182,
+        953,
+        533,
+        995
+      ],
+      "region": [
+        85,
+        155,
+        690,
+        1125
+      ],
+      "split": "test",
+      "selected_for_transcription": false
+    },
+    {
+      "id": "p19r-15",
+      "page": 19,
+      "image": "lines/p19r-15.png",
+      "box": [
+        169,
+        1012,
+        695,
+        1052
+      ],
+      "region": [
+        85,
+        155,
+        690,
+        1125
+      ],
+      "split": "test",
+      "selected_for_transcription": false
+    },
+    {
+      "id": "p19r-16",
+      "page": 19,
+      "image": "lines/p19r-16.png",
+      "box": [
+        86,
+        1073,
+        666,
+        1116
+      ],
+      "region": [
+        85,
+        155,
+        690,
+        1125
+      ],
+      "split": "test",
+      "selected_for_transcription": false
+    },
+    {
+      "id": "p23r-01",
+      "page": 23,
+      "image": "lines/p23r-01.png",
+      "box": [
+        53,
+        134,
+        699,
+        179
+      ],
+      "region": [
+        50,
+        130,
+        703,
+        1100
+      ],
+      "split": "dev",
+      "selected_for_transcription": true
+    },
+    {
+      "id": "p23r-02",
+      "page": 23,
+      "image": "lines/p23r-02.png",
+      "box": [
+        54,
+        183,
+        698,
+        227
+      ],
+      "region": [
+        50,
+        130,
+        703,
+        1100
+      ],
+      "split": "dev",
+      "selected_for_transcription": true
+    },
+    {
+      "id": "p23r-03",
+      "page": 23,
+      "image": "lines/p23r-03.png",
+      "box": [
+        54,
+        229,
+        700,
+        275
+      ],
+      "region": [
+        50,
+        130,
+        703,
+        1100
+      ],
+      "split": "dev",
+      "selected_for_transcription": false
+    },
+    {
+      "id": "p23r-04",
+      "page": 23,
+      "image": "lines/p23r-04.png",
+      "box": [
+        54,
+        277,
+        699,
+        322
+      ],
+      "region": [
+        50,
+        130,
+        703,
+        1100
+      ],
+      "split": "dev",
+      "selected_for_transcription": false
+    },
+    {
+      "id": "p23r-05",
+      "page": 23,
+      "image": "lines/p23r-05.png",
+      "box": [
+        49,
+        324,
+        701,
+        366
+      ],
+      "region": [
+        50,
+        130,
+        703,
+        1100
+      ],
+      "split": "dev",
+      "selected_for_transcription": false
+    },
+    {
+      "id": "p23r-06",
+      "page": 23,
+      "image": "lines/p23r-06.png",
+      "box": [
+        53,
+        371,
+        701,
+        418
+      ],
+      "region": [
+        50,
+        130,
+        703,
+        1100
+      ],
+      "split": "dev",
+      "selected_for_transcription": false
+    },
+    {
+      "id": "p23r-07",
+      "page": 23,
+      "image": "lines/p23r-07.png",
+      "box": [
+        55,
+        422,
+        703,
+        466
+      ],
+      "region": [
+        50,
+        130,
+        703,
+        1100
+      ],
+      "split": "dev",
+      "selected_for_transcription": false
+    },
+    {
+      "id": "p23r-08",
+      "page": 23,
+      "image": "lines/p23r-08.png",
+      "box": [
+        56,
+        468,
+        703,
+        514
+      ],
+      "region": [
+        50,
+        130,
+        703,
+        1100
+      ],
+      "split": "dev",
+      "selected_for_transcription": false
+    },
+    {
+      "id": "p23r-09",
+      "page": 23,
+      "image": "lines/p23r-09.png",
+      "box": [
+        56,
+        515,
+        703,
+        561
+      ],
+      "region": [
+        50,
+        130,
+        703,
+        1100
+      ],
+      "split": "dev",
+      "selected_for_transcription": false
+    },
+    {
+      "id": "p23r-10",
+      "page": 23,
+      "image": "lines/p23r-10.png",
+      "box": [
+        53,
+        562,
+        705,
+        607
+      ],
+      "region": [
+        50,
+        130,
+        703,
+        1100
+      ],
+      "split": "dev",
+      "selected_for_transcription": false
+    },
+    {
+      "id": "p23r-11",
+      "page": 23,
+      "image": "lines/p23r-11.png",
+      "box": [
+        54,
+        612,
+        704,
+        659
+      ],
+      "region": [
+        50,
+        130,
+        703,
+        1100
+      ],
+      "split": "dev",
+      "selected_for_transcription": false
+    },
+    {
+      "id": "p23r-12",
+      "page": 23,
+      "image": "lines/p23r-12.png",
+      "box": [
+        55,
+        659,
+        702,
+        705
+      ],
+      "region": [
+        50,
+        130,
+        703,
+        1100
+      ],
+      "split": "dev",
+      "selected_for_transcription": false
+    },
+    {
+      "id": "p23r-13",
+      "page": 23,
+      "image": "lines/p23r-13.png",
+      "box": [
+        57,
+        706,
+        703,
+        751
+      ],
+      "region": [
+        50,
+        130,
+        703,
+        1100
+      ],
+      "split": "dev",
+      "selected_for_transcription": false
+    },
+    {
+      "id": "p23r-14",
+      "page": 23,
+      "image": "lines/p23r-14.png",
+      "box": [
+        58,
+        754,
+        705,
+        800
+      ],
+      "region": [
+        50,
+        130,
+        703,
+        1100
+      ],
+      "split": "dev",
+      "selected_for_transcription": false
+    },
+    {
+      "id": "p23r-15",
+      "page": 23,
+      "image": "lines/p23r-15.png",
+      "box": [
+        57,
+        801,
+        705,
+        843
+      ],
+      "region": [
+        50,
+        130,
+        703,
+        1100
+      ],
+      "split": "dev",
+      "selected_for_transcription": false
+    },
+    {
+      "id": "p23r-16",
+      "page": 23,
+      "image": "lines/p23r-16.png",
+      "box": [
+        60,
+        849,
+        707,
+        897
+      ],
+      "region": [
+        50,
+        130,
+        703,
+        1100
+      ],
+      "split": "dev",
+      "selected_for_transcription": false
+    },
+    {
+      "id": "p23r-17",
+      "page": 23,
+      "image": "lines/p23r-17.png",
+      "box": [
+        45,
+        897,
+        706,
+        944
+      ],
+      "region": [
+        50,
+        130,
+        703,
+        1100
+      ],
+      "split": "dev",
+      "selected_for_transcription": false
+    },
+    {
+      "id": "p23r-18",
+      "page": 23,
+      "image": "lines/p23r-18.png",
+      "box": [
+        45,
+        946,
+        707,
+        988
+      ],
+      "region": [
+        50,
+        130,
+        703,
+        1100
+      ],
+      "split": "dev",
+      "selected_for_transcription": false
+    },
+    {
+      "id": "p23r-19",
+      "page": 23,
+      "image": "lines/p23r-19.png",
+      "box": [
+        45,
+        994,
+        708,
+        1037
+      ],
+      "region": [
+        50,
+        130,
+        703,
+        1100
+      ],
+      "split": "dev",
+      "selected_for_transcription": false
+    },
+    {
+      "id": "p23r-20",
+      "page": 23,
+      "image": "lines/p23r-20.png",
+      "box": [
+        45,
+        1041,
+        708,
+        1100
+      ],
+      "region": [
+        50,
+        130,
+        703,
+        1100
+      ],
+      "split": "dev",
+      "selected_for_transcription": false
+    }
+  ]
+}

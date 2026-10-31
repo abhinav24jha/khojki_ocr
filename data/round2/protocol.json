@@ -1,0 +1,16 @@
+{
+  "utc": "2026-10-31T10:59:53.629130+00:00",
+  "training": "Original 15 p17 lines only; printed separator word crops and recombinations use training data exclusively.",
+  "development": "Original 6 dev plus original 10 test lines, now explicitly development after inspecting their failures. The previous 8.4% remains a historical baseline only.",
+  "new_test_selection": [
+    "p19r-06",
+    "p19r-07",
+    "p19r-08",
+    "p19r-09",
+    "p19r-10"
+  ],
+  "new_test_status": "Selected before round2 training. References will be frozen before inspecting recognizer predictions on these lines. These lines share a page/book with development, so not book-disjoint.",
+  "word_bank_size": 64,
+  "train_dev_sha256": "1d2421e8193f12f57c9fcdad43b505b2d05bf7c59438a890b023740b0768a4b2",
+  "experiments": "Small paired runs: robust layout only; 300-step whole-line fine-tune; 300-step real-word recombination fine-tune; expand promising runs after development comparison. Add bold-font synthetic coverage if supported by first pilot."
+}

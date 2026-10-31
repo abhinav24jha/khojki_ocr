@@ -1,0 +1,34 @@
+{
+  "baseline": {
+    "lines": 16,
+    "characters": 405,
+    "errors": 31,
+    "load_seconds": 0.8297735099999954,
+    "inference_seconds": 1.9422745609999765,
+    "cer": 0.07654320987654321
+  },
+  "round2-control": {
+    "step": 150,
+    "loss": 0.029086360707879066,
+    "validation_cer": 0.0691358024691358,
+    "errors": 28,
+    "characters": 405,
+    "seconds": 6.319191287000024
+  },
+  "round2-words": {
+    "step": 250,
+    "loss": 0.10393979400396347,
+    "validation_cer": 0.08641975308641975,
+    "errors": 35,
+    "characters": 405,
+    "seconds": 9.064134641999999
+  },
+  "round2-bold": {
+    "step": 250,
+    "loss": 0.092805415391922,
+    "validation_cer": 0.08888888888888889,
+    "errors": 36,
+    "characters": 405,
+    "seconds": 9.65141838400001
+  }
+}

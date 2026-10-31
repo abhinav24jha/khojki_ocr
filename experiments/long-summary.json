@@ -1,0 +1,26 @@
+{
+  "long-control": {
+    "step": 2800,
+    "loss": 0.004315785598009825,
+    "validation_cer": 0.044444444444444446,
+    "errors": 18,
+    "characters": 405,
+    "seconds": 78.17999419100005
+  },
+  "long-bold": {
+    "step": 2700,
+    "loss": 0.007681386545300484,
+    "validation_cer": 0.04691358024691358,
+    "errors": 19,
+    "characters": 405,
+    "seconds": 83.23283090900003
+  },
+  "long-word10": {
+    "step": 1550,
+    "loss": 0.01617572456598282,
+    "validation_cer": 0.04938271604938271,
+    "errors": 20,
+    "characters": 405,
+    "seconds": 49.26000026600002
+  }
+}

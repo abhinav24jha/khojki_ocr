@@ -1,0 +1,9 @@
+{"models": ["precision-packed"], "beam_width": 1, "constrained": false, "errors": 16, "characters": 405, "cer": 0.03950617283950617, "seconds": 0.8641683240000475}
+{"models": ["precision-packed"], "beam_width": 10, "constrained": false, "errors": 16, "characters": 405, "cer": 0.03950617283950617, "seconds": 0.6451653910000914}
+{"models": ["precision-packed"], "beam_width": 10, "constrained": true, "errors": 15, "characters": 405, "cer": 0.037037037037037035, "seconds": 0.9816575909999301}
+{"models": ["long-control"], "beam_width": 1, "constrained": false, "errors": 18, "characters": 405, "cer": 0.044444444444444446, "seconds": 0.2884476890001224}
+{"models": ["long-control"], "beam_width": 10, "constrained": false, "errors": 18, "characters": 405, "cer": 0.044444444444444446, "seconds": 0.5458425910001097}
+{"models": ["long-control"], "beam_width": 10, "constrained": true, "errors": 17, "characters": 405, "cer": 0.04197530864197531, "seconds": 0.9206695169998511}
+{"models": ["precision-packed", "long-control"], "beam_width": 1, "constrained": false, "errors": 17, "characters": 405, "cer": 0.04197530864197531, "seconds": 0.3739439420000963}
+{"models": ["precision-packed", "long-control"], "beam_width": 10, "constrained": true, "errors": 14, "characters": 405, "cer": 0.0345679012345679, "seconds": 1.0308693209999547}
+SELECTED {"models": ["precision-packed", "long-control"], "beam_width": 10, "constrained": true, "errors": 14, "characters": 405, "cer": 0.0345679012345679, "seconds": 1.0308693209999547} 1721b073e808b5fa00e73898643b9c73e5eb0f9338247554ad30be5f92c07fd2

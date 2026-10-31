@@ -1,0 +1,42 @@
+{
+  "arch-control": {
+    "step": 400,
+    "loss": 0.004614523146301508,
+    "validation_cer": 0.04938271604938271,
+    "errors": 20,
+    "characters": 405,
+    "seconds": 15.259498062999967
+  },
+  "arch-packed48": {
+    "step": 600,
+    "loss": 0.0028892382979393005,
+    "validation_cer": 0.04691358024691358,
+    "errors": 19,
+    "characters": 405,
+    "seconds": 32.164023131999954
+  },
+  "arch-height64": {
+    "step": 550,
+    "loss": 0.006710071582347155,
+    "validation_cer": 0.08641975308641975,
+    "errors": 35,
+    "characters": 405,
+    "seconds": 25.833215988000006
+  },
+  "arch-packed64": {
+    "step": 600,
+    "loss": 0.015393613837659359,
+    "validation_cer": 0.08641975308641975,
+    "errors": 35,
+    "characters": 405,
+    "seconds": 41.44167324900002
+  },
+  "arch-extra-data": {
+    "step": 350,
+    "loss": 0.012943536043167114,
+    "validation_cer": 0.056790123456790124,
+    "errors": 23,
+    "characters": 405,
+    "seconds": 12.401856153999915
+  }
+}

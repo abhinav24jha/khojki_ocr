@@ -1,0 +1,51 @@
+generated 4.358264458947815
+{"step": 25, "loss": 3.9984, "seconds": 43.5}
+{"step": 50, "loss": 4.1137, "seconds": 70.5}
+{"step": 75, "loss": 4.0557, "seconds": 123.5}
+{"step": 100, "loss": 3.8443, "seconds": 150.3}
+{"step": 100, "loss": 3.8442542552948, "validation_cer": 1.0, "errors": 2910, "characters": 2910, "seconds": 151.45747337501962}
+{"step": 125, "loss": 3.996, "seconds": 166.4}
+{"step": 150, "loss": 4.0211, "seconds": 183.7}
+{"step": 175, "loss": 3.9909, "seconds": 200.6}
+{"step": 200, "loss": 3.9741, "seconds": 211.5}
+{"step": 200, "loss": 3.9740803241729736, "validation_cer": 1.0, "errors": 2910, "characters": 2910, "seconds": 211.96520170895383}
+{"step": 225, "loss": 3.9314, "seconds": 227.4}
+{"step": 250, "loss": 4.0685, "seconds": 234.8}
+{"step": 275, "loss": 3.9426, "seconds": 248.0}
+{"step": 300, "loss": 3.8789, "seconds": 255.6}
+{"step": 300, "loss": 3.8788950443267822, "validation_cer": 1.0, "errors": 2910, "characters": 2910, "seconds": 256.0426662500249}
+{"step": 325, "loss": 3.8456, "seconds": 266.4}
+{"step": 350, "loss": 3.8155, "seconds": 274.4}
+{"step": 375, "loss": 3.6529, "seconds": 285.4}
+{"step": 400, "loss": 3.5201, "seconds": 294.3}
+{"step": 400, "loss": 3.5200793743133545, "validation_cer": 1.0, "errors": 2910, "characters": 2910, "seconds": 294.685372750042}
+{"step": 425, "loss": 3.2809, "seconds": 301.3}
+{"step": 450, "loss": 3.0229, "seconds": 308.6}
+{"step": 475, "loss": 2.6908, "seconds": 316.4}
+{"step": 500, "loss": 2.4688, "seconds": 321.3}
+{"step": 500, "loss": 2.4688379764556885, "validation_cer": 0.7505154639175258, "errors": 2184, "characters": 2910, "seconds": 321.674498458975}
+{"step": 525, "loss": 1.8781, "seconds": 328.0}
+{"step": 550, "loss": 1.3969, "seconds": 334.2}
+{"step": 575, "loss": 1.0645, "seconds": 339.2}
+{"step": 600, "loss": 0.8829, "seconds": 345.0}
+{"step": 600, "loss": 0.8828932642936707, "validation_cer": 0.25120274914089347, "errors": 731, "characters": 2910, "seconds": 345.34998287505005}
+{"step": 625, "loss": 0.6758, "seconds": 349.5}
+{"step": 650, "loss": 0.5508, "seconds": 354.5}
+{"step": 675, "loss": 0.3531, "seconds": 359.3}
+{"step": 700, "loss": 0.3391, "seconds": 365.4}
+{"step": 700, "loss": 0.33906683325767517, "validation_cer": 0.14054982817869416, "errors": 409, "characters": 2910, "seconds": 365.7921822499484}
+{"step": 725, "loss": 0.3321, "seconds": 369.6}
+{"step": 750, "loss": 0.2171, "seconds": 373.2}
+{"step": 775, "loss": 0.155, "seconds": 378.6}
+{"step": 800, "loss": 0.2368, "seconds": 383.5}
+{"step": 800, "loss": 0.2367897778749466, "validation_cer": 0.03161512027491409, "errors": 92, "characters": 2910, "seconds": 383.87881087500136}
+{"step": 825, "loss": 0.157, "seconds": 389.0}
+{"step": 850, "loss": 0.1212, "seconds": 392.7}
+{"step": 875, "loss": 0.0975, "seconds": 398.4}
+{"step": 900, "loss": 0.1538, "seconds": 402.8}
+{"step": 900, "loss": 0.15383513271808624, "validation_cer": 0.04536082474226804, "errors": 132, "characters": 2910, "seconds": 403.29582279198803}
+{"step": 925, "loss": 0.0908, "seconds": 409.1}
+{"step": 950, "loss": 0.142, "seconds": 415.0}
+{"step": 975, "loss": 0.0624, "seconds": 419.4}
+{"step": 1000, "loss": 0.146, "seconds": 428.0}
+{"step": 1000, "loss": 0.14595752954483032, "validation_cer": 0.013058419243986255, "errors": 38, "characters": 2910, "seconds": 428.42968979198486}

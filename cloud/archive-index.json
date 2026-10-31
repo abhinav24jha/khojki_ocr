@@ -1,0 +1,150 @@
+{
+  "note": "Full input/result archives preserved in the working project; excluded from compact submission ZIP. SHA-256 records identify exact resumable experiments.",
+  "archives": [
+    {
+      "path": "cloud/arch-control-results.zip",
+      "bytes": 23882476,
+      "sha256": "f8119e0597a9c200cc525405629575d1dba8b4787932e067ff207935dd0557df"
+    },
+    {
+      "path": "cloud/arch-extra-data-results.zip",
+      "bytes": 23874550,
+      "sha256": "64e5ad22cbd209e5500147e2464b7272128c4dbeec830926fdecbdcfa4f5aa2c"
+    },
+    {
+      "path": "cloud/arch-height64-results.zip",
+      "bytes": 23868860,
+      "sha256": "d79fbf386bb33ac5145b1cbdd6d3e8560f4df944b2b5d683e220f6f83e81f208"
+    },
+    {
+      "path": "cloud/arch-packed48-results.zip",
+      "bytes": 23853614,
+      "sha256": "61c55496854e384fce5f263b773a0fb5f1cbf59bf34e1277f82772ce71d8bf91"
+    },
+    {
+      "path": "cloud/arch-packed64-results.zip",
+      "bytes": 23850836,
+      "sha256": "7ee59b5d2aabe28e8fb5e021673df5a0c1e6f3c640341b841144bfb44f2c1580"
+    },
+    {
+      "path": "cloud/geometry-legacy-results.zip",
+      "bytes": 23830917,
+      "sha256": "59c1cb968d17fec8a5c19525ddbe4cb324a50781d8fb40ee6b931d3e3c6689d5"
+    },
+    {
+      "path": "cloud/geometry-preserve-results.zip",
+      "bytes": 23850651,
+      "sha256": "83d28791df09c8b7e35a8fc77aff2a601327c9b5c88878edfaca522236035a30"
+    },
+    {
+      "path": "cloud/khojki-architecture.zip",
+      "bytes": 14058777,
+      "sha256": "5bb00db1c3a5a5cd8e30c213006dba1e8ac88c57852f329a3e1d1a3455ccd55a"
+    },
+    {
+      "path": "cloud/khojki-cloud-pilot.zip",
+      "bytes": 16576692,
+      "sha256": "de873349552b951435f044af6460baea6abd59f5d6a53acedac244864af741cd"
+    },
+    {
+      "path": "cloud/khojki-evaluation-results.zip",
+      "bytes": 15188122,
+      "sha256": "227730174dcf6f725abd0c8d19c6b7676c508b3cb96ab64edab5cf30748714b8"
+    },
+    {
+      "path": "cloud/khojki-frozen-evaluation.zip",
+      "bytes": 18859099,
+      "sha256": "d678cb6419de29b3eac87b0df10346a9958ae3ce7684b4acf976e2ec411fc138"
+    },
+    {
+      "path": "cloud/khojki-long.zip",
+      "bytes": 28853972,
+      "sha256": "33edfe68141e78b6d9f247046fd953605b1e947121c1ecd1c1b4f8ec91333210"
+    },
+    {
+      "path": "cloud/khojki-pilot-results.zip",
+      "bytes": 23841400,
+      "sha256": "2a0a0cf4e02575a65a4a55b665b0e090b22586728798f7f32c510b6e5dbb8346"
+    },
+    {
+      "path": "cloud/khojki-precision.zip",
+      "bytes": 37788153,
+      "sha256": "3f55e327cd3471a24b0d9226ca87bbc5b37f3d412d884f5e0e8ba6c7841fab99"
+    },
+    {
+      "path": "cloud/khojki-round2-evaluation-results.zip",
+      "bytes": 13105448,
+      "sha256": "ddfd8daa21c3b981410d5d297b41fb954cd853c83b2c9d764da1a448d5fbc6df"
+    },
+    {
+      "path": "cloud/khojki-round2-evaluation.zip",
+      "bytes": 18951000,
+      "sha256": "41a6ee43be60d109bc2f17f9a740ea470b5ab8654182ee2994bb6ed86461ea4c"
+    },
+    {
+      "path": "cloud/khojki-round2.zip",
+      "bytes": 5014671,
+      "sha256": "e35897b5c70791f2bbeea8df80be0993c1dec2d86344f0c69821ceef3654413c"
+    },
+    {
+      "path": "cloud/khojki-round3.zip",
+      "bytes": 40762794,
+      "sha256": "a2479ab09141d0eb10a3094cd20e864fb7298b99326e17fefb1c44cf1d220dd4"
+    },
+    {
+      "path": "cloud/long-bold-results.zip",
+      "bytes": 23877138,
+      "sha256": "c89ff8bdaa0b61dff9a8e00faec2b82c3c73705c45b6095e7ecb4e3b0031b76d"
+    },
+    {
+      "path": "cloud/long-control-results.zip",
+      "bytes": 23883759,
+      "sha256": "7dcfd37a0f6fb4dcc773e1a7a26f4f33203b7b7179c6af8394d47ef0a7e29d63"
+    },
+    {
+      "path": "cloud/long-word10-results.zip",
+      "bytes": 23851591,
+      "sha256": "478976cc3d28f7c0a764bd2351f8bbf2062fdf93b40240eb2fb4ba6d818eda15"
+    },
+    {
+      "path": "cloud/precision-packed-results.zip",
+      "bytes": 23880391,
+      "sha256": "229f45523346e43a859f35a835af65f2bbd4df92984201329fe4607f3e781581"
+    },
+    {
+      "path": "cloud/round2-bold-results.zip",
+      "bytes": 23833524,
+      "sha256": "6bd7dd70e97ce63e06dd2134ae7e625d856c85763d50556b82d244c87bbd26f7"
+    },
+    {
+      "path": "cloud/round2-control-results.zip",
+      "bytes": 23845578,
+      "sha256": "f2d65dd62b51f9ea569c67cbfb7a9c9da0952414e9e3bee7f84e414e92583de7"
+    },
+    {
+      "path": "cloud/round2-selection-results.zip",
+      "bytes": 7874118,
+      "sha256": "8309cb7918da9f4f20b0d06081d3d819807b304b75fd6a17921db45effccbae8"
+    },
+    {
+      "path": "cloud/round2-words-results.zip",
+      "bytes": 23836124,
+      "sha256": "709ea72f91ced85cc2f4364bdb48879c713031872c4a65a4340445b7f3a7b4f5"
+    },
+    {
+      "path": "cloud/round3-control-results.zip",
+      "bytes": 23881951,
+      "sha256": "7664f8e90054bdbb3ad2d127a8f1b4df6526485c02c6229d68eddd42557356e7"
+    },
+    {
+      "path": "cloud/round3-evaluation-results.zip",
+      "bytes": 22594823,
+      "sha256": "295b23f763d3a106c11285a12897943af031dc9b1a52bfe7a63a071fe189625f"
+    },
+    {
+      "path": "cloud/round3-packed-results.zip",
+      "bytes": 23882972,
+      "sha256": "78bd7ecbbdfb79dbdf0ab2521e114cedc0c230b51e807ea2252341664569c2c4"
+    }
+  ]
+}

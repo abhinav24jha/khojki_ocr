@@ -1,0 +1,25 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+*.egg-info/
+cloud/*.zip
+experiments/*/last.pt
+experiments/*/best.pt
+# The source pages are supplied only for this exercise. Review before publishing.
+data/pages/
+data/lines/
+data/overlays/
+data/annotation-sheets/
+data/reference/review-*.png
+results/**/p*.png
+results/**/overlay.png
+results/**/NotoSansKhojki-Regular.ttf
+
+data/round2/*.png
+data/reference/annotate-*.png
+
+experiments/vlm-source.png
+cloud/*.png
+data/round3/*.png

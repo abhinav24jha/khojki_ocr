@@ -1,0 +1,1 @@
+{"name": "incumbent", "paths": ["models/round2-selected.pt"], "errors": 20, "characters": 453, "seconds": 2.9785438379999505, "cer": 0.04415011037527594}

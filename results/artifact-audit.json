@@ -1,0 +1,12 @@
+{
+  "passed": [
+    "round2: frozen hash, count and split disjointness",
+    "round3: frozen hash, count and split disjointness",
+    "Python syntax",
+    "round2-selection: deployment hash",
+    "round3-final-selection: deployment hash",
+    "round2-test: aggregate edit counts",
+    "round3-test: aggregate edit counts",
+    "default model equals frozen deployment model"
+  ]
+}
