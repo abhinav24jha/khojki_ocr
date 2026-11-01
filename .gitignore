@@ -4,7 +4,15 @@ __pycache__/
 .pytest_cache/
 .DS_Store
 *.egg-info/
+build/
+dist/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
 cloud/*.zip
+cloud/*.zip.part*
+results/quality-validation*/training-smoke/
 experiments/*/last.pt
 experiments/*/best.pt
 # The source pages are supplied only for this exercise. Review before publishing.

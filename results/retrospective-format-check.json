@@ -1,0 +1,10 @@
+{
+  "source": "technical-retro.md",
+  "sha256": "e600c8f9f431ec844a583210f328e8f878b6e3815bccb87957f7bdde493e044e",
+  "words": 575,
+  "plain_print_pages": 1,
+  "body_font_points": 10,
+  "page": "US Letter",
+  "visual_review_passed": true,
+  "note": "Markdown is the deliverable; this print check is layout evidence, not a replacement PDF."
+}

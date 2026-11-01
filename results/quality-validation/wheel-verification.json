@@ -1,0 +1,6 @@
+{
+  "installed_outside_checkout": true,
+  "blank_image_inference": true,
+  "all_outputs_and_font_license_present": true,
+  "checkpoint_sha256": "b4398167ea03e71277d09eba4cf5a55ef3efac454738f649f01169343ec3abb6"
+}

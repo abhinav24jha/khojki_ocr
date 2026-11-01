@@ -2,3 +2,6 @@
 *.pt binary
 *.png binary
 *.ttf binary
+
+# Preserve upstream font-license text verbatim, including its whitespace.
+**/OFL.txt -whitespace

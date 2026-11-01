@@ -1,0 +1,49 @@
+============================= test session starts ==============================
+platform linux -- Python 3.13.18, pytest-8.4.2, pluggy-1.7.0
+rootdir: /content/khojki-quality
+configfile: pyproject.toml
+plugins: cov-7.1.0, typeguard-4.6.0, anyio-4.15.1, langsmith-0.14.13, platformdirs-4.13.6
+collected 157 items
+
+tests/test_artifacts.py ....                                             [  2%]
+tests/test_checkpoints.py .....                                          [  5%]
+tests/test_cli.py ......                                                 [  9%]
+tests/test_cloud_import.py ...........                                   [ 16%]
+tests/test_decoding.py ...............                                   [ 26%]
+tests/test_metrics.py ..........                                         [ 32%]
+tests/test_model.py ..........                                           [ 38%]
+tests/test_pipeline.py ........................                          [ 54%]
+tests/test_private_data.py ...                                           [ 56%]
+tests/test_recognize.py .......                                          [ 60%]
+tests/test_render.py ........                                            [ 65%]
+tests/test_resources.py ....                                             [ 68%]
+tests/test_segmentation.py .............                                 [ 76%]
+tests/test_training_cli.py ............                                  [ 84%]
+tests/test_unicode.py .......                                            [ 88%]
+tests/test_unicode_atomic.py ..............                              [ 97%]
+tests/test_word_augmentation.py ....                                     [100%]
+
+- generated xml file: /content/khojki-quality/results/quality-validation/test-results.xml -
+================================ tests coverage ================================
+_______________ coverage: platform linux, python 3.13.18-final-0 _______________
+
+Name                                  Stmts   Miss  Cover   Missing
+-------------------------------------------------------------------
+src/khojki_ocr/__init__.py                0      0   100%
+src/khojki_ocr/__main__.py               50     50     0%   1-98
+src/khojki_ocr/checkpoints.py            27      0   100%
+src/khojki_ocr/decoding.py               47      0   100%
+src/khojki_ocr/metrics.py                28      0   100%
+src/khojki_ocr/model.py                  67      2    97%   66, 88
+src/khojki_ocr/pipeline.py               95      3    97%   35, 55, 94
+src/khojki_ocr/recognize.py             121     17    86%   12, 14, 29, 78, 80, 88, 101, 107, 113, 116, 122, 124, 129, 153, 164-167
+src/khojki_ocr/render.py                 48      0   100%
+src/khojki_ocr/resources.py              14      0   100%
+src/khojki_ocr/segment.py               134     21    84%   19, 46, 66-76, 78, 83, 98, 118-122, 135, 181, 186, 189, 193
+src/khojki_ocr/unicode.py                33      2    94%   85, 92
+src/khojki_ocr/vocabulary.py              1      0   100%
+src/khojki_ocr/word_augmentation.py      62      2    97%   69, 92
+-------------------------------------------------------------------
+TOTAL                                   727     97    87%
+Coverage XML written to file /content/khojki-quality/results/quality-validation/coverage.xml
+============================= 157 passed in 13.96s =============================

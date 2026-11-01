@@ -6,19 +6,32 @@ build-backend = "setuptools.build_meta"
 name = "khojki-ocr-takehome"
 version = "0.1.0"
 description = "Auditable printed Khojki OCR prototype"
+readme = "README.md"
 requires-python = ">=3.10"
 dependencies = ["torch>=2.2", "numpy>=1.26", "Pillow>=10", "opencv-python-headless>=4.9", "scipy>=1.12", "pypdf>=4", "pypdfium2>=4.30"]
 
 [project.optional-dependencies]
 train = ["uharfbuzz>=0.39", "freetype-py>=2.4"]
-test = ["pytest>=8"]
+test = ["pytest>=8", "pytest-cov>=5", "build>=1.2"]
+dev = ["ruff>=0.9"]
 baseline = ["requests>=2.31"]
 
 [project.scripts]
 khojki-ocr = "khojki_ocr.__main__:main"
+
+[project.urls]
+Repository = "https://github.com/abhinav24jha/khojki_ocr"
 
 [tool.setuptools.packages.find]
 where = ["src"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
+markers = [
+    "integration: runs actual neural models or subprocess CLI inference",
+    "private_data: requires exercise-only scans restored from the supplied PDF",
+]
+
+[tool.ruff]
+target-version = "py310"
+line-length = 88

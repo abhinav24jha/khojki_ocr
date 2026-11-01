@@ -72,6 +72,16 @@
       "sha256": "3f55e327cd3471a24b0d9226ca87bbc5b37f3d412d884f5e0e8ba6c7841fab99"
     },
     {
+      "path": "cloud/khojki-quality-input.zip",
+      "bytes": 65518385,
+      "sha256": "4c0be8da5c46d7261dc8a1571b67a09c5e4687279fead5ed3f630ca66e0c5b2e"
+    },
+    {
+      "path": "cloud/khojki-quality-results.zip",
+      "bytes": 61354908,
+      "sha256": "fa1b85773a7beb32008e6d5b1b4e1cfb5acf87a9654862efb986ac685a0bdf2d"
+    },
+    {
       "path": "cloud/khojki-round2-evaluation-results.zip",
       "bytes": 13105448,
       "sha256": "ddfd8daa21c3b981410d5d297b41fb954cd853c83b2c9d764da1a448d5fbc6df"

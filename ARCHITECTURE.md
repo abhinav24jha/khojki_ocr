@@ -1,69 +1,106 @@
-# Why this pipeline
+# Pipeline design and engineering decisions
 
-The recoverable target is a sequence of abstract Unicode characters, while the input is a degraded rendering in an unfamiliar historical typeface. A good system must separate page geometry, visual recognition, and encoding. A correct code-point inventory alone cannot determine which glyph was printed; a modern-font renderer alone cannot establish equivalence to a historical form.
+## Problem decomposition
+
+The input is a degraded rendering in a historical typeface; the output is a sequence of abstract Unicode characters. Page geometry, visual recognition and character encoding have different failure modes. The implementation keeps them separate so a valid code point cannot masquerade as evidence that the correct glyph was read.
+
+```text
+Page image / PDF
+    ↓ native scan extraction or PDF rendering
+Page pixels
+    ↓ frame/region inference and line detection
+Line crops + page coordinates
+    ↓ background-relative contrast and distant-column splitting
+Normalized text/number chunks
+    ↓ two CNN–BiLSTM–CTC members; probability averaging
+CTC beam decode with conservative structural filtering
+    ↓ join chunks; preserve raw Unicode
+UTF-8 + geometry + validation + offline review/export
+```
+
+The model does not receive a page number, reference transcription, dictionary or list of expected words. Dataset identifiers exist for provenance and reporting. Manual page regions are supported as explicit assistance and recorded in output.
+
+## Module boundaries
+
+| Module | Responsibility |
+|---|---|
+| `__main__.py` | Parse/validate inference arguments, select resources and device, write the run manifest. |
+| `resources.py` | Resolve model/font assets from an editable checkout or installed package. |
+| `pipeline.py` | Load pages, orchestrate one-page inference, write text/JSON/images/review HTML. |
+| `segment.py` | Ink masks, printed-frame heuristics, line boxes and overlays. |
+| `recognize.py` | Contrast preprocessing, distant-column splitting, checkpoint-driven ensemble inference. |
+| `model.py`, `vocabulary.py` | Fixed vocabulary, image tensors, batching, CRNN and greedy CTC collapse. |
+| `decoding.py` | CTC prefix beam search. |
+| `unicode.py` | Allowed inventory, structural diagnostics and a deliberately narrower decoding filter. |
+| `metrics.py` | Unicode-scalar edit distance, alignments and aggregate-score inputs. |
+| `checkpoints.py` | Trusted single-model training loads and interruption-safe snapshot replacement. |
+| `render.py` | HarfBuzz/FreeType shaping and rasterization. |
+| `word_augmentation.py` | Verified training-word extraction and controlled recombination. |
+
+Training and evaluation live in `scripts/`; their command entry points are distinct from reusable inference code. Experiment-specific policies remain named and recorded rather than being folded into runtime defaults. Functions group meaningful stages and invariants. Comments explain decisions such as padding color, atomic Unicode identities and recurrent training behavior.
 
 ## Geometry before recognition
 
-The page detector uses background-relative ink, connected components, ornamental-frame density, horizontal ink peaks, and valleys between peaks. A line contains its detached signs as well as its main body. Treating every connected component as a character would split vowels and dots while merging touching letters. The detector takes no page identifier or transcript as input. An explicit manual region is available as an auditable fallback.
+Ink is measured relative to the local background. Connected components and density profiles help identify ornamental frames; horizontal peaks and valleys locate line bodies while retaining detached signs. Treating every component as a character would split vowels and dots and merge touching letters. The original threshold/projection version did split detached marks and merge handwriting; adaptive peaks were more suitable for the selected printed pages.
 
-The original threshold-projection prototype split detached marks and merged handwriting into large blocks. Adaptive peaks were more suitable for the selected print. This remains a heuristic detector: headers, damaged frames, multiple columns, skew, and close handwriting can invalidate its assumptions. Whole-page overlays expose failures instead of hiding them behind crop-level CER.
+Large horizontal gaps split text and number chunks before recognition. Ignoring tiny speckles while locating these gaps avoids treating noise as a column bridge. One ASCII space joins recognized chunks; the printed word separator remains its own Khojki character.
 
-Large horizontal gaps are split into text and number chunks before recognition, with one ASCII space between recognized chunks. This reduced the synthetic-to-real mismatch on the initial development set. The first evaluation exposed two missed text/number gaps and one short refrain merged with its following line. The revised detector ignores tiny speckles only for gap finding, lowers the faint-line threshold, and rejects implausible frame crops. Original test lines were explicitly reclassified as development before these changes; five new references were frozen before inspecting their predictions. The earlier 8.4% result remains a historical baseline, never a fresh test of the revised system.
+These are heuristics for selected print, not a general layout model. Headers, skew, faint strokes, dense handwriting and multiple columns can violate their assumptions. Overlays and the checked-crop evaluation expose these errors. The initial test became development before detector changes were selected; its old score is not an independent test of the revised detector.
 
-## Learn a visual sequence, not isolated glyph templates
+Images preserve EXIF orientation. PDFs are rendered at 150 DPI unless native extraction is requested; native extraction requires a single embedded image per selected page. Geometry is tied to that resulting pixel coordinate system. Frozen assessment boxes refer to native source scans and cannot be reused on arbitrary rescaled pages.
 
-A 1.06M-parameter convolutional network compresses line height; a bidirectional two-layer LSTM provides context; CTC learns variable-length output without character boxes. Images are normalized to 48 pixels in height while retaining width. Decoding is selected on development data; the shipped checkpoint records input height, recurrence mode, beam width, structural filtering, and any ensemble members. Early beam/ensemble trials worsened the original development result, so later decoder changes were measured again against the stronger model. There is no language-model prior that could silently replace a rare name with a more likely word.
+## Sequence recognition and shaping
 
-Khojki is an abugida: base characters and signs are not independent image tiles. Shaping is therefore part of data generation, with HarfBuzz deciding glyphs, positioning, and combinations and FreeType rasterizing the actual shaped glyph IDs. The labels stay in logical Unicode order. Bidirectional sequence context helps with visually reordered signs; an isolated connected-component classifier would make this substantially harder. A perfectly rendered synthetic line still lacks the worn strokes, spacing, and typeface variation of an old scan, so a small real-data adaptation stage is essential.
+Each recognizer has 1,060,946 parameters: a CNN compresses line height, a two-layer bidirectional LSTM supplies visual sequence context, and CTC learns variable-length transcriptions without character boxes. Height is normalized to 48 pixels while preserving width. Two members average probabilities: one reads ordinary padded batches and one uses packed sequence lengths to prevent right padding from affecting recurrent context.
 
-The measured synthetic validation CER was 1.31%, but real development CER was initially 48%. Contrast normalization and chunking reduced it to 29.33%; real-line fine-tuning reduced it further. This is direct evidence that modern-font synthetic success is a poor proxy for archival success.
+The checkpoint stores vocabulary, height, recurrence mode, layout, beam width, constraints and optical views. The selected beam width is 10. Optical views preserve dimensions and temporal alignment before probability averaging; the selected view is identity, so no test-time blur/contrast ensemble is active. There is no language-model prior that could silently replace a rare name with a common word.
 
-## Controlled architectural and data experiments
+Khojki is an abugida: character/sign combinations are not independent image tiles. HarfBuzz chooses glyphs and positions from logical Unicode strings; FreeType rasterizes those shaped glyph IDs. Bidirectional context helps recognize signs whose visual placement differs from their logical sequence position. Synthetic rendering is a useful starting point, but worn historical print differs from a modern Noto font.
 
-Longer ordinary fine-tuning improved the expanded 405-character development set from 7.65% to 4.44% CER. This justified a longer experiment; the 300-step result alone had been 6.91%. Every 50-step checkpoint evaluation is retained, including the many later steps that were worse than the selected minimum. Repeated selection on this tiny development set can overfit it, which is why it cannot stand in for the fresh test.
+The empirical gap was large: synthetic validation reached 1.31% CER while initial real-line recognition was 48%. Contrast normalization and chunking brought the initial real result to 29.33%; real-line adaptation was still needed. Synthetic success is therefore not a proxy for archival accuracy.
 
-The bidirectional LSTM originally read right padding past a line's true width. A packed-sequence variant removes that dependency; a regression test verifies invariance to additional padding. Its 600-step pilot reached 4.69% versus a matched control's 4.94%, but did not yet beat the 4.44% incumbent. Both 64-pixel variants reached only 8.64% in their pilots. Changing scale is a new input distribution, and enlarging pixels does not recover lost scan detail.
+## Data operations and rejected changes
 
-Five additional, non-expert training transcriptions were tested separately: 5.68% development CER, so more labels were not automatically accepted as an improvement. Separator-delimited real-word recombination initially made performance worse. Inspection found that padding and two resizing stages unintentionally reduced ink height. A subsequent paired experiment isolates that geometry change. Word segmentation is checked against the training reference separator count, but matching counts cannot prove every crop is correct. No development/test words are added to the augmentation bank.
+Real adaptation uses frozen training lines with synthetic replay. Word augmentation uses training-only crops and requires agreement between separator-derived crop count and reference word count. That catches some segmentation mistakes, but does not prove every word is correctly bounded or transcribed.
+
+Two bugs/limitations were studied separately. Earlier word resizing reduced ink height; preserving geometry improved its paired result from 26 to 23 development edits, still worse than the incumbent. Later inspection showed that scalar `fill=255` on RGB images produces red padding, becoming dark after grayscale conversion. Converting to grayscale before padding fixes that image contract. The legacy mode remains only for a named reproducibility ablation.
+
+Round four compared six matched 600-step pilots and extended two eligible cases to 3,000 steps. Fixed padding, frozen BatchNorm statistics and frozen recurrent parameters did not improve selection accuracy. Three 1,000-step lower-rate studies tested original references, one isolated training-label proposal and added word replay. None qualified for the conditional 5,000-step extension. Five optical variants also failed to beat the incumbent.
+
+A frozen-recurrence run initially failed because cuDNN backward still required the recurrent module to be in training mode. The corrected configuration freezes parameters and disables recurrent dropout while retaining the necessary mode; failed-run evidence and the completed rerun are preserved. A code fix and a measured OCR gain are separate claims.
 
 ## Verification has a bounded role
 
-The verifier checks the allowed inventory, orphan signs, suspicious vowel sequences, explicit atomic-vowel conventions, and UTF-8 round trips. Reference lines were also rendered beside the scan during annotation. These checks catch wrong-script output and encoding defects cheaply. They cannot distinguish every historical TA from MA or decide whether a damaged stroke exists.
+The validator checks inventory, orphan signs, adjacent vowels, atomic-vowel conventions, NFC changes and UTF-8 round trips. Raw output remains unchanged. The beam filter rejects only a subset of implausible prefixes: orphan marks, adjacent dependent vowels and A followed by the AA sign. It is not the entire validator and not a language model.
 
-A render-and-compare reward could teach a model to imitate Noto instead of the document, reward an incorrect but similar code-point sequence, or exploit imperfect image alignment. Consequently, there is no reinforcement-learning loop against such a verifier here. It is an annotation/review aid and a diagnostic, not an oracle. All predictions remain available, and the correction UI exports a separate artifact. A separate decoding ablation uses only a conservative prefix filter for orphan marks and adjacent vowel signs; it does not add a dictionary or decide between visually plausible letters. Any such decoder selection is recorded explicitly in model metadata.
+A render-and-compare reward could reward modern-font resemblance instead of historical identity, favor a visually similar wrong sequence, or exploit alignment errors. No reinforcement-learning verifier loop was used. Rendering and checks aid transcription/review; they do not decide whether a damaged historical stroke is present.
 
-## Unicode decisions
+Unicode decisions follow the [Unicode 17 Khojki specification](https://www.unicode.org/versions/Unicode17.0.0/core-spec/chapter-15/):
 
-- Khojki block identities follow the [Unicode 17 core specification, South/Central Asian scripts](https://www.unicode.org/versions/Unicode17.0.0/core-spec/chapter-15/). U+11212 is reserved and excluded.
-- Common dependent vowels use U+1122C–U+11233; anusvara is U+11234. Independent AA is U+11201, not A plus the AA sign. O/AU signs use U+11232/U+11233, not decomposed AA+E/AI guesses.
-- A visible Khojki word separator is U+1123A, not an ASCII colon. Arabic-looking dots are not sufficient evidence for punctuation identity without inspecting the chart/context.
-- Visible digits in these lines use Gujarati U+0AE6–U+0AEF. A space marks a distant number column; it is not substituted for a printed word separator.
-- UTF-8 storage and font rendering are different checks. NFC is inspected but raw text is not silently normalized or repaired. A validator warning means review, not an automatic replacement.
+- Reserved U+11212 is excluded; assigned supported Khojki positions extend through U+11241.
+- Common dependent vowels are U+1122C–U+11233 and anusvara is U+11234.
+- Independent AA is U+11201, not A plus the AA sign. Other atomic independent vowels and dependent O/AU are not replaced by visually assembled sequences.
+- The printed word separator is U+1123A. Number-column spacing is ASCII space; observed digits are Gujarati U+0AE6–U+0AEF.
+- Encoding, normalization and font display are distinct checks. A warning requests source review, not automatic replacement.
 
-Fonts and shaping references: [Noto Khojki source](https://github.com/notofonts/khojki), [Noto font builds](https://notofonts.github.io/khojki/), [HarfBuzz documentation](https://harfbuzz.github.io/), and the [CTC explanation](https://distill.pub/2017/ctc/). The [2011 Khojki proposal](https://www.unicode.org/L2/L2011/11021-khojki.pdf) is useful for historical shapes; draft code-point assignments must not replace the current Unicode mapping. [Kraken's recognition-training documentation](https://kraken.re/main/user_guide/training_recognition.html) describes a practical larger-scale HTR route, but using a framework does not supply a pretrained Khojki recognizer.
+The [current code chart](https://unicode.org/charts/PDF/U11200.pdf) determines assignments. The [2011 proposal](https://www.unicode.org/L2/L2011/11021-khojki.pdf) helps interpret historical shapes, but its draft assignments must not override the current standard. Supporting references: [Noto Khojki](https://github.com/notofonts/khojki), [HarfBuzz](https://harfbuzz.github.io/), and [CTC](https://distill.pub/2017/ctc/).
 
-## Highest-value next experiment
+## Evaluation and reference uncertainty
 
-Obtain independently reviewed, diverse real lines, rather than indefinitely tuning a small development set. Start with 200–500 printed lines distributed over books, fonts, damage levels, and rare signs; reserve entire pages/books for validation/test and measure a learning curve at 50/100/200/500 lines. These counts are a planning estimate, not a demonstrated accuracy threshold. Double-annotate a subset to measure reference disagreement before optimizing the model against uncertain labels.
+Whole-page evaluation matches detections to reference boxes geometrically, without looking at OCR text. It also recognizes manually checked crops. A missing matched line yields an empty prediction and deletion errors. Unlabelled regions and extra detections remain unscored. The difference between automatic and checked-crop errors measures an intervention; interactions prevent interpreting it as a universal causal decomposition.
 
-For handwriting, replace the print-frame assumptions with baseline/polygon detection, add writer-disjoint references, and start with roughly 1,000–3,000 diverse labeled lines or a pretrained handwriting backbone. The amount needed depends on writer variation and the accuracy target. Review time and annotation quality are likely to dominate compute cost. Downsampling and skew probes already show why low-resolution pages need a separate benchmark; upscaling cannot restore missing strokes.
+The selected model has 14/405 development edits and **21/120 on the latest frozen five-line test**, identical to the previous model. Automatic and checked crops produce the same five predictions. All 21 edits are character errors rather than spaces; inventory/UTF-8 failures are zero. Three alignments expose independent E confused with PA plus dependent I, and E has no real training example.
 
-## Round-three outcomes before the later reference audit
+References were transcribed with AI/chart assistance, not independently adjudicated by an expert. Later repeated-word image matching identified four proposed corrections to older references. Against the same old predictions those proposals change 26/123 to 15/128 edits. This is post-hoc reference uncertainty, not a model improvement. Original files remain intact, ambiguities are explicit, and the latest test was separately frozen before predictions.
 
-The longer packed trial reached 16/405 edits; fixed structural beam reduced this to 15, and a two-member packed/ordinary ensemble reached 14/405. The corrected word-height experiment improved its paired result from 26 to 23 edits, but neither word-augmentation configuration beat the incumbent. This separates a real implementation defect from evidence that the augmentation strategy improves deployment.
+Repeated development selection and sequential reuse of earlier tests limit generalization claims. The final weights still derive from 15 original training lines; rejected expanded/corrected-label studies did not enter deployment. The evidence supports a runnable, measured prototype and an honest failure analysis, not universal or near-perfect OCR. See [RESULTS.md](RESULTS.md) for the complete decision ledger.
 
-Fresh testing then exposed 17/118 edits despite the 14/405 development result. A targeted data expansion promoted three of those test lines to training and two to development, adding two previously annotated lines. Both 500-step pilots were worse than the retained ensemble on the expanded 453-character development set (24 and 26 versus 20 errors with fixed decoding). Their ensemble had 25. The preregistered extension threshold was not met, so no longer runs were justified for those candidates.
+## Operational design and next evidence
 
-The retained ensemble's next frozen test produced 26/123 edits, compared with 28/123 for the original baseline. These unfamiliar forms and uncertain labels establish a generalization limitation; repeated development minima are not evidence of near-perfect OCR. No labels were changed to fit predictions. Predeclared alternate readings leave 20.16–25.20% CER, so they do not explain away the gap. The final weights remain trained on 15 page-17 lines. The source/label comparisons, old test results and rejected candidates are all retained.
+Inference runs sequentially with a two-thread CPU default, writes raw outputs separately from human corrections, and records the checkpoint hash. A 30-megapixel guard bounds downstream page processing; it does not make arbitrary file decoding memory-safe. Installed packages include the model and review font. Training checkpoints preserve optimizer, history, data hash and random states; compact deployment checkpoints serve inference instead.
 
-This submission completes the assessment's runnable pipeline and evaluation requirements. It does not demonstrate universal or near-perfect Khojki recognition. The next substantial improvement needs independent glyph adjudication and broader book-disjoint data, with a measurable coverage target, rather than additional selection on these same few lines.
+Colab experiments should start from a prepared notebook and verified inputs, begin with short pilots, persist checkpoints outside ephemeral runtime storage, verify exported archives, and disconnect after work. Historical full archives are indexed but private; a fresh clone can run inference and generated-fixture tests without them. No accuracy gain is claimed merely because packaging, readability or tests improve.
 
-## Round-four audit and resulting design
+The next useful experiment is an independently reviewed, book-diverse data collection: an estimated 200–500 printed lines, a double-annotated subset and learning curves at 50/100/200/500 lines, with entire books reserved for testing. Thirty-four supported Khojki classes currently lack real examples, so rare-character coverage must be measured explicitly.
 
-The new audit separated three mechanisms: image generation defects, uncertain target sequences, and adaptation/inference sensitivity. RGB scalar padding introduced red borders that became dark strokes; normalization to grayscale fixes that contract. The matched 3000-step study did not show a recognition gain from the fix, so correctness of the data operation and measured utility of the augmentation remain separate claims. Freezing BatchNorm running statistics and recurrent weights also failed to beat the incumbent in 600-step pilots.
-
-Nine training runs, conditional extensions and five fixed optical variants led to `incumbent` (14/405 development edits). Any saved optical views are averaged in probability space before fixed CTC beam decoding; they preserve image dimensions and temporal alignment. Selected metadata is replayed and checked against development predictions before test evaluation. The fresh page-21 result is 21/120; previous-model result is 21/120. This final test did not choose the model.
-
-An image-only repeated-word audit also exposed likely mistakes in our earlier AI-authored labels. On the same incumbent output, proposed historical-reference revisions change 26/123 to 15/128 edits. That is a reference effect, not an OCR gain, and remains post-hoc/non-expert. Original frozen files remain intact. One training-only correction was isolated in a matched lower-rate study; new test labels retain explicit alternatives and were frozen before page-21 output.
-
-Current performance and reference uncertainty both limit inference. Thirty-four supported Khojki characters have no real training example, and a modern-font shape cannot settle every historical variant. Independent adjudication and book-disjoint coverage are therefore stronger next investments than continuing to optimize this small reused development set. See RESULTS.md for all failed candidates and the original historical ledger for prior rounds.
+Handwriting needs baseline/polygon detection, writer-disjoint references and broader visual variation; 1,000–3,000 labelled lines is a planning range, not a measured threshold. [Kraken](https://kraken.re/main/user_guide/training_recognition.html) is a possible training framework, but a framework does not supply the missing Khojki labels or establish a pretrained recognizer's suitability.

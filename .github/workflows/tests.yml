@@ -1,0 +1,80 @@
+name: Tests and distribution
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: tests-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  cpu-tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ['3.10', '3.12']
+    env:
+      OMP_NUM_THREADS: '2'
+      MKL_NUM_THREADS: '2'
+      OPENBLAS_NUM_THREADS: '2'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: pip
+      - name: Install CPU dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install 'torch>=2.2' --index-url https://download.pytorch.org/whl/cpu
+          python -m pip install '.[test,train]' build
+          python -m pip check
+      - name: Unit and generated-fixture integration tests
+        run: python -m pytest -m 'not private_data' --cov=khojki_ocr --cov-report=term-missing --cov-report=xml --junitxml=test-results.xml
+      - name: Bounded training and exact resume smoke
+        if: matrix.python-version == '3.12'
+        run: python scripts/verify_quality.py --skip-pytest --output results/ci-quality-validation
+      - name: Build source and wheel distributions
+        run: python -m build
+      - name: Verify installed wheel outside source checkout
+        shell: bash
+        run: |
+          python -m pip install --force-reinstall --no-deps dist/*.whl
+          temp_dir=$(mktemp -d)
+          cd "$temp_dir"
+          python - <<'PY'
+          from pathlib import Path
+          from PIL import Image
+          from khojki_ocr.resources import default_checkpoint, review_font
+          assert "site-packages" in str(default_checkpoint()), default_checkpoint()
+          assert "site-packages" in str(review_font()), review_font()
+          Image.new("RGB", (300, 200), "white").save("blank.png")
+          PY
+          khojki-ocr blank.png --output ocr --threads 2
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          assert json.loads(Path("ocr/run.json").read_text())["pages"][0]["line_count"] == 0
+          assert Path("ocr/page-001/transcription.txt").read_text() == ""
+          for name in ("overlay.png", "review.html", "result.json", "NotoSansKhojki-Regular.ttf", "OFL.txt"):
+              assert Path("ocr/page-001", name).is_file(), name
+          PY
+      - name: Preserve test reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: test-reports-python-${{ matrix.python-version }}
+          path: |
+            test-results.xml
+            coverage.xml
+            results/ci-quality-validation/verification.json
+            results/ci-quality-validation/training-smoke/experiments/*/history.json
+            results/ci-quality-validation/training-smoke/experiments/*/config.json
+          if-no-files-found: warn

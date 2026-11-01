@@ -1,0 +1,68 @@
+{
+  "status": "passed",
+  "private_data": true,
+  "python": "3.13.18 (main, Oct 26 2026, 15:28:15) [GCC 13.3.0]",
+  "pytest": "passed",
+  "fresh_predictions": {
+    "exact_per_line_match": true,
+    "summary": {
+      "lines": 5,
+      "characters": 120,
+      "missed_lines": 0,
+      "automatic_errors": 21,
+      "checked_crop_errors": 21,
+      "crop_changes_prediction_lines": 0,
+      "invalid_inventory_characters": 0,
+      "utf8_failures": 0,
+      "automatic_cer": 0.175,
+      "checked_crop_cer": 0.175,
+      "net_crop_error_difference": 0
+    },
+    "reference_sha256": "21c49b2e35be6bccc54d688ae259bd507bffde8bbec74fa759ac57b2707678cb"
+  },
+  "training": {
+    "synthetic_steps": 1,
+    "synthetic_training_examples": 8,
+    "synthetic_validation_examples": 4,
+    "finetune_steps": 2,
+    "resume_model_optimizer_rng_exact_match": true,
+    "common_step_history_match_ignoring_time": true,
+    "train_line_ids": [
+      "p17r-01",
+      "p17r-02",
+      "p17r-03",
+      "p17r-04",
+      "p17r-05",
+      "p17r-06",
+      "p17r-07",
+      "p17r-08",
+      "p17r-09",
+      "p17r-10",
+      "p17r-11",
+      "p17r-12",
+      "p17r-13",
+      "p17r-14",
+      "p17r-15"
+    ],
+    "validation_line_ids": [
+      "p18r-01",
+      "p18r-02",
+      "p18r-03",
+      "p19r-01",
+      "p19r-02",
+      "p19r-03",
+      "p19r-04",
+      "p19r-05",
+      "p20r-01",
+      "p20r-02",
+      "p20r-03",
+      "p20r-04",
+      "p20r-05",
+      "p20r-06",
+      "p20r-07",
+      "p20r-08"
+    ],
+    "private_data": true
+  },
+  "elapsed_seconds": 65.82780464700011
+}

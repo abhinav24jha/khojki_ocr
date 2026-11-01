@@ -1,0 +1,13 @@
+{
+  "runtime": "CPU",
+  "remaining_units": 166.93,
+  "active_sessions": 0,
+  "units_per_hour": 0,
+  "notebook": "https://colab.research.google.com/drive/1M95eWl8hqN56yc8aeTAJaI3IkvGOQASo",
+  "output_archive_sha256": "fa1b85773a7beb32008e6d5b1b4e1cfb5acf87a9654862efb986ac685a0bdf2d",
+  "outputs_verified_before_shutdown": true,
+  "evidence": [
+    "quality-no-active-sessions.png",
+    "quality-credit-balance.png"
+  ]
+}

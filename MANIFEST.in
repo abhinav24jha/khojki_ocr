@@ -1,0 +1,7 @@
+include assets/*.ttf assets/OFL.txt
+include models/printed-khojki.pt
+include models/model-card.json
+include README.md MODEL_CARD.md ARCHITECTURE.md technical-retro.md
+recursive-include scripts *.py
+recursive-include tests *.py
+recursive-include data *.json
